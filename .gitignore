@@ -1,0 +1,9 @@
+minecraft/*
+instance.cfg
+mmc-pack.json
+modlist.html
+
+!minecraft/kubejs*
+
+minecraft/resourcepacks
+minecraft/resourcepacks*
