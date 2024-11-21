@@ -5,6 +5,7 @@ modlist.html
 
 !.minecraft/kubejs*
 !.minecraft/config*
+!.minecraft/resourcepacks*
 
 minecraft/resourcepacks
 minecraft/resourcepacks*
