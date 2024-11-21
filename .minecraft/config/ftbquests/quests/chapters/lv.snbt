@@ -1,0 +1,372 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "lv"
+	group: ""
+	icon: "minecraft:oak_wood"
+	id: "066FD6B90B30D013"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "minecraft:oak_log"
+			id: "15BC09BC9BB13540"
+			rewards: [
+				{
+					id: "056897498B208490"
+					item: {
+						Count: 1
+						id: "gtceu:prospector.lv"
+						tag: {
+							Charge: 100000L
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1D2FF6CCEE299C58"
+					item: {
+						Count: 1
+						id: "gtceu:diamond_mining_hammer"
+						tag: {
+							DisallowContainerItem: 0b
+							Enchantments: [
+								{
+									id: "minecraft:efficiency"
+									lvl: 10s
+								}
+								{
+									id: "minecraft:unbreaking"
+									lvl: 10s
+								}
+							]
+							GT.Behaviours: {
+								AoEColumn: 1
+								AoELayer: 0
+								AoERow: 1
+								MaxAoEColumn: 1
+								MaxAoELayer: 0
+								MaxAoERow: 1
+								TorchPlacing: 1b
+							}
+							GT.Tool: {
+								Damage: 0
+								HarvestLevel: 3
+								MaxDamage: 2303
+								ToolSpeed: 6.4f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3708B8CF613FCA6C"
+					item: {
+						Count: 1
+						id: "gtceu:diamond_spade"
+						tag: {
+							DisallowContainerItem: 0b
+							Enchantments: [
+								{
+									id: "minecraft:efficiency"
+									lvl: 10s
+								}
+								{
+									id: "minecraft:unbreaking"
+									lvl: 10s
+								}
+							]
+							GT.Behaviours: {
+								AoEColumn: 1
+								AoELayer: 0
+								AoERow: 1
+								MaxAoEColumn: 1
+								MaxAoELayer: 0
+								MaxAoERow: 1
+							}
+							GT.Tool: {
+								Damage: 0
+								HarvestLevel: 3
+								MaxDamage: 2303
+								ToolSpeed: 6.4f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "39CA04E3365EFF70"
+				type: "checkmark"
+			}]
+			title: "Free stuff"
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["48633D70426F134C"]
+			id: "7FDB2C6108221BDE"
+			tasks: [{
+				id: "6FDDBA249113D3E7"
+				item: "ironfurnaces:copper_furnace"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"7FDB2C6108221BDE"
+				"48633D70426F134C"
+			]
+			dependency_requirement: "one_completed"
+			id: "49DF67F9A5E7A056"
+			tasks: [{
+				id: "78ACE804E3A5FA25"
+				item: "ironfurnaces:iron_furnace"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			id: "48633D70426F134C"
+			tasks: [{
+				id: "46111A491699E223"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"49DF67F9A5E7A056"
+				"7FDB2C6108221BDE"
+			]
+			id: "4E2B7D3FE9F47DC3"
+			tasks: [{
+				id: "1282D053DA212775"
+				item: "ironfurnaces:silver_furnace"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"49DF67F9A5E7A056"
+				"4E2B7D3FE9F47DC3"
+			]
+			id: "37A601EC8399C6DE"
+			tasks: [{
+				id: "08670214100BADFE"
+				item: "ironfurnaces:gold_furnace"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["37A601EC8399C6DE"]
+			id: "4065CCE921294299"
+			tasks: [{
+				id: "132608B6FCF1A1F9"
+				item: "ironfurnaces:diamond_furnace"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.5d
+		}
+		{
+			id: "5EAA06D390EAE82D"
+			tasks: [
+				{
+					id: "4376823231EE9BBB"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:tools/files)"
+						}
+					}
+					title: "Files"
+					type: "item"
+				}
+				{
+					id: "2F0462A1C6B19360"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:tools/hammers)"
+						}
+					}
+					title: "Hammers"
+					type: "item"
+				}
+				{
+					id: "10C16C20BBB67B0F"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:tools/saws)"
+						}
+					}
+					title: "Saws"
+					type: "item"
+				}
+				{
+					id: "2E59256A92DF87F9"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:tools/screwdrivers)"
+						}
+					}
+					title: "Screwdrivers"
+					type: "item"
+				}
+				{
+					id: "6381DFD049BD4E41"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:tools/wire_cutters)"
+						}
+					}
+					title: "Wire Cutters"
+					type: "item"
+				}
+			]
+			title: "Gregtech Tools"
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			id: "4B62B222ACF66697"
+			tasks: [{
+				id: "350AA32C607CF73D"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						RepairCost: 0
+						display: {
+							Name: "{\"text\":\"Construction Wands\"}"
+						}
+						"ftbfiltersystem:filter": "or(item(constructionwand:stone_wand)item(constructionwand:iron_wand)item(constructionwand:diamond_wand)item(constructionwand:infinity_wand))"
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			description: ["Can be smelted from iron in a furnace."]
+			id: "728D5F8A097E97B5"
+			tasks: [{
+				id: "2D0301EC74D3A820"
+				item: "gtceu:wrought_iron_ingot"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependency_requirement: "one_started"
+			description: [
+				"JEI, or EMI in 1.20, allows you to view recipes for items. You can press R by default to view all the recipes of an item. You can press U by default to see all the usages of an item. You can press A by default to bookmark an item to the right side of EMI. It is your best friend. "
+				""
+				""
+				"If you are EVER wondering about how you get an item you can check EMI. EMI also comes with some cool extra features. It allows you to view crafting trees for items. Always check EMI before asking a question on how to make or get something."
+			]
+			disable_toast: true
+			id: "406392945784104D"
+			rewards: [{
+				id: "1CA8152C3E7D3FFC"
+				item: {
+					Count: 1
+					id: "gtceu:nan_certificate"
+					tag: {
+						RepairCost: 0
+						display: {
+							Name: "{\"text\":\"Certificate of Media Literacy\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			size: 8.0d
+			tasks: [
+				{
+					id: "2A3152052B7F207C"
+					title: "USE"
+					type: "checkmark"
+				}
+				{
+					id: "6EDE1AADBF4C4373"
+					title: "JEI"
+					type: "checkmark"
+				}
+				{
+					id: "24E2ADFFB3F20192"
+					title: "PLEASE"
+					type: "checkmark"
+				}
+			]
+			title: "USE JEI PLEASSEEEE"
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			description: ["Useful item and fluid storage blocks."]
+			id: "4D248AD90A05DD26"
+			tasks: [{
+				id: "25C9576B0A9515F6"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(functionalstorage:drawer)"
+					}
+				}
+				title: "Any #functionalstorage:drawer"
+				type: "item"
+			}]
+			title: "Functional Storage"
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			id: "20F53223C7D82329"
+			tasks: [{
+				id: "225CE1429FCE42C4"
+				item: "laserio:laser_node"
+				type: "item"
+			}]
+			title: "Laser IO"
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["406392945784104D"]
+			description: ["@ allows you to search for all items from a mod. Simply search @ followed by the mods name. # allows you to search for tags. Type # followed by a tag and it will show all items that have that tag"]
+			id: "078CB66EABC4C30B"
+			tasks: [{
+				id: "5317157517B657B1"
+				type: "checkmark"
+			}]
+			title: "More EMI information"
+			x: -8.0d
+			y: 4.5d
+		}
+	]
+	title: "The beginning"
+}

@@ -1,0 +1,250 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "steam_age"
+	group: ""
+	icon: "gtceu:lp_steam_solid_boiler"
+	id: "3C62173589590281"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["30F379D8C9BF9DB4"]
+			id: "0280DC235F563366"
+			tasks: [{
+				id: "773B0E55CD4BA4BE"
+				item: "gtceu:lp_steam_compressor"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["48D623308E670D40"]
+			id: "30F379D8C9BF9DB4"
+			tasks: [{
+				id: "01E32B9F20B84826"
+				item: "gtceu:lp_steam_solid_boiler"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6F0ED8ED35EFE3AF"]
+			id: "4011AC3125356CC9"
+			tasks: [{
+				id: "3A5614CB5DD17695"
+				item: "minecraft:glass"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["52D3AC6360AC7533"]
+			id: "6F0ED8ED35EFE3AF"
+			tasks: [{
+				id: "3362C286EB6F07A7"
+				item: "gtceu:steel_ingot"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4011AC3125356CC9"]
+			id: "5ED81E7990EB6B10"
+			tasks: [{
+				id: "13E93413A3A26814"
+				item: "gtceu:lp_steam_solar_boiler"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0280DC235F563366"]
+			id: "52D3AC6360AC7533"
+			tasks: [{
+				id: "0E24F07400586514"
+				item: "gtceu:primitive_blast_furnace"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4011AC3125356CC9"]
+			id: "590C9D2E7F80F1DF"
+			tasks: [{
+				id: "669DFA4ECDDC0313"
+				item: "gtceu:lp_steam_liquid_boiler"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["30F379D8C9BF9DB4"]
+			id: "22E9711809328350"
+			tasks: [{
+				id: "0D71862D8123F69F"
+				item: "gtceu:lp_steam_alloy_smelter"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["22E9711809328350"]
+			id: "025E0B2CCD0D2DC4"
+			tasks: [{
+				id: "4326D8C8A7B6C4DB"
+				item: "gtceu:glass_tube"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"6F0ED8ED35EFE3AF"
+				"025E0B2CCD0D2DC4"
+				"5FE4906D1A8F5BD3"
+				"508A215522A9251A"
+			]
+			id: "461E7CF818ED4D27"
+			tasks: [{
+				id: "6CFFDFE4852202D4"
+				item: "gtceu:basic_electronic_circuit"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["307B616CB7155DBA"]
+			id: "48D623308E670D40"
+			tasks: [{
+				id: "32C5137635C3F588"
+				item: "gtceu:bronze_ingot"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["406392945784104D"]
+			id: "307B616CB7155DBA"
+			tasks: [{
+				id: "6979DDDC56D30878"
+				item: "gtceu:bronze_dust"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4011AC3125356CC9"]
+			id: "1F98D66988D418A4"
+			tasks: [{
+				id: "709B84A774C53A7F"
+				item: "gtceu:lp_steam_extractor"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1F98D66988D418A4"]
+			id: "5FE4906D1A8F5BD3"
+			tasks: [{
+				id: "6BB6C5829F8F9702"
+				item: "gtceu:rubber_ingot"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["22E9711809328350"]
+			id: "508A215522A9251A"
+			tasks: [{
+				id: "55EA92B53AAD64A6"
+				item: "gtceu:red_alloy_ingot"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6F0ED8ED35EFE3AF"]
+			description: ["An upgraded primitive blast furnace. Gains speed based on the length of the multiblock structure but loses fuel efficiency."]
+			id: "5AA3810E3D79B8EB"
+			tasks: [{
+				id: "1BDDF95850F4B351"
+				item: "examplemod:industrial_primitive_blast_furnace"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["30F379D8C9BF9DB4"]
+			id: "24645B5CC3531683"
+			tasks: [{
+				id: "3C9D1B3F5465F792"
+				item: "gtceu:lp_steam_forge_hammer"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["30F379D8C9BF9DB4"]
+			id: "6404CDDFCAD84472"
+			tasks: [{
+				id: "1712845574F6E7E1"
+				item: "gtceu:lp_steam_macerator"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6404CDDFCAD84472"]
+			id: "7B2766EB649036C8"
+			tasks: [{
+				id: "3F0462CE065C6CC8"
+				item: "gtceu:steam_grinder"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["22E9711809328350"]
+			id: "3DB627B80739910D"
+			tasks: [{
+				id: "0010B36760003E38"
+				item: "steamadditions:steam_foundry"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["30F379D8C9BF9DB4"]
+			id: "42CA29AC359CDA7D"
+			tasks: [{
+				id: "02B01FAB1B5189E1"
+				item: "steamadditions:steam_separator"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+	]
+	title: "Steam Age"
+}

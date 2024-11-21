@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ev"
+	group: ""
+	icon: "gtceu:ev_machine_casing"
+	id: "526A97E686A5A5F2"
+	order_index: 8
+	quest_links: [ ]
+	quests: [{
+		id: "3FDF77BA7E9F9FF6"
+		tasks: [{
+			id: "344AE4D9CCF0E920"
+			item: "quark:hollow_oak_log"
+			type: "item"
+		}]
+		x: -2.0d
+		y: -1.5d
+	}]
+	title: "EV"
+}

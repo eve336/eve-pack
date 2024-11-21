@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "luv"
+	group: ""
+	icon: "gtceu:luv_machine_casing"
+	id: "2D36353FB257D923"
+	order_index: 10
+	quest_links: [ ]
+	quests: [{
+		id: "53CE5A5F37F92EBA"
+		tasks: [{
+			id: "5037217B5ABD6253"
+			item: "quark:stripped_oak_post"
+			type: "item"
+		}]
+		x: 0.5d
+		y: -0.5d
+	}]
+	title: "LuV"
+}

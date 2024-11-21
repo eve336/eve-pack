@@ -1,10 +1,10 @@
-minecraft/*
 .minecraft/*
 instance.cfg
 mmc-pack.json
 modlist.html
 
-!minecraft/kubejs*
+!.minecraft/kubejs*
+!.minecraft/config*
 
 minecraft/resourcepacks
 minecraft/resourcepacks*

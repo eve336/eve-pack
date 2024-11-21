@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "iv"
+	group: ""
+	icon: "gtceu:iv_machine_casing"
+	id: "1DC349FEBF3DE15C"
+	order_index: 9
+	quest_links: [ ]
+	quests: [{
+		id: "622CF6289850DA0F"
+		tasks: [{
+			id: "279DF070FEEF0B9A"
+			item: "quark:stripped_spruce_post"
+			type: "item"
+		}]
+		x: -1.0d
+		y: -1.0d
+	}]
+	title: "IV"
+}

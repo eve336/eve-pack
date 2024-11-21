@@ -1,0 +1,522 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "lv_2"
+	group: ""
+	icon: "gtceu:lv_machine_casing"
+	id: "2B8CBDF51E1864E1"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["406392945784104D"]
+			id: "0ABA8BC73AE65D94"
+			tasks: [{
+				id: "7F4793CC042B1278"
+				item: "gtceu:lv_machine_casing"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["239C8C3772B6B217"]
+			description: ["This is actually useless in lv."]
+			id: "3BA1ABFAA675AF41"
+			tasks: [{
+				id: "7B25D4DC9D4B00F5"
+				item: "gtceu:lv_circuit_assembler"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["38D6019CC25999D7"]
+			description: ["Your first MV circuit."]
+			id: "239C8C3772B6B217"
+			tasks: [{
+				id: "40FDF171F1A6B70C"
+				item: "gtceu:good_electronic_circuit"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["623B82301658914B"]
+			id: "38D6019CC25999D7"
+			tasks: [{
+				id: "2362EBB780053826"
+				item: "gtceu:diode"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["077FF30EB62EC932"]
+			id: "6D08AA2C53ABF818"
+			tasks: [{
+				id: "6DCA43CF2D467668"
+				item: "gtceu:electric_blast_furnace"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"549FB0356DDF3409"
+				"79CC20120ABBF2FD"
+			]
+			id: "3FF107F179B962C1"
+			tasks: [{
+				id: "418CFFCD21CBC127"
+				item: "gtceu:gold_dust"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"3B8B2B32A8E9878E"
+				"4D6941CD0FFF0009"
+			]
+			icon: "examplemod:chloroauric_acid_bucket"
+			id: "549FB0356DDF3409"
+			tasks: [{
+				id: "6838D7736864ED22"
+				type: "checkmark"
+			}]
+			title: "Chloroauric acid"
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"521E508C50C98B06"
+				"5C888994EA64EF19"
+			]
+			id: "3B8B2B32A8E9878E"
+			tasks: [{
+				id: "54FC9469EF326822"
+				item: "examplemod:gold_leach_dust"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["64F71D1E9B12FCE9"]
+			id: "521E508C50C98B06"
+			tasks: [{
+				id: "0CBE518C60992BFD"
+				item: "examplemod:gold_alloy_ingot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["58D1C9ECDD2DAE4C"]
+			id: "64F71D1E9B12FCE9"
+			tasks: [{
+				id: "03877E3D0F7878D4"
+				item: "examplemod:precious_metal_ingot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["406392945784104D"]
+			id: "58D1C9ECDD2DAE4C"
+			tasks: [{
+				id: "3114B688F39C4D03"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:ores/precious_metal)"
+					}
+				}
+				title: "Any #forge:ores/precious_metal"
+				type: "item"
+			}]
+			title: "Precious Metal Ore"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			description: ["Gold line is the chemical line required to extract gold from precious metal ore found in the ground. All of the chemicals loop in this line, which means that all the chemicals stay within the line. The only inputs are precious metal, it also makes some extra outputs aside from the gold."]
+			icon: "minecraft:gold_ingot"
+			id: "147EE9A32F56FE7E"
+			tasks: [{
+				id: "61D3D425656662F2"
+				type: "checkmark"
+			}]
+			title: "Gold Line"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			description: ["This is a catalyst required in the last step of the gold line. It is not used up in the reaction."]
+			id: "79CC20120ABBF2FD"
+			tasks: [{
+				id: "3307C94C5BB44118"
+				item: "examplemod:potassium_metabisulfite_dust"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["43F6A525BB3DF580"]
+			icon: "gtceu:hydrochloric_acid_bucket"
+			id: "4D6941CD0FFF0009"
+			tasks: [{
+				id: "685281C44BD3F4C8"
+				type: "checkmark"
+			}]
+			title: "Hydrochloric Acid"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"7990DAB94A7316CB"
+				"6D0F5F1187D9F237"
+			]
+			description: ["You will only need a small amount of nitric acid at the start as the chemicals in the line are looped back around."]
+			icon: "gtceu:nitric_acid_bucket"
+			id: "5C888994EA64EF19"
+			tasks: [{
+				id: "7189B24E1F595173"
+				type: "checkmark"
+			}]
+			title: "Nitric Acid"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3B8B2B32A8E9878E"]
+			id: "0639A89B15E6D2AE"
+			tasks: [{
+				id: "64A1313D396604C9"
+				item: "examplemod:copper_leach_dust"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6D08AA2C53ABF818"]
+			id: "211179A3366AA803"
+			tasks: [{
+				id: "703BD00252F0C334"
+				item: "gtceu:aluminium_ingot"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["406392945784104D"]
+			id: "507005F9D18FAF03"
+			tasks: [{
+				id: "7504D86D08C4EDBA"
+				item: "gtceu:lv_forming_press"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["406392945784104D"]
+			id: "1BFA6E139D455170"
+			tasks: [{
+				id: "075430B438AA2F90"
+				item: "gtceu:lv_mixer"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"06FDF560A5E655DF"
+				"069ABFAA7CFAB2A2"
+			]
+			dependency_requirement: "one_completed"
+			id: "077FF30EB62EC932"
+			tasks: [{
+				count: 16L
+				id: "65D093CFF561C21B"
+				item: { Count: 16, id: "gtceu:cupronickel_coil_block" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["78F799F5D40EE206"]
+			id: "06FDF560A5E655DF"
+			tasks: [{
+				id: "1E989A9918CF361D"
+				item: "examplemod:alumino_silicate_wool_dust"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"214B41121E962BC1"
+				"68D39ED2E52DBC74"
+			]
+			id: "069ABFAA7CFAB2A2"
+			tasks: [{
+				id: "3BC060652EBB6C66"
+				item: "examplemod:mica_insulator_foil"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0CACFDC19C372E88"]
+			description: ["The bender should be one of the first machines you make. It makes the crafting of plates cheaper. Plates are a very common crafting component"]
+			id: "214B41121E962BC1"
+			tasks: [{
+				id: "7D97DFDB6B5898A8"
+				item: "gtceu:lv_bender"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"78F799F5D40EE206"
+				"5AC1A7BC6B8F2040"
+			]
+			id: "68D39ED2E52DBC74"
+			tasks: [{
+				id: "1AF59B2F75D03CAD"
+				item: "examplemod:mica_insulator_sheet"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["406392945784104D"]
+			description: ["Silicon dioxide can be obtained from many different sources, such as electrolysing sand, centrifuging glass dust or flint dust, or other methods. And as always, all this information is in EMI."]
+			id: "78F799F5D40EE206"
+			tasks: [{
+				id: "00AF8E32AC0B33A2"
+				item: "gtceu:silicon_dioxide_dust"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"6D226901FF0DC59B"
+				"507005F9D18FAF03"
+			]
+			id: "5AC1A7BC6B8F2040"
+			tasks: [{
+				id: "21860E9D49427D3F"
+				item: "examplemod:mica_sheet"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1BFA6E139D455170"]
+			id: "6D226901FF0DC59B"
+			tasks: [{
+				id: "0778DC2CCCE77517"
+				item: "examplemod:mica_pulp_dust"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1BFA6E139D455170"
+				"5033A3F93C6A5AE1"
+			]
+			id: "623B82301658914B"
+			tasks: [{
+				id: "726570EB74F854D0"
+				item: "gtceu:gallium_arsenide_dust"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["699677F9B76055D2"]
+			description: ["Gallium is obtained from the ore processing of sphalerite. Macerators will not make byproducts until hv so making a macerator at lv is much less useful."]
+			id: "5033A3F93C6A5AE1"
+			tasks: [{
+				id: "2242089455BD31D6"
+				item: "gtceu:gallium_dust"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			id: "699677F9B76055D2"
+			tasks: [{
+				id: "1D4FC9E356F574AB"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:ores/sphalerite)"
+					}
+				}
+				title: "Any #forge:ores/sphalerite"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0CACFDC19C372E88"]
+			description: ["The wiremill should be one of the first machines you make. It makes the crafting of wires cheaper. Wires are an extremely common crafting component."]
+			id: "4C78F0173026C6EB"
+			tasks: [{
+				id: "685D43290D172F49"
+				item: "gtceu:lv_wiremill"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0ABA8BC73AE65D94"]
+			id: "0CACFDC19C372E88"
+			tasks: [{
+				id: "54DC85AD80611627"
+				item: "gtceu:lv_machine_hull"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0CACFDC19C372E88"]
+			description: ["The assembler is a useful block. Aside from being required for progression it can make certain recipes cheaper. It makes vacuum tubes straight up cheaper and reduces the copper cost of resin printed circuit boards in exchange for needing glue. However it makes resistors more expensive lol."]
+			id: "05A7652D228404A3"
+			tasks: [{
+				id: "11EED174064A148D"
+				item: "gtceu:lv_assembler"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0CACFDC19C372E88"]
+			id: "08767A9ED0E5D3ED"
+			tasks: [{
+				id: "5CE676232D769460"
+				item: "gtceu:lv_steam_turbine"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.0d
+		}
+		{
+			id: "678FB6603181150B"
+			tasks: [{
+				id: "298B2CA7B7A273FF"
+				item: "gtceu:lv_super_tank"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			id: "1994C399A2B175BA"
+			tasks: [{
+				id: "404EA109000EC33C"
+				item: "gtceu:lv_gas_collector"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			id: "4BBFE9C2903A1F4C"
+			tasks: [{
+				id: "310BAD30EB5945F9"
+				item: "gtceu:lv_centrifuge"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1994C399A2B175BA"]
+			id: "1BED98CAEF8EA92A"
+			tasks: [{
+				id: "0D8C33E6E9E11EC8"
+				item: "gtceu:air_bucket"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"1BED98CAEF8EA92A"
+				"4BBFE9C2903A1F4C"
+			]
+			id: "7990DAB94A7316CB"
+			tasks: [{
+				id: "037C5126DA0D7464"
+				item: "gtceu:nitrogen_bucket"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"1BED98CAEF8EA92A"
+				"4BBFE9C2903A1F4C"
+			]
+			id: "6D0F5F1187D9F237"
+			tasks: [{
+				id: "6CA9B5F60CECB780"
+				item: "gtceu:oxygen_bucket"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			description: ["You will have to automate hydrogen for gold line. You could use an electrolyser in the line to electrolyse all the water and keep the system perfectly closed but an electrolyser for water is slow, especially at lv."]
+			id: "43F6A525BB3DF580"
+			tasks: [{
+				id: "469BAE640A94E9E5"
+				item: "gtceu:hydrogen_bucket"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+	]
+	title: "LV"
+}

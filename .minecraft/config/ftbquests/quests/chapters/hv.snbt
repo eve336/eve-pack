@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hv"
+	group: ""
+	icon: "gtceu:hv_machine_casing"
+	id: "19CEA1E05E683FD9"
+	order_index: 7
+	quest_links: [ ]
+	quests: [{
+		id: "7D51C492E9A5131E"
+		tasks: [{
+			id: "1B872A0158845487"
+			item: "quark:oak_post"
+			type: "item"
+		}]
+		x: -2.5d
+		y: 0.0d
+	}]
+	title: "HV"
+}

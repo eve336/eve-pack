@@ -1,0 +1,259 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mv"
+	group: ""
+	icon: "gtceu:mv_machine_casing"
+	id: "521F57958D6FA1EF"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"7C2D3FA39F3491FC"
+				"63E2E961086A138A"
+				"3F5B2A8A0F0CDEF2"
+			]
+			icon: "gtceu:bio_diesel_bucket"
+			id: "18C1E8E3140CD268"
+			tasks: [{
+				id: "693E95123191F0D4"
+				item: "gtceu:bio_diesel_bucket"
+				type: "item"
+			}]
+			title: "Bio Diesel"
+			x: -11.0d
+			y: 1.5d
+		}
+		{
+			dependency_requirement: "one_completed"
+			icon: "gtceu:ethanol_bucket"
+			id: "63E2E961086A138A"
+			tasks: [{
+				id: "58033124259E7BA1"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						RepairCost: 0
+						display: {
+							Name: "{\"text\":\"Methanol or Ethanol\"}"
+						}
+						"ftbfiltersystem:filter": "or(item(gtceu:ethanol_bucket)item(gtceu:methanol_bucket))"
+					}
+				}
+				type: "item"
+			}]
+			title: "Methanol or Ethanol"
+			x: -10.0d
+			y: 0.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			icon: "gtceu:creosote_bucket"
+			id: "3F5B2A8A0F0CDEF2"
+			tasks: [{
+				id: "625EE3766FD5093D"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						RepairCost: 0
+						display: {
+							Name: "{\"text\":\"Oils\"}"
+						}
+						"ftbfiltersystem:filter": "or(item(gtceu:seed_oil_bucket)item(examplemod:quasifissioning_plasma_bucket)item(gtceu:creosote_bucket))"
+					}
+				}
+				type: "item"
+			}]
+			title: "Oils"
+			x: -12.0d
+			y: 0.0d
+		}
+		{
+			id: "7C2D3FA39F3491FC"
+			tasks: [{
+				id: "3E537ADE67472AAB"
+				item: "gtceu:tiny_sodium_hydroxide_dust"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 0.0d
+		}
+		{
+			id: "6E1DDDAB7F9B30A7"
+			tasks: [{
+				id: "2D6F1C6471442C77"
+				item: "gtceu:lv_combustion"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 2.5d
+		}
+		{
+			id: "003B6C652BB6B6FD"
+			tasks: [{
+				id: "16C6C5C85D9D7E19"
+				item: "gtceu:mv_combustion"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"268AB4E536B84299"
+				"7BD2A90FD93A7819"
+			]
+			description: ["You actually only make 2 of these."]
+			id: "708D534C1FF4DD70"
+			tasks: [{
+				id: "1D2D8EA1B2AC0133"
+				item: "gtceu:advanced_integrated_circuit"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["470BFA1EAC1885F0"]
+			id: "268AB4E536B84299"
+			tasks: [{
+				id: "6B4E4ED79BBEBA85"
+				item: "gtceu:good_integrated_circuit"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6C84E8A8C40A2091"]
+			id: "470BFA1EAC1885F0"
+			tasks: [{
+				id: "5683F1DC1E26F307"
+				item: "gtceu:basic_integrated_circuit"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["708D534C1FF4DD70"]
+			id: "6CBBE036FEEBE59F"
+			tasks: [{
+				id: "5DC2AFC21811A8E2"
+				item: "gtceu:mv_circuit_assembler"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0509D36CD9281FB8"]
+			id: "7BD2A90FD93A7819"
+			tasks: [{
+				id: "35794DD1356A9B08"
+				item: "gtceu:ram_chip"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5EB777188FD7A21E"]
+			id: "6C84E8A8C40A2091"
+			tasks: [{
+				id: "6FF61789F52E9A8F"
+				item: "gtceu:ilc_chip"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"34EF8337374D3F82"
+				"262538B0D12B31AE"
+			]
+			id: "5EB777188FD7A21E"
+			tasks: [{
+				id: "6AD9EF6C9746BB34"
+				item: "gtceu:ilc_wafer"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"34EF8337374D3F82"
+				"262538B0D12B31AE"
+			]
+			id: "0509D36CD9281FB8"
+			tasks: [{
+				id: "5D69B2C952D4A66F"
+				item: "gtceu:ram_wafer"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			id: "262538B0D12B31AE"
+			tasks: [{
+				id: "00D951067D6ABC78"
+				item: "gtceu:mv_laser_engraver"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"194530A6F3E7A3F6"
+				"2204EE068BEA0C47"
+			]
+			id: "34EF8337374D3F82"
+			tasks: [{
+				id: "5BD3E40974B63B98"
+				item: "gtceu:silicon_wafer"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			id: "194530A6F3E7A3F6"
+			tasks: [{
+				id: "1B7AB3E30728E222"
+				item: "gtceu:mv_cutter"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.5d
+		}
+		{
+			id: "5637AB5D25D77C99"
+			optional: true
+			tasks: [{
+				id: "7055BC3D22EBCC61"
+				item: "gtceu:lubricant_bucket"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			id: "2204EE068BEA0C47"
+			tasks: [{
+				id: "4DD8034EAADDDA4C"
+				item: "gtceu:silicon_boule"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.5d
+		}
+	]
+	title: "MV"
+}
