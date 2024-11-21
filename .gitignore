@@ -1,4 +1,5 @@
 minecraft/*
+.minecraft/*
 instance.cfg
 mmc-pack.json
 modlist.html
