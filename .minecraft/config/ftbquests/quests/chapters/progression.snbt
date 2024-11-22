@@ -5,7 +5,7 @@
 	group: ""
 	icon: "examplemod:supracausal_assembly"
 	id: "7448A4A20245E9AB"
-	order_index: 15
+	order_index: 21
 	quest_links: [ ]
 	quests: [
 		{

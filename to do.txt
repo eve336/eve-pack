@@ -1,0 +1,5 @@
+Delete furnace
+Delete drawer upgrades 
+Delete pollution cleaning machines
+Possibly make laser io cheaper
+Models for component blocks

@@ -5,7 +5,7 @@
 	group: ""
 	icon: "gtceu:mv_machine_casing"
 	id: "521F57958D6FA1EF"
-	order_index: 10
+	order_index: 16
 	quest_links: [ ]
 	quests: [
 		{
@@ -105,6 +105,7 @@
 			dependencies: [
 				"268AB4E536B84299"
 				"7BD2A90FD93A7819"
+				"35AA75A96B0A59F1"
 			]
 			description: ["You actually only make 2 of these."]
 			id: "708D534C1FF4DD70"
@@ -253,6 +254,37 @@
 			}]
 			x: -4.5d
 			y: -3.5d
+		}
+		{
+			id: "18C4319E01EEB4A4"
+			tasks: [{
+				id: "45F1F0ADDC22A6DF"
+				item: "gtceu:polyethylene_bucket"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["048BBAC31B316DF2"]
+			id: "35AA75A96B0A59F1"
+			tasks: [{
+				id: "789EC3F0F1A8609D"
+				item: "gtceu:transistor"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			id: "048BBAC31B316DF2"
+			tasks: [{
+				id: "76C98F09257E15FE"
+				item: "gtceu:mv_assembler"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
 		}
 	]
 	title: "MV"

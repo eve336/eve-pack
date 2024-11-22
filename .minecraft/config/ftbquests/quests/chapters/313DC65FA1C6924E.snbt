@@ -1,10 +1,10 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "06B23C7DD59B9669"
+	filename: "313DC65FA1C6924E"
 	group: ""
-	id: "06B23C7DD59B9669"
-	order_index: 10
+	id: "313DC65FA1C6924E"
+	order_index: 6
 	quest_links: [ ]
 	quests: [ ]
 }
