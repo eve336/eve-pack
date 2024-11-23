@@ -5,7 +5,7 @@
 	group: ""
 	icon: "gtceu:luv_machine_casing"
 	id: "2D36353FB257D923"
-	order_index: 20
+	order_index: 7
 	quest_links: [ ]
 	quests: [{
 		id: "53CE5A5F37F92EBA"
