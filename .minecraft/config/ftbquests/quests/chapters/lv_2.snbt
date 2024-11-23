@@ -5,7 +5,7 @@
 	group: ""
 	icon: "gtceu:lv_machine_casing"
 	id: "2B8CBDF51E1864E1"
-	order_index: 2
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -18,18 +18,6 @@
 			}]
 			x: 4.0d
 			y: 4.0d
-		}
-		{
-			dependencies: ["239C8C3772B6B217"]
-			description: ["This is actually useless in lv."]
-			id: "3BA1ABFAA675AF41"
-			tasks: [{
-				id: "7B25D4DC9D4B00F5"
-				item: "gtceu:lv_circuit_assembler"
-				type: "item"
-			}]
-			x: 5.5d
-			y: 2.0d
 		}
 		{
 			dependencies: ["38D6019CC25999D7"]

@@ -5,7 +5,7 @@
 	group: ""
 	icon: "minecraft:oak_wood"
 	id: "066FD6B90B30D013"
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
