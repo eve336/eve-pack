@@ -478,13 +478,16 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 1.5d
+			y: 2.5d
 		}
 		{
 			dependencies: [
 				"1BED98CAEF8EA92A"
 				"4BBFE9C2903A1F4C"
+				"5E3B57B8978FF12D"
+				"059D11FE019E214C"
 			]
+			dependency_requirement: "one_completed"
 			id: "6D0F5F1187D9F237"
 			tasks: [{
 				id: "6CA9B5F60CECB780"
@@ -492,7 +495,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 2.5d
+			y: 1.5d
 		}
 		{
 			description: ["You will have to automate hydrogen for gold line. You could use an electrolyser in the line to electrolyse all the water and keep the system perfectly closed but an electrolyser for water is slow, especially at lv."]
@@ -504,6 +507,46 @@
 			}]
 			x: -1.0d
 			y: 3.5d
+		}
+		{
+			id: "5E3B57B8978FF12D"
+			tasks: [{
+				id: "758A3A30593B457E"
+				item: "gtceu:silicon_dioxide_dust"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			id: "62A44CF5FA84083E"
+			tasks: [{
+				id: "08E978BEC388CCB0"
+				item: "gtceu:glass_dust"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			id: "059D11FE019E214C"
+			tasks: [{
+				id: "481B37879B75EDE3"
+				item: "gtceu:lv_electrolyzer"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			id: "720BC220E707673F"
+			tasks: [{
+				id: "2B794AEA5DCCDDCB"
+				item: "gtceu:flint_dust"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
 		}
 	]
 	title: "LV"

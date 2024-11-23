@@ -22,8 +22,8 @@
 				type: "item"
 			}]
 			title: "Bio Diesel"
-			x: -11.0d
-			y: 1.5d
+			x: 6.0d
+			y: 4.5d
 		}
 		{
 			dependency_requirement: "one_completed"
@@ -45,8 +45,8 @@
 				type: "item"
 			}]
 			title: "Methanol or Ethanol"
-			x: -10.0d
-			y: 0.0d
+			x: 5.0d
+			y: 3.5d
 		}
 		{
 			dependency_requirement: "one_completed"
@@ -68,8 +68,8 @@
 				type: "item"
 			}]
 			title: "Oils"
-			x: -12.0d
-			y: 0.0d
+			x: 7.0d
+			y: 3.5d
 		}
 		{
 			id: "7C2D3FA39F3491FC"
@@ -78,8 +78,8 @@
 				item: "gtceu:tiny_sodium_hydroxide_dust"
 				type: "item"
 			}]
-			x: -11.0d
-			y: 0.0d
+			x: 6.0d
+			y: 3.5d
 		}
 		{
 			id: "6E1DDDAB7F9B30A7"
@@ -88,8 +88,8 @@
 				item: "gtceu:lv_combustion"
 				type: "item"
 			}]
-			x: -11.5d
-			y: 2.5d
+			x: 3.5d
+			y: 6.0d
 		}
 		{
 			id: "003B6C652BB6B6FD"
@@ -98,8 +98,8 @@
 				item: "gtceu:mv_combustion"
 				type: "item"
 			}]
-			x: -10.5d
-			y: 2.5d
+			x: 4.5d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -129,7 +129,10 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["6C84E8A8C40A2091"]
+			dependencies: [
+				"6C84E8A8C40A2091"
+				"4F0834FAFDCA5DA9"
+			]
 			id: "470BFA1EAC1885F0"
 			tasks: [{
 				id: "5683F1DC1E26F307"
@@ -242,7 +245,7 @@
 				item: "gtceu:lubricant_bucket"
 				type: "item"
 			}]
-			x: -3.5d
+			x: -5.5d
 			y: -3.5d
 		}
 		{
@@ -256,17 +259,25 @@
 			y: -3.5d
 		}
 		{
+			dependencies: [
+				"50D8D32BEB0EC3F0"
+				"15ACC27F7AF3865F"
+			]
+			dependency_requirement: "one_completed"
 			id: "18C4319E01EEB4A4"
 			tasks: [{
 				id: "45F1F0ADDC22A6DF"
 				item: "gtceu:polyethylene_bucket"
 				type: "item"
 			}]
-			x: -0.5d
+			x: -1.0d
 			y: 2.5d
 		}
 		{
-			dependencies: ["048BBAC31B316DF2"]
+			dependencies: [
+				"048BBAC31B316DF2"
+				"18C4319E01EEB4A4"
+			]
 			id: "35AA75A96B0A59F1"
 			tasks: [{
 				id: "789EC3F0F1A8609D"
@@ -295,6 +306,85 @@
 			}]
 			x: -5.5d
 			y: -0.5d
+		}
+		{
+			id: "15ACC27F7AF3865F"
+			tasks: [{
+				id: "2AB6F6E812B6105D"
+				item: "gtceu:oil_bucket"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"327AA83AF823A7D2"
+				"3224680041D6FF6D"
+			]
+			id: "2C1D8CE123B3AE06"
+			tasks: [{
+				id: "6793E082D0196052"
+				item: "gtceu:diesel_bucket"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["15ACC27F7AF3865F"]
+			id: "327AA83AF823A7D2"
+			tasks: [{
+				id: "19DF3AB90D1C00DD"
+				item: "gtceu:light_fuel_bucket"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			id: "3224680041D6FF6D"
+			tasks: [{
+				id: "3B2BAC45E7169BED"
+				item: "gtceu:heavy_fuel_bucket"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"264CF1845737726B"
+				"37C5A2CAD99DC3DF"
+			]
+			id: "50D8D32BEB0EC3F0"
+			tasks: [{
+				id: "11AFD4ADC280328B"
+				item: "gtceu:ethylene_bucket"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			id: "264CF1845737726B"
+			tasks: [{
+				id: "26AACC2B05EDED72"
+				item: "gtceu:ethanol_bucket"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			id: "37C5A2CAD99DC3DF"
+			tasks: [{
+				id: "7295FF7E6B046F02"
+				item: "gtceu:sulfuric_acid_bucket"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
 		}
 	]
 	title: "MV"
