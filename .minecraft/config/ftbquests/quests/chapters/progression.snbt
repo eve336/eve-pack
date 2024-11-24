@@ -5,7 +5,7 @@
 	group: ""
 	icon: "examplemod:supracausal_assembly"
 	id: "7448A4A20245E9AB"
-	order_index: 9
+	order_index: 13
 	quest_links: [ ]
 	quests: [
 		{
@@ -542,16 +542,6 @@
 			y: -2.5d
 		}
 		{
-			id: "543D9E7A5B655C48"
-			tasks: [{
-				id: "362635865B9A0891"
-				item: "gtceu:hv_machine_casing"
-				type: "item"
-			}]
-			x: -7.5d
-			y: -3.5d
-		}
-		{
 			id: "3B78010D160E3D92"
 			tasks: [{
 				id: "202271FCC759AF74"
@@ -560,6 +550,166 @@
 			}]
 			x: -7.5d
 			y: -4.5d
+		}
+		{
+			id: "0E085DC1F71AD109"
+			tasks: [{
+				id: "5859623339AAA4BB"
+				item: "gtceu:mv_machine_hull"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -4.5d
+		}
+		{
+			id: "5DA8A31178CFD45C"
+			tasks: [{
+				id: "344D653F3AF880F1"
+				item: "gtceu:hv_machine_hull"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -3.5d
+		}
+		{
+			id: "5FBC6631C6F24C38"
+			tasks: [{
+				id: "6B7BC7BEDEDDB84D"
+				item: "gtceu:lv_machine_hull"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -4.5d
+		}
+		{
+			id: "5504189C5BC72E2F"
+			tasks: [{
+				id: "143EF6E6D4062354"
+				item: "gtceu:aluminium_ingot"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -5.5d
+		}
+		{
+			id: "078096ABC68DD897"
+			tasks: [{
+				id: "4F62B62B256D4C58"
+				item: "gtceu:steel_ingot"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -5.5d
+		}
+		{
+			id: "671684DD408AA663"
+			tasks: [{
+				id: "008FD9A780079EB2"
+				item: "gtceu:luv_machine_hull"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			id: "79A58DE3CF85F36C"
+			tasks: [{
+				id: "7AAF91C8321E075E"
+				item: "gtceu:zpm_machine_hull"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			id: "28B748C609DE9323"
+			tasks: [{
+				id: "6E59C1E2D6ED4903"
+				item: "gtceu:uv_machine_hull"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			id: "4005E28FF4C7C0F5"
+			tasks: [{
+				id: "05A13273F04CA31D"
+				item: "gtceu:uhv_machine_hull"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			id: "76817BEE42C31570"
+			tasks: [{
+				id: "05DF22E2841A7FDC"
+				item: "gtceu:uev_machine_hull"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			id: "600579B950EA8750"
+			tasks: [{
+				id: "051A4DD92F45568C"
+				item: "gtceu:uiv_machine_hull"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			id: "20509AF4BBA46345"
+			tasks: [{
+				id: "730F6EE5CDE1E0D7"
+				item: "gtceu:uxv_machine_hull"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			id: "4B4A416D2F7F7092"
+			tasks: [{
+				id: "6C38D9861342C82F"
+				item: "gtceu:rhodium_plated_palladium_ingot"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			id: "2496A1343C3D3909"
+			tasks: [{
+				id: "41A6E8E7AE7D5F74"
+				item: "gtceu:tritanium_ingot"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			id: "23D51C2726B62379"
+			tasks: [{
+				id: "792965ADE31F27C7"
+				item: "examplemod:vibranium_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			id: "12D0F39A913D668C"
+			tasks: [{
+				id: "7C4F3DF63B5D127D"
+				item: "examplemod:adamantium_ingot"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.5d
 		}
 	]
 	title: "progression"

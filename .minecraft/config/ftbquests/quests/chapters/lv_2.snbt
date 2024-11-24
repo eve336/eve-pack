@@ -5,7 +5,7 @@
 	group: ""
 	icon: "gtceu:lv_machine_casing"
 	id: "2B8CBDF51E1864E1"
-	order_index: 3
+	order_index: 7
 	quest_links: [ ]
 	quests: [
 		{
@@ -546,6 +546,16 @@
 				type: "item"
 			}]
 			x: -3.0d
+			y: -0.5d
+		}
+		{
+			id: "2319310AB42EB0DA"
+			tasks: [{
+				id: "68CD6A62A40CAF37"
+				item: "gtceu:deepslate_dust"
+				type: "item"
+			}]
+			x: -2.0d
 			y: -0.5d
 		}
 	]

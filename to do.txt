@@ -4,3 +4,4 @@ Delete pollution cleaning machines
 Possibly make laser io cheaper
 Models for component blocks
 Destruction gadget recipe/ender pearl recipe
+connected gcyl coils
