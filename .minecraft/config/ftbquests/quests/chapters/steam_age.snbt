@@ -5,7 +5,7 @@
 	group: ""
 	icon: "gtceu:lp_steam_solid_boiler"
 	id: "3C62173589590281"
-	order_index: 6
+	order_index: 9
 	quest_links: [ ]
 	quests: [
 		{
@@ -244,6 +244,16 @@
 			}]
 			x: -1.0d
 			y: -4.0d
+		}
+		{
+			id: "676FE791FE715D31"
+			tasks: [{
+				id: "0B6D850493E67CB4"
+				item: "gtceu:coke_oven"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.0d
 		}
 	]
 	title: "Steam Age"

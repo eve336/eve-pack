@@ -5,7 +5,7 @@
 	group: ""
 	icon: "examplemod:supracausal_assembly"
 	id: "7448A4A20245E9AB"
-	order_index: 13
+	order_index: 16
 	quest_links: [ ]
 	quests: [
 		{
@@ -710,6 +710,26 @@
 			}]
 			x: 0.5d
 			y: 3.5d
+		}
+		{
+			id: "35BE51DD01D541D1"
+			tasks: [{
+				id: "0D266094293D4F79"
+				item: "gtceu:seaborgium_ingot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			id: "7FD390E8F4ED23F5"
+			tasks: [{
+				id: "655052790BD83D45"
+				item: "gtceu:bohrium_ingot"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.5d
 		}
 	]
 	title: "progression"

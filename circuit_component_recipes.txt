@@ -1,0 +1,96 @@
+ ASSEMBLER_RECIPES.recipeBuilder("circuit_component_recipes_2").duration(40).EUt(20)
+                .inputItems(plate, Wood, 1)
+                .inputItems(foil, Copper, 4)
+                .inputFluids(fluid, Glue, L / 2)
+                .outputItems(dust, BasicBoard, 1)
+                .save(provider);
+
+        CHEMICAL_RECIPES.recipeBuilder("circuit_component_recipes_3").duration(100).EUt(30)
+                .inputItems(dust, PhenolicBoard, 1)
+                .inputItems(foil, Copper, 4)
+                .inputFluids(fluid, SodiumPersulfate, 200)
+                .outputItems(dust, GoodPhenolicBoard, 1)
+                .save(provider);
+
+        CHEMICAL_RECIPES.recipeBuilder("circuit_component_recipes_4").duration(100).EUt(30)
+                .inputItems(dust, PhenolicBoard, 1)
+                .inputItems(foil, Copper, 4)
+                .inputFluids(fluid, IronChloride, 100)
+                .outputItems(dust, GoodPhenolicBoard, 1)
+                .save(provider);
+
+        CHEMICAL_RECIPES.recipeBuilder("circuit_component_recipes_5").duration(100).EUt(30)
+                .inputItems(dust, PlasticBoard, 1)
+                .inputItems(foil, Copper, 6)
+                .inputFluids(fluid, SodiumPersulfate, 500)
+                .outputItems(dust, GoodPlasticBoard, 1)
+                .save(provider);
+
+        CHEMICAL_RECIPES.recipeBuilder("circuit_component_recipes_6").duration(100).EUt(30)
+                .inputItems(dust, PlasticBoard, 1)
+                .inputItems(foil, Copper, 6)
+                .inputFluids(fluid, IronChloride, 250)
+                .outputItems(dust, GoodPlasticBoard, 1)
+                .save(provider);
+
+        CHEMICAL_RECIPES.recipeBuilder("circuit_component_recipes_7").duration(200).EUt(30)
+                .inputItems(dust, EpoxyBoard, 1)
+                .inputItems(foil, Electrum, 8)
+                .inputFluids(fluid, SodiumPersulfate, 1000)
+                .outputItems(dust, AdvancedBoard, 1)
+                .save(provider);
+
+        CHEMICAL_RECIPES.recipeBuilder("circuit_component_recipes_8").duration(200).EUt(30)
+                .inputItems(dust, EpoxyBoard, 1)
+                .inputItems(foil, Electrum, 8)
+                .inputFluids(fluid, IronChloride, 500)
+                .outputItems(dust, AdvancedBoard, 1)
+                .save(provider);
+
+        CHEMICAL_RECIPES.recipeBuilder("circuit_component_recipes_9").duration(300).EUt(30)
+                .inputItems(dust, FiberBoard, 1)
+                .inputItems(foil, AnnealedCopper, 12)
+                .inputFluids(fluid, SodiumPersulfate, 2000)
+                .outputItems(dust, ExtremeBoard, 1)
+                .save(provider);
+
+        CHEMICAL_RECIPES.recipeBuilder("circuit_component_recipes_10").duration(300).EUt(30)
+                .inputItems(dust, FiberBoard, 1)
+                .inputItems(foil, AnnealedCopper, 12)
+                .inputFluids(fluid, IronChloride, 1000)
+                .outputItems(dust, ExtremeBoard, 1)
+                .save(provider);
+
+        CHEMICAL_RECIPES.recipeBuilder("circuit_component_recipes_11").duration(400).EUt(120)
+                .inputItems(dust, MultilayerFiberBoard, 1)
+                .inputItems(foil, Platinum, 16)
+                .inputFluids(fluid, SodiumPersulfate, 4000)
+                .outputItems(dust, EliteBoard, 1)
+                .save(provider);
+
+        CHEMICAL_RECIPES.recipeBuilder("circuit_component_recipes_12").duration(400).EUt(120)
+                .inputItems(dust, MultilayerFiberBoard, 1)
+                .inputItems(foil, Platinum, 16)
+                .inputFluids(fluid, IronChloride, 2000)
+                .outputItems(dust, EliteBoard, 1)
+                .save(provider);
+
+        CHEMICAL_BATH_RECIPES.recipeBuilder("circuit_component_recipes_13").duration(300).EUt(240)
+                .inputItems(plate, Polyimide, 1)
+                .inputFluids(fluid, FluorinatedEthylenePropylene, L / 2)
+                .outputItems(dust, KaptonBoard, 1)
+                .save(provider);
+
+        CHEMICAL_RECIPES.recipeBuilder("circuit_component_recipes_14").duration(500).EUt(240)
+                .inputItems(dust, KaptonBoard, 1)
+                .inputItems(foil, VanadiumGallium, 24)
+                .inputFluids(fluid, SodiumPersulfate, 6000)
+                .outputItems(dust, KaptonCircuitBoard, 1)
+                .save(provider);
+
+        CHEMICAL_RECIPES.recipeBuilder("circuit_component_recipes_15").duration(500).EUt(240)
+                .inputItems(dust, KaptonBoard, 1)
+                .inputItems(foil, VanadiumGallium, 24)
+                .inputFluids(fluid, IronChloride, 3000)
+                .outputItems(dust, KaptonCircuitBoard, 1)
+                .save(provider);
