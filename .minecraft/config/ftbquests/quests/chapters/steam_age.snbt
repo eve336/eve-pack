@@ -5,7 +5,7 @@
 	group: ""
 	icon: "gtceu:lp_steam_solid_boiler"
 	id: "3C62173589590281"
-	order_index: 9
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{

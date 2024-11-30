@@ -3,9 +3,9 @@
 	default_quest_shape: ""
 	filename: "progression"
 	group: ""
-	icon: "examplemod:supracausal_assembly"
+	icon: "examplemod:supracasual_assembly"
 	id: "7448A4A20245E9AB"
-	order_index: 16
+	order_index: 8
 	quest_links: [ ]
 	quests: [
 		{
@@ -464,8 +464,8 @@
 		{
 			id: "1734FFCAF2087200"
 			tasks: [{
-				id: "5847F3C0F5C5C268"
-				item: "examplemod:supracausal_processor"
+				id: "5C6B7001F8DD6CB7"
+				item: "examplemod:supracasual_processor"
 				type: "item"
 			}]
 			x: 1.5d
@@ -474,8 +474,8 @@
 		{
 			id: "2F9BF77CB319B0A4"
 			tasks: [{
-				id: "043E5AD8EBFFC6BC"
-				item: "examplemod:supracausal_assembly"
+				id: "1249B485FCAB32D7"
+				item: "examplemod:supracasual_assembly"
 				type: "item"
 			}]
 			x: 1.5d
@@ -484,8 +484,8 @@
 		{
 			id: "3BB6C484614EAF7E"
 			tasks: [{
-				id: "406468A4929CAEEB"
-				item: "examplemod:supracausal_computer"
+				id: "046500A345BC82D0"
+				item: "examplemod:supracasual_computer"
 				type: "item"
 			}]
 			x: 1.5d
@@ -494,8 +494,8 @@
 		{
 			id: "5D178D5160356976"
 			tasks: [{
-				id: "2E2E35A63BE300AA"
-				item: "examplemod:supracausal_mainframe"
+				id: "31C508EC257E82AA"
+				item: "examplemod:supracasual_mainframe"
 				type: "item"
 			}]
 			x: 1.5d

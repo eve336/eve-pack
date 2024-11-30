@@ -5,7 +5,7 @@
 	group: ""
 	icon: "gtceu:mv_machine_casing"
 	id: "521F57958D6FA1EF"
-	order_index: 11
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -343,6 +343,7 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["15ACC27F7AF3865F"]
 			id: "3224680041D6FF6D"
 			tasks: [{
 				id: "3B2BAC45E7169BED"
@@ -373,17 +374,18 @@
 				item: "gtceu:ethanol_bucket"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -1.0d
 			y: 0.5d
 		}
 		{
+			dependencies: ["615C6BB197E07A1B"]
 			id: "37C5A2CAD99DC3DF"
 			tasks: [{
 				id: "7295FF7E6B046F02"
 				item: "gtceu:sulfuric_acid_bucket"
 				type: "item"
 			}]
-			x: -0.5d
+			x: 0.0d
 			y: 0.5d
 		}
 		{
@@ -399,6 +401,156 @@
 			}]
 			x: -3.5d
 			y: -3.5d
+		}
+		{
+			dependencies: [
+				"2ADEED6B14930F6B"
+				"6CBBE036FEEBE59F"
+				"3E1FF658212B2AB4"
+			]
+			dependency_requirement: "one_completed"
+			id: "457FAF94F7F38423"
+			tasks: [{
+				id: "72F4106D49F3432D"
+				item: "examplemod:refined_processor"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["457FAF94F7F38423"]
+			id: "14A3AB65F1892812"
+			tasks: [{
+				id: "463419AF58159326"
+				item: "examplemod:refined_assembly"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["14A3AB65F1892812"]
+			id: "2D35864EE5E66507"
+			tasks: [{
+				id: "1CECCC133D50060B"
+				item: "examplemod:refined_computer"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2D35864EE5E66507"]
+			description: ["Your first EV circuits!!"]
+			id: "0EFF541458EB191D"
+			tasks: [{
+				id: "3005028D9B0BF42A"
+				item: "examplemod:refined_mainframe"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["18C4319E01EEB4A4"]
+			id: "3E1FF658212B2AB4"
+			optional: true
+			tasks: [
+				{
+					id: "56F4793924147711"
+					item: "examplemod:smd_capacitor_refined"
+					type: "item"
+				}
+				{
+					id: "03F8DE61C0EDD691"
+					item: "examplemod:smd_resistor_refined"
+					type: "item"
+				}
+				{
+					id: "35B6D08687AD0CEF"
+					item: "examplemod:smd_diode_refined"
+					type: "item"
+				}
+				{
+					id: "7BEC1F8E08F78E07"
+					item: "examplemod:smd_transistor_refined"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"18C4319E01EEB4A4"
+				"0A193068BB5A516B"
+				"04AF2E84C621FADF"
+			]
+			id: "2ADEED6B14930F6B"
+			tasks: [{
+				id: "04AC805DB1665F05"
+				item: "gtceu:plastic_printed_circuit_board"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"37C5A2CAD99DC3DF"
+				"0F65DE96555BC94E"
+				"546E71F4217D0BB8"
+			]
+			dependency_requirement: "one_completed"
+			id: "04AF2E84C621FADF"
+			tasks: [{
+				id: "4B4C005A5C969A2C"
+				item: "gtceu:sodium_persulfate_bucket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			id: "0A193068BB5A516B"
+			tasks: [{
+				id: "70D642BA4D534920"
+				item: "gtceu:iron_iii_chloride_bucket"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			id: "615C6BB197E07A1B"
+			tasks: [{
+				id: "3987FD53FEB00385"
+				item: "gtceu:sulfur_dust"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			id: "546E71F4217D0BB8"
+			tasks: [{
+				id: "289F7BEB2BF6E96E"
+				item: "gtceu:salt_dust"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			id: "0F65DE96555BC94E"
+			tasks: [{
+				id: "4D34A2C9E4CDC232"
+				item: "gtceu:sodium_hydroxide_dust"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
 		}
 	]
 	title: "MV"
