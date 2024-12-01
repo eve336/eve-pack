@@ -3,9 +3,9 @@
 	default_quest_shape: ""
 	filename: "lv_2"
 	group: ""
-	icon: "gtceu:lv_machine_casing"
+	icon: "gtceu:lv_electric_motor"
 	id: "2B8CBDF51E1864E1"
-	order_index: 2
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{

@@ -3,9 +3,9 @@
 	default_quest_shape: ""
 	filename: "mv"
 	group: ""
-	icon: "gtceu:mv_machine_casing"
+	icon: "gtceu:mv_electric_motor"
 	id: "521F57958D6FA1EF"
-	order_index: 3
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{

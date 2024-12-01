@@ -3,9 +3,9 @@
 	default_quest_shape: ""
 	filename: "hv"
 	group: ""
-	icon: "gtceu:hv_machine_casing"
+	icon: "gtceu:hv_electric_motor"
 	id: "19CEA1E05E683FD9"
-	order_index: 4
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
@@ -141,6 +141,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["4B8FD7A8D756E370"]
 			id: "7788977430DC0519"
 			tasks: [{
 				id: "1EBC210DDB387189"
@@ -321,6 +322,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["7A1D205530764372"]
 			id: "7A29FD5ADE9E85B2"
 			tasks: [{
 				id: "0AEF13D6AC771FA0"
@@ -329,6 +331,116 @@
 			}]
 			x: -7.0d
 			y: 2.0d
+		}
+		{
+			dependencies: ["116D4424DD10FAFB"]
+			id: "7A1D205530764372"
+			tasks: [{
+				id: "78245679D6E131A1"
+				item: "examplemod:barium_oxide_dust"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"106345BC60077242"
+				"11F9F3DBE06A77F3"
+				"3EA869DC811D62F2"
+			]
+			dependency_requirement: "one_completed"
+			id: "116D4424DD10FAFB"
+			tasks: [{
+				id: "36B5965AACBA2D89"
+				item: "examplemod:barium_carbonate_dust"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 1.0d
+		}
+		{
+			id: "38000DF4E1875B26"
+			tasks: [{
+				id: "5F4279EA1E76ED4B"
+				item: "gtceu:barite_dust"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -1.0d
+		}
+		{
+			id: "11F9F3DBE06A77F3"
+			tasks: [{
+				id: "0C5E9CA74CA06605"
+				item: "examplemod:barytocalcite_dust"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			id: "3EA869DC811D62F2"
+			tasks: [{
+				id: "1045501EFB0B9E54"
+				item: "examplemod:witherite_dust"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["38000DF4E1875B26"]
+			id: "106345BC60077242"
+			tasks: [{
+				id: "53D7A71AE485725D"
+				item: "gtceu:barium_sulfide_dust"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1D2CF414D2F2D9B5"
+				"692E3CBFE8486850"
+			]
+			id: "1AE025DE9BE26C32"
+			optional: true
+			tasks: [{
+				id: "73ED5B4C1962425A"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_1_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7044D1FFD382AB5B"]
+			id: "4B8FD7A8D756E370"
+			tasks: [{
+				id: "52D2FAEB6892D1C9"
+				item: "gtceu:hv_chemical_reactor"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4B8FD7A8D756E370"]
+			id: "1D2CF414D2F2D9B5"
+			optional: true
+			tasks: [{
+				id: "5355F1DE013AA618"
+				item: "gtceu:rocket_fuel_bucket"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
 		}
 	]
 	title: "HV"
