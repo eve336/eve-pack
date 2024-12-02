@@ -73,6 +73,9 @@
     "cable_info": true,
     "parallel_info": true
   },
+  "fulleng": {
+    "storage_monitor": true
+  },
   "jade": {
     "coordinates.rel": false,
     "distance": false,
