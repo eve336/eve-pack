@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ev"
+	group: ""
+	icon: "gtceu:ev_electric_motor"
+	id: "047651D6DE7947DF"
+	order_index: 6
+	quest_links: [ ]
+	quests: [{
+		id: "2727F7FA086AB1F9"
+		tasks: [{
+			id: "2C848784D02045B7"
+			item: "gtceu:ev_machine_hull"
+			type: "item"
+		}]
+		x: 0.5d
+		y: -0.5d
+	}]
+	title: "EV"
+}

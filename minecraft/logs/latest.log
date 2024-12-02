@@ -1,0 +1,1208 @@
+[02Dec2024 10:58:23.517] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--username, LevLion1, --version, 1.20.1, --gameDir, C:/Users/luka/AppData/Roaming/PrismLauncher/instances/eve-pack/.minecraft, --assetsDir, C:/Users/luka/AppData/Roaming/PrismLauncher/assets, --assetIndex, 5, --uuid, afcd28b1e3cd424f9a28ed9e8ccad380, --accessToken, ????????, --userType, msa, --versionType, release, --launchTarget, forgeclient, --fml.forgeVersion, 47.3.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --width, 854, --height, 480]
+[02Dec2024 10:58:23.520] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.13 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
+[02Dec2024 10:58:23.918] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[02Dec2024 10:58:23.973] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[02Dec2024 10:58:24.107] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[02Dec2024 10:58:24.172] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/luka/AppData/Roaming/PrismLauncher/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%23150!/ Service=ModLauncher Env=CLIENT
+[02Dec2024 10:58:24.211] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: NVIDIA GeForce RTX 3060/PCIe/SSE2 GL version 4.6.0 NVIDIA 560.94, NVIDIA Corporation
+[02Dec2024 10:58:24.499] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\luka\AppData\Roaming\PrismLauncher\libraries\net\minecraftforge\fmlcore\1.20.1-47.3.0\fmlcore-1.20.1-47.3.0.jar is missing mods.toml file
+[02Dec2024 10:58:24.503] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\luka\AppData\Roaming\PrismLauncher\libraries\net\minecraftforge\javafmllanguage\1.20.1-47.3.0\javafmllanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[02Dec2024 10:58:24.506] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\luka\AppData\Roaming\PrismLauncher\libraries\net\minecraftforge\lowcodelanguage\1.20.1-47.3.0\lowcodelanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[02Dec2024 10:58:24.509] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\luka\AppData\Roaming\PrismLauncher\libraries\net\minecraftforge\mclanguage\1.20.1-47.3.0\mclanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[02Dec2024 10:58:24.724] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 14 dependencies adding them to mods collection
+[02Dec2024 10:58:26.056] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[02Dec2024 10:58:26.090] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclient' with arguments [--version, 1.20.1, --gameDir, C:\Users\luka\AppData\Roaming\PrismLauncher\instances\eve-pack\.minecraft, --assetsDir, C:\Users\luka\AppData\Roaming\PrismLauncher\assets, --uuid, afcd28b1e3cd424f9a28ed9e8ccad380, --username, LevLion1, --assetIndex, 5, --accessToken, ????????, --userType, msa, --versionType, release, --width, 854, --height, 480]
+[02Dec2024 10:58:26.256] [main/WARN] [mixin/]: Reference map 'emi-forge-refmap.json' for emi-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[02Dec2024 10:58:26.260] [main/WARN] [mixin/]: Reference map 'mae2.mixins.refmap.json' for mixins.mae2.json could not be read. If this is a development environment you can ignore this message
+[02Dec2024 10:58:26.278] [main/WARN] [mixin/]: Reference map 'ftb-filter-system-common-refmap.json' for ftbfiltersystem-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[02Dec2024 10:58:26.279] [main/WARN] [mixin/]: Reference map 'ftb-filter-system-forge-refmap.json' for ftbfiltersystem.mixins.json could not be read. If this is a development environment you can ignore this message
+[02Dec2024 10:58:26.281] [main/WARN] [mixin/]: Reference map 'betterp2p-forge-refmap.json' for betterp2p.mixins.json could not be read. If this is a development environment you can ignore this message
+[02Dec2024 10:58:26.282] [main/WARN] [mixin/]: Reference map 'probejs-forge-refmap.json' for probejs.mixins.json could not be read. If this is a development environment you can ignore this message
+[02Dec2024 10:58:26.850] [main/WARN] [mixin/]: Error loading class: noobanidus/mods/lootr/config/ConfigManager (java.lang.ClassNotFoundException: noobanidus.mods.lootr.config.ConfigManager)
+[02Dec2024 10:58:26.961] [main/WARN] [mixin/]: Error loading class: mezz/modnametooltip/TooltipEventHandler (java.lang.ClassNotFoundException: mezz.modnametooltip.TooltipEventHandler)
+[02Dec2024 10:58:26.962] [main/WARN] [mixin/]: Error loading class: me/shedaniel/rei/impl/client/ClientHelperImpl (java.lang.ClassNotFoundException: me.shedaniel.rei.impl.client.ClientHelperImpl)
+[02Dec2024 10:58:27.076] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[02Dec2024 10:58:30.203] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 188 Datafixer optimizations took 114 milliseconds
+[02Dec2024 10:58:31.245] [pool-4-thread-1/WARN] [AE2:C/]: Unable to find class com.simibubi.create.foundation.ponder.PonderWorld. Integration with PonderJS disabled.
+[02Dec2024 10:58:31.758] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/luka/AppData/Roaming/PrismLauncher/libraries/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar%23248!/assets/.mcassetsroot' uses unexpected schema
+[02Dec2024 10:58:31.759] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/luka/AppData/Roaming/PrismLauncher/libraries/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar%23248!/data/.mcassetsroot' uses unexpected schema
+[02Dec2024 10:58:31.770] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[02Dec2024 10:58:32.064] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: LevLion1
+[02Dec2024 10:58:32.158] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
+[02Dec2024 10:58:32.195] [Render thread/INFO] [KubeJS/]: Loaded client.properties
+[02Dec2024 10:58:32.468] [modloading-worker-0/INFO] [de.keksuccino.melody.Melody/]: [MELODY] Loading Melody background audio library..
+[02Dec2024 10:58:32.525] [modloading-worker-0/INFO] [LowDragLib/]: LowDragLib is initializing on platform: Forge
+[02Dec2024 10:58:32.534] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.0, for MC 1.20.1 with MCP 20230612.114412
+[02Dec2024 10:58:32.534] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.0 Initialized
+[02Dec2024 10:58:32.600] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Successfully initialized!
+[02Dec2024 10:58:32.600] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Server-side libs ready to use!
+[02Dec2024 10:58:32.616] [modloading-worker-0/INFO] [PluginManager/]: Scanning classes for titanium
+[02Dec2024 10:58:32.680] [modloading-worker-0/INFO] [com.jozufozu.flywheel.backend.Backend/]: No shaders mod detected.
+[02Dec2024 10:58:32.740] [modloading-worker-0/INFO] [ironfurnaces.IronFurnaces/]: Initializing Update Checker...
+[02Dec2024 10:58:32.742] [ Iron Furnaces Update Checker/INFO] [ironfurnaces.IronFurnaces/]: Starting Update Check...
+[02Dec2024 10:58:32.766] [modloading-worker-0/INFO] [de.keksuccino.fancymenu.FancyMenu/]: [FANCYMENU] Loading v3.3.2 in client-side mode on FORGE!
+[02Dec2024 10:58:32.815] [modloading-worker-0/INFO] [GregTechCEu/]: GregTechCEu is initializing on platform: Forge
+[02Dec2024 10:58:32.820] [modloading-worker-0/INFO] [KubeJS/]: Loaded common.properties
+[02Dec2024 10:58:32.822] [modloading-worker-0/INFO] [KubeJS/]: Loaded dev.properties
+[02Dec2024 10:58:32.832] [modloading-worker-0/INFO] [KubeJS/]: Looking for KubeJS plugins...
+[02Dec2024 10:58:32.843] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id architectury:sync_ids
+[02Dec2024 10:58:32.846] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[02Dec2024 10:58:32.846] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftblibrary:edit_nbt
+[02Dec2024 10:58:32.848] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source kubejs
+[02Dec2024 10:58:32.853] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftblibrary:edit_nbt_response
+[02Dec2024 10:58:32.855] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftblibrary:sync_known_server_registries
+[02Dec2024 10:58:32.857] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftblibrary:edit_config
+[02Dec2024 10:58:32.867] [modloading-worker-0/WARN] [KubeJS/]: Plugin dev.latvian.mods.kubejs.integration.forge.gamestages.GameStagesIntegration does not have required mod gamestages loaded, skipping
+[02Dec2024 10:58:32.867] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source gtceu
+[02Dec2024 10:58:32.876] [ Iron Furnaces Update Checker/INFO] [ironfurnaces.IronFurnaces/]: Update Check done!
+[02Dec2024 10:58:32.876] [ Iron Furnaces Update Checker/INFO] [ironfurnaces.IronFurnaces/]: Iron Furnaces is up to date!
+[02Dec2024 10:58:32.886] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source ldlib
+[02Dec2024 10:58:32.888] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source ftbxmodcompat
+[02Dec2024 10:58:32.892] [modloading-worker-0/WARN] [KubeJS/]: Plugin dev.ftb.mods.ftbxmodcompat.ftbchunks.kubejs.FTBChunksKubeJSPlugin does not have required mod ftbchunks loaded, skipping
+[02Dec2024 10:58:32.896] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source probejs
+[02Dec2024 10:58:32.899] [modloading-worker-0/INFO] [KubeJS/]: Done in 65.59 ms
+[02Dec2024 10:58:32.901] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
+[02Dec2024 10:58:32.910] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 8.654 ms
+[02Dec2024 10:58:32.934] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbteams:sync_teams
+[02Dec2024 10:58:32.935] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbteams:sync_message_history
+[02Dec2024 10:58:32.938] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:open_gui
+[02Dec2024 10:58:32.939] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbteams:open_my_team_gui
+[02Dec2024 10:58:32.940] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:update_settings
+[02Dec2024 10:58:32.941] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbteams:update_settings_response
+[02Dec2024 10:58:32.943] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:send_message
+[02Dec2024 10:58:32.944] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbteams:send_message_response
+[02Dec2024 10:58:32.945] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbteams:update_presence
+[02Dec2024 10:58:32.947] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:create_party
+[02Dec2024 10:58:32.949] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:player_gui_operation
+[02Dec2024 10:58:32.968] [modloading-worker-0/INFO] [Configuration/FileWatching]: Registered gtceu config for auto-sync function
+[02Dec2024 10:58:32.969] [modloading-worker-0/INFO] [GregTechCEu/]: High-Tier is Enabled.
+[02Dec2024 10:58:32.969] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbfiltersystem:sync_filter
+[02Dec2024 10:58:32.974] [modloading-worker-0/INFO] [PluginManager/]: Scanning classes for functionalstorage
+[02Dec2024 10:58:33.009] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:sync_quests
+[02Dec2024 10:58:33.011] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:sync_team_data
+[02Dec2024 10:58:33.015] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:update_task_progress
+[02Dec2024 10:58:33.016] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:submit_task
+[02Dec2024 10:58:33.017] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:claim_reward
+[02Dec2024 10:58:33.018] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:claim_reward_response
+[02Dec2024 10:58:33.019] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:sync_editing_mode
+[02Dec2024 10:58:33.021] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:get_emergency_items
+[02Dec2024 10:58:33.022] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:create_other_team_data
+[02Dec2024 10:58:33.023] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:claim_all_rewards
+[02Dec2024 10:58:33.024] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:claim_choice_reward
+[02Dec2024 10:58:33.025] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:display_completion_toast
+[02Dec2024 10:58:33.026] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:display_reward_toast
+[02Dec2024 10:58:33.028] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:display_item_reward_toast
+[02Dec2024 10:58:33.029] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:toggle_pinned
+[02Dec2024 10:58:33.030] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:toggle_pinned_response
+[02Dec2024 10:58:33.031] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:toggle_chapter_pinned
+[02Dec2024 10:58:33.032] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:toggle_chapter_pinned_response
+[02Dec2024 10:58:33.033] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:toggle_editing_mode
+[02Dec2024 10:58:33.034] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:force_save
+[02Dec2024 10:58:33.035] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:update_team_data
+[02Dec2024 10:58:33.036] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:set_custom_image
+[02Dec2024 10:58:33.037] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:object_started
+[02Dec2024 10:58:33.038] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:object_completed
+[02Dec2024 10:58:33.039] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:object_started_reset
+[02Dec2024 10:58:33.040] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:object_completed_reset
+[02Dec2024 10:58:33.041] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:sync_lock
+[02Dec2024 10:58:33.042] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:reset_reward
+[02Dec2024 10:58:33.043] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:team_data_changed
+[02Dec2024 10:58:33.043] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:task_screen_config_req
+[02Dec2024 10:58:33.044] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:task_screen_config_resp
+[02Dec2024 10:58:33.045] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:change_progress
+[02Dec2024 10:58:33.047] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:create_object
+[02Dec2024 10:58:33.050] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:create_object_response
+[02Dec2024 10:58:33.051] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:create_task_at
+[02Dec2024 10:58:33.052] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:delete_object
+[02Dec2024 10:58:33.053] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:delete_object_response
+[02Dec2024 10:58:33.054] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:edit_object
+[02Dec2024 10:58:33.055] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:edit_object_response
+[02Dec2024 10:58:33.055] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:move_chapter
+[02Dec2024 10:58:33.056] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:move_chapter_response
+[02Dec2024 10:58:33.056] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:move_quest
+[02Dec2024 10:58:33.057] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:move_quest_response
+[02Dec2024 10:58:33.058] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:change_chapter_group
+[02Dec2024 10:58:33.058] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:change_chapter_group_response
+[02Dec2024 10:58:33.059] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:move_chapter_group
+[02Dec2024 10:58:33.059] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:move_chapter_group_response
+[02Dec2024 10:58:33.060] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:sync_reward_blocking
+[02Dec2024 10:58:33.061] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:copy_quest
+[02Dec2024 10:58:33.062] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:copy_chapter_image
+[02Dec2024 10:58:33.063] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:sync_structures_request
+[02Dec2024 10:58:33.064] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:sync_structures_response
+[02Dec2024 10:58:33.065] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:request_team_data
+[02Dec2024 10:58:33.069] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:sync_editor_permission
+[02Dec2024 10:58:33.069] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:open_quest_book
+[02Dec2024 10:58:33.070] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:clear_display_cache
+[02Dec2024 10:58:33.106] [modloading-worker-0/INFO] [FTB XMod Compat/]: [FTB Quests] Enabled KubeJS integration
+[02Dec2024 10:58:33.129] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
+[02Dec2024 10:58:33.141] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id betterp2p:networking_channel/d346b53d48c83a41b1ff2d997dc43be2
+[02Dec2024 10:58:33.141] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id betterp2p:networking_channel/d346b53d48c83a41b1ff2d997dc43be2
+[02Dec2024 10:58:33.143] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id betterp2p:networking_channel/b31253ae71a9335d829ad64862dfa507
+[02Dec2024 10:58:33.143] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id betterp2p:networking_channel/b31253ae71a9335d829ad64862dfa507
+[02Dec2024 10:58:33.145] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id betterp2p:networking_channel/64144269062b368ea317cfbd48263325
+[02Dec2024 10:58:33.145] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id betterp2p:networking_channel/64144269062b368ea317cfbd48263325
+[02Dec2024 10:58:33.147] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id betterp2p:networking_channel/34ce19bf355335b3bf3d889e48d9f75c
+[02Dec2024 10:58:33.147] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id betterp2p:networking_channel/34ce19bf355335b3bf3d889e48d9f75c
+[02Dec2024 10:58:33.149] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id betterp2p:networking_channel/d7bf4829ebdc3db49445530bd1f71a11
+[02Dec2024 10:58:33.149] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id betterp2p:networking_channel/d7bf4829ebdc3db49445530bd1f71a11
+[02Dec2024 10:58:33.151] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id betterp2p:networking_channel/955677494362347abfb80af326569f0a
+[02Dec2024 10:58:33.151] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id betterp2p:networking_channel/955677494362347abfb80af326569f0a
+[02Dec2024 10:58:33.153] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id betterp2p:networking_channel/ae85bfea0aaa3c58b110986bfee2b70c
+[02Dec2024 10:58:33.153] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id betterp2p:networking_channel/ae85bfea0aaa3c58b110986bfee2b70c
+[02Dec2024 10:58:33.153] [modloading-worker-0/INFO] [Rhino Script Remapper/]: Loading Rhino Minecraft remapper...
+[02Dec2024 10:58:33.154] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id betterp2p:networking_channel/f955d830b11e3ae080e9966a0e4085ec
+[02Dec2024 10:58:33.154] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id betterp2p:networking_channel/f955d830b11e3ae080e9966a0e4085ec
+[02Dec2024 10:58:33.155] [modloading-worker-0/INFO] [dev.latvian.mods.rhino.mod.util.RhinoProperties/]: Rhino properties loaded.
+[02Dec2024 10:58:33.156] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id betterp2p:networking_channel/2bc00ad3b8a531dda933f6050b227dc1
+[02Dec2024 10:58:33.156] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id betterp2p:networking_channel/2bc00ad3b8a531dda933f6050b227dc1
+[02Dec2024 10:58:33.157] [modloading-worker-0/INFO] [Rhino Script Remapper/]: Loading mappings for 1.20.1
+[02Dec2024 10:58:33.221] [modloading-worker-0/INFO] [Rhino Script Remapper/]: Done in 0.067 s
+[02Dec2024 10:58:33.225] [modloading-worker-0/INFO] [quark-zeta/]: Discovered 164 modules to load.
+[02Dec2024 10:58:33.226] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Abacus...
+[02Dec2024 10:58:33.235] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Adjustable Chat...
+[02Dec2024 10:58:33.235] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Ambient Discs...
+[02Dec2024 10:58:33.236] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Ancient Tomes...
+[02Dec2024 10:58:33.244] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Ancient Wood...
+[02Dec2024 10:58:33.251] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Armed Armor Stands...
+[02Dec2024 10:58:33.251] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Auto Walk Keybind...
+[02Dec2024 10:58:33.251] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Automatic Recipe Unlock...
+[02Dec2024 10:58:33.252] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Automatic Tool Restock...
+[02Dec2024 10:58:33.253] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Azalea Wood...
+[02Dec2024 10:58:33.253] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Back Button Keybind...
+[02Dec2024 10:58:33.254] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Backpack...
+[02Dec2024 10:58:33.259] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Beacon Redirection...
+[02Dec2024 10:58:33.259] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Better Elytra Rocket...
+[02Dec2024 10:58:33.259] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Big Stone Clusters...
+[02Dec2024 10:58:33.265] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Blossom Trees...
+[02Dec2024 10:58:33.266] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Bottled Cloud...
+[02Dec2024 10:58:33.268] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Buckets Show Inhabitants...
+[02Dec2024 10:58:33.268] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Camera...
+[02Dec2024 10:58:33.269] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Campfires Boost Elytra...
+[02Dec2024 10:58:33.270] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Celebratory Lamps...
+[02Dec2024 10:58:33.270] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Chains Connect Blocks...
+[02Dec2024 10:58:33.271] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Chest Searching...
+[02Dec2024 10:58:33.275] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Chorus Vegetation...
+[02Dec2024 10:58:33.277] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Chute...
+[02Dec2024 10:58:33.278] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Climate Control Remover...
+[02Dec2024 10:58:33.278] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Color Runes...
+[02Dec2024 10:58:33.280] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Compasses Work Everywhere...
+[02Dec2024 10:58:33.281] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Compressed Blocks...
+[02Dec2024 10:58:33.281] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Coral On Cactus...
+[02Dec2024 10:58:33.281] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Corundum...
+[02Dec2024 10:58:33.291] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Crabs...
+[02Dec2024 10:58:33.293] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Crafter...
+[02Dec2024 10:58:33.294] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Crate...
+[02Dec2024 10:58:33.295] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Diamond Repair...
+[02Dec2024 10:58:33.295] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Dispensers Place Blocks...
+[02Dec2024 10:58:33.296] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Double Door Opening...
+[02Dec2024 10:58:33.296] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Dragon Scales...
+[02Dec2024 10:58:33.296] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Duskbound Blocks...
+[02Dec2024 10:58:33.296] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Dyeable Item Frames...
+[02Dec2024 10:58:33.297] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Easy Transfering...
+[02Dec2024 10:58:33.298] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Elytra Indicator...
+[02Dec2024 10:58:33.298] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Emotes...
+[02Dec2024 10:58:33.300] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Enchantment Predicates...
+[02Dec2024 10:58:33.300] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Enchantments Begone...
+[02Dec2024 10:58:33.301] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Ender Watcher...
+[02Dec2024 10:58:33.301] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Endermosh Music Disc...
+[02Dec2024 10:58:33.303] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Enhanced Ladders...
+[02Dec2024 10:58:33.303] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Expanded Item Interactions...
+[02Dec2024 10:58:33.304] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Fairy Rings...
+[02Dec2024 10:58:33.305] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Fallen Logs...
+[02Dec2024 10:58:33.305] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Feeding Trough...
+[02Dec2024 10:58:33.307] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Forgotten...
+[02Dec2024 10:58:33.312] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Foxhound...
+[02Dec2024 10:58:33.313] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Framed Glass...
+[02Dec2024 10:58:33.313] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Game Nerfs...
+[02Dec2024 10:58:33.313] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Glass Item Frame...
+[02Dec2024 10:58:33.314] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Glass Shard...
+[02Dec2024 10:58:33.315] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Glimmering Weald...
+[02Dec2024 10:58:33.322] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Gold Bars...
+[02Dec2024 10:58:33.322] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Gold Tools Have Fortune...
+[02Dec2024 10:58:33.323] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Grab Chickens...
+[02Dec2024 10:58:33.323] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Grate...
+[02Dec2024 10:58:33.326] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Gravisand...
+[02Dec2024 10:58:33.327] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Greener Grass...
+[02Dec2024 10:58:33.328] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Hedges...
+[02Dec2024 10:58:33.332] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Hoe Harvesting...
+[02Dec2024 10:58:33.333] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Hollow Logs...
+[02Dec2024 10:58:33.333] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Horses Swim...
+[02Dec2024 10:58:33.333] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Hotbar Changer...
+[02Dec2024 10:58:33.334] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Improved Sponges...
+[02Dec2024 10:58:33.334] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Improved Tooltips...
+[02Dec2024 10:58:33.334] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Industrial Palette...
+[02Dec2024 10:58:33.335] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Inventory Sorting...
+[02Dec2024 10:58:33.335] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Iron Rod...
+[02Dec2024 10:58:33.340] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Item Sharing...
+[02Dec2024 10:58:33.340] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Japanese Palette...
+[02Dec2024 10:58:33.340] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Leaf Carpet...
+[02Dec2024 10:58:33.341] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Lock Rotation...
+[02Dec2024 10:58:33.342] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Long Range Pick Block...
+[02Dec2024 10:58:33.342] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Magma Keeps Concrete Powder...
+[02Dec2024 10:58:33.342] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Magnets...
+[02Dec2024 10:58:33.344] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Map Washing...
+[02Dec2024 10:58:33.344] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Matrix Enchanting...
+[02Dec2024 10:58:33.348] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Metal Buttons...
+[02Dec2024 10:58:33.349] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Microcrafting Helper...
+[02Dec2024 10:58:33.350] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Midori...
+[02Dec2024 10:58:33.350] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Monster Box...
+[02Dec2024 10:58:33.350] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Banner Layers...
+[02Dec2024 10:58:33.351] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Brick Types...
+[02Dec2024 10:58:33.351] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Mud Blocks...
+[02Dec2024 10:58:33.351] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Note Block Sounds...
+[02Dec2024 10:58:33.352] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Potted Plants...
+[02Dec2024 10:58:33.352] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Villagers...
+[02Dec2024 10:58:33.352] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Narrator Readout...
+[02Dec2024 10:58:33.352] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Nether Brick Fence Gate...
+[02Dec2024 10:58:33.353] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Nether Obsidian Spikes...
+[02Dec2024 10:58:33.353] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module New Stone Types...
+[02Dec2024 10:58:33.355] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module No Durability On Cosmetics...
+[02Dec2024 10:58:33.355] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module No More Lava Pockets...
+[02Dec2024 10:58:33.356] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Obsidian Plate...
+[02Dec2024 10:58:33.356] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Overlay Shader...
+[02Dec2024 10:58:33.356] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Parrot Eggs...
+[02Dec2024 10:58:33.356] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pat The Dogs...
+[02Dec2024 10:58:33.357] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pathfinder Maps...
+[02Dec2024 10:58:33.359] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Permafrost...
+[02Dec2024 10:58:33.360] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Petals On Water...
+[02Dec2024 10:58:33.360] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pickarang...
+[02Dec2024 10:58:33.362] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pig Litters...
+[02Dec2024 10:58:33.362] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pipes...
+[02Dec2024 10:58:33.364] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pistons Move Tile Entities...
+[02Dec2024 10:58:33.365] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Poison Potato Usage...
+[02Dec2024 10:58:33.365] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Quick Armor Swapping...
+[02Dec2024 10:58:33.365] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Rainbow Lamps...
+[02Dec2024 10:58:33.366] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Raw Metal Bricks...
+[02Dec2024 10:58:33.366] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Reacharound Placing...
+[02Dec2024 10:58:33.366] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Redstone Randomizer...
+[02Dec2024 10:58:33.367] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Renewable Spore Blossoms...
+[02Dec2024 10:58:33.368] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Replace Scaffolding...
+[02Dec2024 10:58:33.368] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Rope...
+[02Dec2024 10:58:33.369] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Safer Creatures...
+[02Dec2024 10:58:33.369] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Seed Pouch...
+[02Dec2024 10:58:33.372] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Shear Vines...
+[02Dec2024 10:58:33.379] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Shiba...
+[02Dec2024 10:58:33.379] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Shingles...
+[02Dec2024 10:58:33.380] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Shulker Packing...
+[02Dec2024 10:58:33.380] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Simple Harvest...
+[02Dec2024 10:58:33.381] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Skull Pikes...
+[02Dec2024 10:58:33.382] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Slabs To Blocks...
+[02Dec2024 10:58:33.383] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Slime In A Bucket...
+[02Dec2024 10:58:33.384] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Slimes To Magma Cubes...
+[02Dec2024 10:58:33.384] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Snow Golem Player Heads...
+[02Dec2024 10:58:33.385] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Soul Candles...
+[02Dec2024 10:58:33.385] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Soul Sandstone...
+[02Dec2024 10:58:33.385] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Spawner Replacer...
+[02Dec2024 10:58:33.386] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Spiral Spires...
+[02Dec2024 10:58:33.387] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Stonelings...
+[02Dec2024 10:58:33.388] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Stools...
+[02Dec2024 10:58:33.388] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Sturdy Stone...
+[02Dec2024 10:58:33.389] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Thatch...
+[02Dec2024 10:58:33.390] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Tiny Potato...
+[02Dec2024 10:58:33.391] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Torch Arrow...
+[02Dec2024 10:58:33.392] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Toretoise...
+[02Dec2024 10:58:33.392] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Totem Of Holding...
+[02Dec2024 10:58:33.393] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Trowel...
+[02Dec2024 10:58:33.394] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Usage Ticker...
+[02Dec2024 10:58:33.394] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Uses For Curses...
+[02Dec2024 10:58:33.394] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Utility Recipes...
+[02Dec2024 10:58:33.395] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Animal Textures...
+[02Dec2024 10:58:33.395] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Bookshelves...
+[02Dec2024 10:58:33.395] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Chests...
+[02Dec2024 10:58:33.406] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Furnaces...
+[02Dec2024 10:58:33.412] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Ladders...
+[02Dec2024 10:58:33.412] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Selector...
+[02Dec2024 10:58:33.414] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Vertical Planks...
+[02Dec2024 10:58:33.415] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Vertical Slabs...
+[02Dec2024 10:58:33.426] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Vexes Die With Their Masters...
+[02Dec2024 10:58:33.426] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Villager Rerolling Rework...
+[02Dec2024 10:58:33.428] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Villagers Follow Emeralds...
+[02Dec2024 10:58:33.429] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Wooden Posts...
+[02Dec2024 10:58:33.430] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Wool Shuts Up Minecarts...
+[02Dec2024 10:58:33.430] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Wraith...
+[02Dec2024 10:58:33.431] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Zombie Villagers On Normal...
+[02Dec2024 10:58:33.432] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Stone Variants...
+[02Dec2024 10:58:33.432] [modloading-worker-0/INFO] [quark-zeta/]: Constructed 164 modules.
+[02Dec2024 10:58:33.466] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\luka\AppData\Roaming\PrismLauncher\instances\eve-pack\.minecraft\config\quark-common.toml is not correct. Correcting
+[02Dec2024 10:58:33.700] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded 0/0 KubeJS startup scripts in 0.476 s with 0 errors and 0 warnings
+[02Dec2024 10:58:33.771] [modloading-worker-0/INFO] [KubeJS Client/]: example.js#5: Hello, World! (Loaded client scripts)
+[02Dec2024 10:58:33.775] [modloading-worker-0/INFO] [KubeJS Client/]: Loaded script client_scripts:example.js in 0.036 s
+[02Dec2024 10:58:33.776] [modloading-worker-0/INFO] [KubeJS Client/]: Loaded 1/1 KubeJS client scripts in 0.05 s with 0 errors and 0 warnings
+[02Dec2024 10:58:33.786] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id kubejs:send_data_from_client
+[02Dec2024 10:58:33.787] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id kubejs:send_data_from_server
+[02Dec2024 10:58:33.787] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id kubejs:paint
+[02Dec2024 10:58:33.787] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id kubejs:add_stage
+[02Dec2024 10:58:33.788] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id kubejs:remove_stage
+[02Dec2024 10:58:33.788] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id kubejs:sync_stages
+[02Dec2024 10:58:33.789] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id kubejs:first_click
+[02Dec2024 10:58:33.789] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id kubejs:toast
+[02Dec2024 10:58:33.789] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id kubejs:reload_startup_scripts
+[02Dec2024 10:58:33.790] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id kubejs:display_server_errors
+[02Dec2024 10:58:33.790] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id kubejs:display_client_errors
+[02Dec2024 10:58:33.796] [Render thread/INFO] [GregTechCEu/]: GTCEu common proxy init!
+[02Dec2024 10:58:33.828] [Render thread/INFO] [GregTechCEu/]: Registering material registries
+[02Dec2024 10:58:33.829] [Render thread/INFO] [GregTechCEu/]: Registering GTCEu Materials
+[02Dec2024 10:58:33.921] [Render thread/INFO] [GregTechCEu/]: Registering addon Materials
+[02Dec2024 10:58:33.992] [Render thread/WARN] [GregTechCEu/]: FluidStorageKey{gtceu:liquid} already has an associated fluid for material gtceu:water
+[02Dec2024 10:58:34.035] [Render thread/WARN] [GregTechCEu/]: FluidStorageKey{gtceu:liquid} already has an associated fluid for material gtceu:lava
+[02Dec2024 10:58:34.809] [Render thread/INFO] [GregTechCEu/]: Registering KeyBinds
+[02Dec2024 10:58:34.809] [Render thread/WARN] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Mod 'gtceu' took 1.014 s to run a deferred task.
+[02Dec2024 10:58:37.661] [Render thread/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ae2wtlib:cycle_terminal
+[02Dec2024 10:58:38.409] [Render thread/INFO] [quark/]: Registering model layer quark:crab#main
+[02Dec2024 10:58:38.409] [Render thread/INFO] [quark/]: Registering model layer quark:shiba#main
+[02Dec2024 10:58:38.409] [Render thread/INFO] [quark/]: Registering model layer quark:quark_boat_chest#main
+[02Dec2024 10:58:38.409] [Render thread/INFO] [quark/]: Registering model layer quark:wraith#main
+[02Dec2024 10:58:38.409] [Render thread/INFO] [quark/]: Registering model layer quark:forgotten_hat#main
+[02Dec2024 10:58:38.409] [Render thread/INFO] [quark/]: Registering model layer quark:stoneling#main
+[02Dec2024 10:58:38.409] [Render thread/INFO] [quark/]: Registering model layer quark:toretoise#main
+[02Dec2024 10:58:38.409] [Render thread/INFO] [quark/]: Registering model layer quark:quark_boat#main
+[02Dec2024 10:58:38.409] [Render thread/INFO] [quark/]: Registering model layer quark:foxhound#main
+[02Dec2024 10:58:38.409] [Render thread/INFO] [quark/]: Registering model layer quark:backpack#main
+[02Dec2024 10:58:38.577] [Render thread/INFO] [net.minecraft.client.Minecraft/]: [FANCYMENU] Registering resource reload listener..
+[02Dec2024 10:58:38.616] [Render thread/INFO] [de.keksuccino.fancymenu.customization.ScreenCustomization/]: [FANCYMENU] Initializing screen customization engine! Addons should NOT REGISTER TO REGISTRIES anymore now!
+[02Dec2024 10:58:38.802] [Render thread/INFO] [de.keksuccino.fancymenu.customization.layer.ScreenCustomizationLayerHandler/]: [FANCYMENU] Minecraft resource reload: STARTING
+[02Dec2024 10:58:38.804] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, gtceu:dynamic_assets, KubeJS Resource Pack [assets], ldlib
+[02Dec2024 10:58:38.846] [modloading-worker-0/INFO] [zeta/]: 'zeta' is enabling Zeta's piston structure resolver.
+[02Dec2024 10:58:38.871] [Worker-Main-3/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
+[02Dec2024 10:58:38.912] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelanchors] Starting version check at https://assets.melanx.de/updates/travel-anchors.json
+[02Dec2024 10:58:38.917] [Worker-Main-4/INFO] [de.castcrafter.travelanchors.TravelAnchors/]: Loading TravelAnchors
+[02Dec2024 10:58:38.926] [Worker-Main-6/INFO] [thetadev.constructionwand.ConstructionWand/]: ConstructionWand says hello - may the odds be ever in your favor.
+[02Dec2024 10:58:38.969] [Worker-Main-9/INFO] [FTB Library/]: Setting game stages provider implementation to: KubeJS Stages
+[02Dec2024 10:58:38.969] [Worker-Main-9/INFO] [FTB XMod Compat/]: Chose [KubeJS Stages] as the active game stages implementation
+[02Dec2024 10:58:38.971] [Worker-Main-9/INFO] [FTB XMod Compat/]: Chose [FALLBACK] as the active permissions implementation
+[02Dec2024 10:58:38.973] [Worker-Main-9/INFO] [FTB XMod Compat/]: [FTB Quests] recipe helper provider is [JEI]
+[02Dec2024 10:58:38.976] [Worker-Main-9/INFO] [FTB XMod Compat/]: [FTB Quests] Enabled FTB Filter System integration
+[02Dec2024 10:58:39.103] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelanchors] Found status: UP_TO_DATE Current: 1.20.1-5.0.1 Target: null
+[02Dec2024 10:58:39.105] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [libx] Starting version check at https://assets.melanx.de/updates/libx.json
+[02Dec2024 10:58:39.140] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [libx] Found status: UP_TO_DATE Current: 1.20.1-5.0.12 Target: null
+[02Dec2024 10:58:39.141] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[02Dec2024 10:58:39.228] [Render thread/INFO] [GregTechCEu/]: GregTech Model loading took 381ms
+[02Dec2024 10:58:39.262] [Render thread/INFO] [de.keksuccino.fancymenu.FancyMenu/]: [FANCYMENU] Starting late client initialization phase..
+[02Dec2024 10:58:39.263] [Render thread/ERROR] [de.keksuccino.fancymenu.util.window.WindowHandler/]: [FANCYMENU] Unable to set custom window icons! 16x16 icon or 32x32 icon not found!
+[02Dec2024 10:58:39.268] [Render thread/INFO] [KubeJS Client/]: Client resource reload complete!
+[02Dec2024 10:58:39.285] [Render thread/ERROR] [de.keksuccino.fancymenu.util.window.WindowHandler/]: [FANCYMENU] Unable to set custom window icons! 16x16 icon or 32x32 icon not found!
+[02Dec2024 10:58:39.335] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.3.0 Target: null
+[02Dec2024 10:58:39.335] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [configuration] Starting version check at https://raw.githubusercontent.com/Toma1O6/UpdateSchemas/master/configuration-forge.json
+[02Dec2024 10:58:39.465] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [configuration] Found status: OUTDATED Current: 2.2.0 Target: 2.2.1
+[02Dec2024 10:58:39.465] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Starting version check at https://api.modrinth.com/updates/flywheel/forge_updates.json
+[02Dec2024 10:58:39.523] [Worker-Main-5/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Client-side libs ready to use!
+[02Dec2024 10:58:39.583] [Worker-Main-4/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ae2wtlib:update_wut
+[02Dec2024 10:58:39.584] [Worker-Main-4/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ae2wtlib:update_restock
+[02Dec2024 10:58:39.584] [Worker-Main-4/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ae2wtlib:restock_amounts
+[02Dec2024 10:58:39.690] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Found status: BETA Current: 0.6.10-7 Target: null
+[02Dec2024 10:58:43.845] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model gtceu:invar_lighter#inventory:
+    minecraft:textures/atlas/blocks.png:gtceu:items/invar_lighter
+[02Dec2024 10:58:43.845] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model gtceu:platinum_lighter#inventory:
+    minecraft:textures/atlas/blocks.png:gtceu:items/platinum_lighter
+[02Dec2024 10:58:45.598] [Render thread/INFO] [com.jozufozu.flywheel.backend.Backend/]: Loaded all shader sources.
+[02Dec2024 10:58:45.722] [Worker-Main-9/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[02Dec2024 10:58:45.743] [Worker-Main-9/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[02Dec2024 10:58:45.745] [Worker-Main-9/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[02Dec2024 10:58:45.748] [Worker-Main-9/INFO] [Jade/]: Start loading plugin at appeng.integration.modules.jade.JadeModule
+[02Dec2024 10:58:45.760] [Worker-Main-9/INFO] [Jade/]: Start loading plugin at com.glodblock.github.extendedae.xmod.jade.JadePlugin
+[02Dec2024 10:58:45.761] [Worker-Main-9/INFO] [Jade/]: Start loading plugin at com.gregtechceu.gtceu.integration.jade.GTJadePlugin
+[02Dec2024 10:58:45.784] [Worker-Main-9/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.mcjty_lib.McjtyLibPlugin
+[02Dec2024 10:58:45.785] [Worker-Main-9/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.general.GeneralPlugin
+[02Dec2024 10:58:49.285] [Render thread/INFO] [de.keksuccino.fancymenu.customization.layer.ScreenCustomizationLayerHandler/]: [FANCYMENU] ScreenCustomizationLayer registered: pause_screen
+[02Dec2024 10:58:49.657] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[02Dec2024 10:58:49.657] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[02Dec2024 10:58:49.676] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Headphones (High Definition Audio Device)
+[02Dec2024 10:58:49.677] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[02Dec2024 10:58:49.677] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/]: [FANCYMENU] Reloading AudioResourceHandler after Minecraft SoundEngine reload..
+[02Dec2024 10:58:49.763] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x2048x4 minecraft:textures/atlas/blocks.png-atlas
+[02Dec2024 10:58:49.776] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/signs.png-atlas
+[02Dec2024 10:58:49.784] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[02Dec2024 10:58:49.784] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[02Dec2024 10:58:49.785] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[02Dec2024 10:58:49.786] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/chest.png-atlas
+[02Dec2024 10:58:49.788] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[02Dec2024 10:58:49.788] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[02Dec2024 10:58:49.789] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[02Dec2024 10:58:49.863] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[02Dec2024 10:58:49.898] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[02Dec2024 10:58:49.899] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[02Dec2024 10:58:49.899] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[02Dec2024 10:58:49.901] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 jei:textures/atlas/gui.png-atlas
+[02Dec2024 10:58:49.907] [Render thread/INFO] [de.keksuccino.fancymenu.util.resource.ResourceHandlers/]: [FANCYMENU] Reloading resources..
+[02Dec2024 10:58:49.909] [Render thread/INFO] [de.keksuccino.fancymenu.util.resource.preload.ResourcePreLoader/]: [FANCYMENU] Pre-loading resources..
+[02Dec2024 10:58:49.911] [Render thread/INFO] [de.keksuccino.fancymenu.customization.layer.ScreenCustomizationLayerHandler/]: [FANCYMENU] Minecraft resource reload: FINISHED
+[02Dec2024 10:58:49.917] [Render thread/INFO] [de.keksuccino.fancymenu.customization.layer.ScreenCustomizationLayerHandler/]: [FANCYMENU] ScreenCustomizationLayer registered: title_screen
+[02Dec2024 10:58:52.543] [Render thread/INFO] [de.keksuccino.fancymenu.customization.layer.ScreenCustomizationLayerHandler/]: [FANCYMENU] ScreenCustomizationLayer registered: select_world_screen
+[02Dec2024 10:58:54.042] [Render thread/INFO] [de.keksuccino.fancymenu.customization.layer.ScreenCustomizationLayerHandler/]: [FANCYMENU] ScreenCustomizationLayer registered: generic_dirt_message_screen
+[02Dec2024 10:58:54.936] [Render thread/INFO] [GregTechCEu/]: Registering dungeon loot...
+[02Dec2024 10:58:54.941] [Render thread/INFO] [GregTechCEu/]: GregTech Data loading took 884ms
+[02Dec2024 10:58:54.956] [Render thread/INFO] [net.minecraft.server.MinecraftServer/]: Found new data pack gtceu:dynamic_data, loading it automatically
+[02Dec2024 10:58:55.001] [Render thread/INFO] [KubeJS Server/]: example.js#5: Hello, World! (Loaded server scripts)
+[02Dec2024 10:58:55.002] [Render thread/INFO] [KubeJS Server/]: Loaded script server_scripts:example.js in 0.001 s
+[02Dec2024 10:58:55.002] [Render thread/INFO] [KubeJS Server/]: Loaded 1/1 KubeJS server scripts in 0.009 s with 0 errors and 0 warnings
+[02Dec2024 10:58:55.002] [Render thread/INFO] [KubeJS Server/]: Scripts loaded
+[02Dec2024 10:58:56.016] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:expatternprovider:blocks/ex_emc_interface
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'expatternprovider:ex_emc_interface'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[client-1.20.1-20230612.114412-srg.jar%23248!/:?]
+	at java.util.Optional.orElseThrow(Unknown Source) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[client-1.20.1-20230612.114412-srg.jar%23248!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[client-1.20.1-20230612.114412-srg.jar%23248!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[client-1.20.1-20230612.114412-srg.jar%23248!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[client-1.20.1-20230612.114412-srg.jar%23248!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[client-1.20.1-20230612.114412-srg.jar%23248!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[client-1.20.1-20230612.114412-srg.jar%23248!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[client-1.20.1-20230612.114412-srg.jar%23248!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[client-1.20.1-20230612.114412-srg.jar%23248!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[client-1.20.1-20230612.114412-srg.jar%23248!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23100!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%23100!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%23100!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%23100!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23100!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%23100!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%23100!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[client-1.20.1-20230612.114412-srg.jar%23248!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[client-1.20.1-20230612.114412-srg.jar%23248!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[client-1.20.1-20230612.114412-srg.jar%23248!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[client-1.20.1-20230612.114412-srg.jar%23248!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23100!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%23100!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%23100!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%23100!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23100!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%23100!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%23100!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[client-1.20.1-20230612.114412-srg.jar%23248!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[client-1.20.1-20230612.114412-srg.jar%23248!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[client-1.20.1-20230612.114412-srg.jar%23248!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[client-1.20.1-20230612.114412-srg.jar%23248!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23100!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%23100!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23100!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%23100!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.3.0-universal.jar%23253!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.3.0-universal.jar%23253!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[client-1.20.1-20230612.114412-srg.jar%23248!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[client-1.20.1-20230612.114412-srg.jar%23248!/:?]
+	at java.util.HashMap.forEach(Unknown Source) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[client-1.20.1-20230612.114412-srg.jar%23248!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(Unknown Source) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(Unknown Source) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(Unknown Source) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) ~[?:?]
+[02Dec2024 10:58:56.305] [Render thread/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[02Dec2024 10:58:56.325] [Render thread/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[02Dec2024 10:58:56.330] [Render thread/WARN] [quark-zeta/]: Non-existent flag granite being used
+[02Dec2024 10:58:56.332] [Render thread/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[02Dec2024 10:58:56.342] [Render thread/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[02Dec2024 10:58:56.368] [Render thread/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[02Dec2024 10:58:56.432] [Render thread/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[02Dec2024 10:58:56.449] [Render thread/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[02Dec2024 10:58:56.458] [Render thread/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[02Dec2024 10:58:56.488] [Render thread/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[02Dec2024 10:58:56.502] [Render thread/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[02Dec2024 10:58:56.503] [Render thread/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[02Dec2024 10:58:56.531] [Render thread/WARN] [quark-zeta/]: Non-existent flag granite being used
+[02Dec2024 10:58:56.613] [Render thread/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[02Dec2024 10:58:56.628] [Render thread/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[02Dec2024 10:58:56.632] [Render thread/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[02Dec2024 10:58:56.647] [Render thread/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[02Dec2024 10:58:56.658] [Render thread/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[02Dec2024 10:58:56.667] [Render thread/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[02Dec2024 10:58:56.667] [Render thread/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[02Dec2024 10:58:56.683] [Render thread/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[02Dec2024 10:58:56.687] [Render thread/WARN] [quark-zeta/]: Non-existent flag granite being used
+[02Dec2024 10:58:56.696] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe expatternprovider:ex_emc_interface_upgrade as it's serializer returned null
+[02Dec2024 10:58:56.697] [Render thread/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[02Dec2024 10:58:56.698] [Render thread/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[02Dec2024 10:58:56.714] [Render thread/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[02Dec2024 10:58:56.718] [Render thread/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[02Dec2024 10:58:56.729] [Render thread/WARN] [quark-zeta/]: Non-existent flag granite being used
+[02Dec2024 10:58:56.748] [Render thread/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[02Dec2024 10:58:56.751] [Render thread/WARN] [quark-zeta/]: Non-existent flag granite being used
+[02Dec2024 10:58:56.755] [Render thread/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[02Dec2024 10:58:56.757] [Render thread/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[02Dec2024 10:58:56.787] [Render thread/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[02Dec2024 10:58:56.793] [Render thread/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[02Dec2024 10:58:56.798] [Render thread/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[02Dec2024 10:58:56.812] [Render thread/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[02Dec2024 10:58:56.830] [Render thread/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[02Dec2024 10:58:56.833] [Render thread/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[02Dec2024 10:58:56.833] [Render thread/WARN] [quark-zeta/]: Non-existent flag granite being used
+[02Dec2024 10:58:56.859] [Render thread/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[02Dec2024 10:58:56.864] [Render thread/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[02Dec2024 10:58:56.866] [Render thread/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[02Dec2024 10:58:56.866] [Render thread/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[02Dec2024 10:58:56.866] [Render thread/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[02Dec2024 10:58:56.870] [Render thread/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[02Dec2024 10:58:56.878] [Render thread/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[02Dec2024 10:58:56.878] [Render thread/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[02Dec2024 10:58:56.880] [Render thread/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[02Dec2024 10:58:56.880] [Render thread/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[02Dec2024 10:58:56.883] [Render thread/WARN] [quark-zeta/]: Non-existent flag granite being used
+[02Dec2024 10:58:56.899] [Render thread/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[02Dec2024 10:58:56.903] [Render thread/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[02Dec2024 10:58:56.908] [Render thread/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[02Dec2024 10:58:56.913] [Render thread/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[02Dec2024 10:58:56.916] [Render thread/WARN] [quark-zeta/]: Non-existent flag granite being used
+[02Dec2024 10:58:56.928] [Render thread/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[02Dec2024 10:58:56.938] [Render thread/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[02Dec2024 10:58:56.940] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe laserio:my_book_recipe_shapeless
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'patchouli:shapeless_book_recipe'
+	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[client-1.20.1-20230612.114412-srg.jar%23248!/:?]
+	at java.util.Optional.orElseThrow(Unknown Source) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[client-1.20.1-20230612.114412-srg.jar%23248!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[client-1.20.1-20230612.114412-srg.jar%23248!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[client-1.20.1-20230612.114412-srg.jar%23248!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[client-1.20.1-20230612.114412-srg.jar%23248!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[client-1.20.1-20230612.114412-srg.jar%23248!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[client-1.20.1-20230612.114412-srg.jar%23248!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[client-1.20.1-20230612.114412-srg.jar%23248!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[client-1.20.1-20230612.114412-srg.jar%23248!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[client-1.20.1-20230612.114412-srg.jar%23248!/:?]
+	at net.minecraft.client.gui.screens.worldselection.CreateWorldScreen.m_232896_(CreateWorldScreen.java:131) ~[client-1.20.1-20230612.114412-srg.jar%23248!/:?]
+	at net.minecraft.client.gui.screens.worldselection.SelectWorldScreen.m_279861_(SelectWorldScreen.java:60) ~[client-1.20.1-20230612.114412-srg.jar%23248!/:?]
+	at net.minecraft.client.gui.components.Button.m_5691_(Button.java:38) ~[client-1.20.1-20230612.114412-srg.jar%23248!/:?]
+	at net.minecraft.client.gui.components.AbstractButton.m_5716_(AbstractButton.java:55) ~[client-1.20.1-20230612.114412-srg.jar%23248!/:?]
+	at net.minecraft.client.gui.components.AbstractWidget.m_6375_(AbstractWidget.java:175) ~[client-1.20.1-20230612.114412-srg.jar%23248!/:?]
+	at net.minecraft.client.gui.components.events.ContainerEventHandler.m_6375_(ContainerEventHandler.java:38) ~[client-1.20.1-20230612.114412-srg.jar%23248!/:?]
+	at net.minecraft.client.MouseHandler.m_168084_(MouseHandler.java:92) ~[client-1.20.1-20230612.114412-srg.jar%23248!/:?]
+	at net.minecraft.client.gui.screens.Screen.m_96579_(Screen.java:437) ~[client-1.20.1-20230612.114412-srg.jar%23248!/:?]
+	at net.minecraft.client.MouseHandler.m_91530_(MouseHandler.java:89) ~[client-1.20.1-20230612.114412-srg.jar%23248!/:?]
+	at net.minecraft.client.MouseHandler.m_168091_(MouseHandler.java:189) ~[client-1.20.1-20230612.114412-srg.jar%23248!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:102) ~[client-1.20.1-20230612.114412-srg.jar%23248!/:?]
+	at net.minecraft.client.MouseHandler.m_91565_(MouseHandler.java:188) ~[client-1.20.1-20230612.114412-srg.jar%23248!/:?]
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.1.jar%2386!/:build 7]
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar%2398!/:build 7]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) ~[lwjgl-glfw-3.3.1.jar%2386!/:build 7]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:237) ~[client-1.20.1-20230612.114412-srg.jar%23248!/:?]
+	at net.minecraft.client.Minecraft.m_91383_(Minecraft.java:1173) ~[client-1.20.1-20230612.114412-srg.jar%23248!/:?]
+	at net.minecraft.client.Minecraft.m_91374_(Minecraft.java:718) ~[client-1.20.1-20230612.114412-srg.jar%23248!/:?]
+	at net.minecraft.client.main.Main.main(Main.java:218) ~[minecraft-1.20.1-client.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:?]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.0.jar:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:99) ~[fmlloader-1.20.1-47.3.0.jar:?]
+	at net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.lambda$makeService$0(CommonClientLaunchHandler.java:25) ~[fmlloader-1.20.1-47.3.0.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:?]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:?]
+	at io.github.zekerzhayard.forgewrapper.installer.Main.main(Main.java:67) ~[?:?]
+	at org.prismlauncher.launcher.impl.StandardLauncher.launch(StandardLauncher.java:87) ~[?:?]
+	at org.prismlauncher.EntryPoint.listen(EntryPoint.java:130) ~[?:?]
+	at org.prismlauncher.EntryPoint.main(EntryPoint.java:70) ~[?:?]
+[02Dec2024 10:58:56.950] [Render thread/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[02Dec2024 10:58:56.952] [Render thread/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[02Dec2024 10:58:56.971] [Render thread/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[02Dec2024 10:58:56.975] [Render thread/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[02Dec2024 10:58:56.977] [Render thread/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[02Dec2024 10:58:56.981] [Render thread/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[02Dec2024 10:58:56.984] [Render thread/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[02Dec2024 10:58:56.986] [Render thread/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[02Dec2024 10:58:56.988] [Render thread/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[02Dec2024 10:58:56.988] [Render thread/WARN] [quark-zeta/]: Non-existent flag granite being used
+[02Dec2024 10:58:56.990] [Render thread/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[02Dec2024 10:58:56.992] [Render thread/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[02Dec2024 10:58:56.992] [Render thread/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[02Dec2024 10:58:56.997] [Render thread/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[02Dec2024 10:58:56.997] [Render thread/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[02Dec2024 10:58:57.001] [Render thread/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[02Dec2024 10:58:57.005] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe expatternprovider:ex_emc_interface_part as it's serializer returned null
+[02Dec2024 10:58:57.011] [Render thread/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[02Dec2024 10:58:57.014] [Render thread/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[02Dec2024 10:58:57.020] [Render thread/WARN] [quark-zeta/]: Non-existent flag granite being used
+[02Dec2024 10:58:57.026] [Render thread/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[02Dec2024 10:58:57.034] [Render thread/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[02Dec2024 10:58:57.043] [Render thread/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[02Dec2024 10:58:57.050] [Render thread/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[02Dec2024 10:58:57.050] [Render thread/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[02Dec2024 10:58:57.053] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe expatternprovider:ex_emc_import_bus as it's serializer returned null
+[02Dec2024 10:58:57.055] [Render thread/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[02Dec2024 10:58:57.060] [Render thread/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[02Dec2024 10:58:57.061] [Render thread/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[02Dec2024 10:58:57.064] [Render thread/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[02Dec2024 10:58:57.068] [Render thread/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[02Dec2024 10:58:57.077] [Render thread/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[02Dec2024 10:58:57.084] [Render thread/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[02Dec2024 10:58:57.093] [Render thread/WARN] [quark-zeta/]: Non-existent flag granite being used
+[02Dec2024 10:58:57.097] [Render thread/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[02Dec2024 10:58:57.108] [Render thread/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[02Dec2024 10:58:57.115] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe expatternprovider:ex_emc_interface as it's serializer returned null
+[02Dec2024 10:58:57.120] [Render thread/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[02Dec2024 10:58:57.122] [Render thread/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[02Dec2024 10:58:57.124] [Render thread/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[02Dec2024 10:58:57.132] [Render thread/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[02Dec2024 10:58:57.137] [Render thread/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[02Dec2024 10:58:57.143] [Render thread/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[02Dec2024 10:58:57.144] [Render thread/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[02Dec2024 10:58:57.151] [Render thread/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[02Dec2024 10:58:57.159] [Render thread/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[02Dec2024 10:58:57.167] [Render thread/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[02Dec2024 10:58:57.173] [Render thread/WARN] [quark-zeta/]: Non-existent flag granite being used
+[02Dec2024 10:58:57.197] [Render thread/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[02Dec2024 10:58:57.201] [Render thread/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[02Dec2024 10:58:57.203] [Render thread/WARN] [quark-zeta/]: Non-existent flag granite being used
+[02Dec2024 10:58:57.203] [Render thread/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[02Dec2024 10:58:57.205] [Render thread/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[02Dec2024 10:58:57.207] [Render thread/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[02Dec2024 10:58:57.208] [Render thread/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[02Dec2024 10:58:57.208] [Render thread/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[02Dec2024 10:58:57.220] [Render thread/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[02Dec2024 10:58:57.220] [Render thread/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[02Dec2024 10:58:57.221] [Render thread/WARN] [quark-zeta/]: Non-existent flag granite being used
+[02Dec2024 10:58:57.221] [Render thread/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[02Dec2024 10:58:57.223] [Render thread/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[02Dec2024 10:58:57.227] [Render thread/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[02Dec2024 10:58:57.229] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe buildinggadgets2:my_book_recipe_shapeless
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'patchouli:shapeless_book_recipe'
+	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[client-1.20.1-20230612.114412-srg.jar%23248!/:?]
+	at java.util.Optional.orElseThrow(Unknown Source) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[client-1.20.1-20230612.114412-srg.jar%23248!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[client-1.20.1-20230612.114412-srg.jar%23248!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[client-1.20.1-20230612.114412-srg.jar%23248!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[client-1.20.1-20230612.114412-srg.jar%23248!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[client-1.20.1-20230612.114412-srg.jar%23248!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[client-1.20.1-20230612.114412-srg.jar%23248!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[client-1.20.1-20230612.114412-srg.jar%23248!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[client-1.20.1-20230612.114412-srg.jar%23248!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[client-1.20.1-20230612.114412-srg.jar%23248!/:?]
+	at net.minecraft.client.gui.screens.worldselection.CreateWorldScreen.m_232896_(CreateWorldScreen.java:131) ~[client-1.20.1-20230612.114412-srg.jar%23248!/:?]
+	at net.minecraft.client.gui.screens.worldselection.SelectWorldScreen.m_279861_(SelectWorldScreen.java:60) ~[client-1.20.1-20230612.114412-srg.jar%23248!/:?]
+	at net.minecraft.client.gui.components.Button.m_5691_(Button.java:38) ~[client-1.20.1-20230612.114412-srg.jar%23248!/:?]
+	at net.minecraft.client.gui.components.AbstractButton.m_5716_(AbstractButton.java:55) ~[client-1.20.1-20230612.114412-srg.jar%23248!/:?]
+	at net.minecraft.client.gui.components.AbstractWidget.m_6375_(AbstractWidget.java:175) ~[client-1.20.1-20230612.114412-srg.jar%23248!/:?]
+	at net.minecraft.client.gui.components.events.ContainerEventHandler.m_6375_(ContainerEventHandler.java:38) ~[client-1.20.1-20230612.114412-srg.jar%23248!/:?]
+	at net.minecraft.client.MouseHandler.m_168084_(MouseHandler.java:92) ~[client-1.20.1-20230612.114412-srg.jar%23248!/:?]
+	at net.minecraft.client.gui.screens.Screen.m_96579_(Screen.java:437) ~[client-1.20.1-20230612.114412-srg.jar%23248!/:?]
+	at net.minecraft.client.MouseHandler.m_91530_(MouseHandler.java:89) ~[client-1.20.1-20230612.114412-srg.jar%23248!/:?]
+	at net.minecraft.client.MouseHandler.m_168091_(MouseHandler.java:189) ~[client-1.20.1-20230612.114412-srg.jar%23248!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:102) ~[client-1.20.1-20230612.114412-srg.jar%23248!/:?]
+	at net.minecraft.client.MouseHandler.m_91565_(MouseHandler.java:188) ~[client-1.20.1-20230612.114412-srg.jar%23248!/:?]
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.1.jar%2386!/:build 7]
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar%2398!/:build 7]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) ~[lwjgl-glfw-3.3.1.jar%2386!/:build 7]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:237) ~[client-1.20.1-20230612.114412-srg.jar%23248!/:?]
+	at net.minecraft.client.Minecraft.m_91383_(Minecraft.java:1173) ~[client-1.20.1-20230612.114412-srg.jar%23248!/:?]
+	at net.minecraft.client.Minecraft.m_91374_(Minecraft.java:718) ~[client-1.20.1-20230612.114412-srg.jar%23248!/:?]
+	at net.minecraft.client.main.Main.main(Main.java:218) ~[minecraft-1.20.1-client.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:?]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.0.jar:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:99) ~[fmlloader-1.20.1-47.3.0.jar:?]
+	at net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.lambda$makeService$0(CommonClientLaunchHandler.java:25) ~[fmlloader-1.20.1-47.3.0.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:?]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:?]
+	at io.github.zekerzhayard.forgewrapper.installer.Main.main(Main.java:67) ~[?:?]
+	at org.prismlauncher.launcher.impl.StandardLauncher.launch(StandardLauncher.java:87) ~[?:?]
+	at org.prismlauncher.EntryPoint.listen(EntryPoint.java:130) ~[?:?]
+	at org.prismlauncher.EntryPoint.main(EntryPoint.java:70) ~[?:?]
+[02Dec2024 10:58:57.234] [Render thread/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[02Dec2024 10:58:57.236] [Render thread/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[02Dec2024 10:58:57.238] [Render thread/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[02Dec2024 10:58:57.239] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe expatternprovider:ex_emc_interface_alt as it's serializer returned null
+[02Dec2024 10:58:57.240] [Render thread/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[02Dec2024 10:58:57.242] [Render thread/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[02Dec2024 10:58:57.254] [Render thread/WARN] [quark-zeta/]: Non-existent flag granite being used
+[02Dec2024 10:58:57.265] [Render thread/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[02Dec2024 10:58:57.269] [Render thread/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[02Dec2024 10:58:57.279] [Render thread/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[02Dec2024 10:58:57.280] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe expatternprovider:ex_emc_import_bus_upgrade as it's serializer returned null
+[02Dec2024 10:58:57.282] [Render thread/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[02Dec2024 10:58:57.282] [Render thread/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[02Dec2024 10:58:57.284] [Render thread/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[02Dec2024 10:58:57.288] [Render thread/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[02Dec2024 10:58:57.296] [Render thread/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[02Dec2024 10:58:57.305] [Render thread/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[02Dec2024 10:58:57.306] [Render thread/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[02Dec2024 10:58:57.307] [Render thread/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[02Dec2024 10:58:57.311] [Render thread/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[02Dec2024 10:58:57.321] [Render thread/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[02Dec2024 10:58:57.330] [Render thread/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[02Dec2024 10:58:57.342] [Render thread/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[02Dec2024 10:58:57.351] [Render thread/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[02Dec2024 10:58:57.356] [Render thread/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[02Dec2024 10:58:57.360] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe expatternprovider:ex_emc_export_bus as it's serializer returned null
+[02Dec2024 10:58:57.366] [Render thread/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[02Dec2024 10:58:57.368] [Render thread/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[02Dec2024 10:58:57.368] [Render thread/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[02Dec2024 10:58:57.370] [Render thread/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[02Dec2024 10:58:57.374] [Render thread/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[02Dec2024 10:58:57.385] [Render thread/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[02Dec2024 10:58:57.405] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 71 recipes
+[02Dec2024 10:58:57.699] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1851 advancements
+[02Dec2024 10:58:57.720] [Render thread/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio slots
+[02Dec2024 10:58:57.735] [Render thread/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[02Dec2024 10:58:57.767] [Render thread/INFO] [quark-zeta/]: Modified advancement minecraft:husbandry/wax_on with 3 patches
+[02Dec2024 10:58:57.768] [Render thread/INFO] [quark-zeta/]: Modified advancement minecraft:husbandry/bred_all_animals with 2 patches
+[02Dec2024 10:58:57.768] [Render thread/INFO] [quark-zeta/]: Modified advancement minecraft:husbandry/balanced_diet with 2 patches
+[02Dec2024 10:58:57.768] [Render thread/INFO] [quark-zeta/]: Modified advancement minecraft:nether/all_effects with 1 patches
+[02Dec2024 10:58:57.768] [Render thread/INFO] [quark-zeta/]: Modified advancement minecraft:husbandry/wax_off with 3 patches
+[02Dec2024 10:58:57.768] [Render thread/INFO] [quark-zeta/]: Modified advancement minecraft:adventure/adventuring_time with 1 patches
+[02Dec2024 10:58:57.768] [Render thread/INFO] [quark-zeta/]: Modified advancement minecraft:nether/all_potions with 1 patches
+[02Dec2024 10:59:00.398] [Render thread/INFO] [EMI/]: [EMI] Recipes synchronized, waiting for tags to reload EMI...
+[02Dec2024 10:59:00.404] [Render thread/INFO] [de.keksuccino.fancymenu.customization.layer.ScreenCustomizationLayerHandler/]: [FANCYMENU] ScreenCustomizationLayer registered: create_world_screen
+[02Dec2024 10:59:01.426] [Render thread/INFO] [GregTechCEu/]: Registering dungeon loot...
+[02Dec2024 10:59:01.426] [Render thread/INFO] [GregTechCEu/]: GregTech Data loading took 429ms
+[02Dec2024 10:59:01.467] [Render thread/INFO] [KubeJS Server/]: example.js#5: Hello, World! (Loaded server scripts)
+[02Dec2024 10:59:01.467] [Render thread/INFO] [KubeJS Server/]: Loaded script server_scripts:example.js in 0.0 s
+[02Dec2024 10:59:01.468] [Render thread/INFO] [KubeJS Server/]: Loaded 1/1 KubeJS server scripts in 0.008 s with 0 errors and 0 warnings
+[02Dec2024 10:59:01.468] [Render thread/INFO] [KubeJS Server/]: Scripts loaded
+[02Dec2024 10:59:01.468] [Render thread/WARN] [KubeJS Server/]: Due to the way Minecraft resource loading works, KubeJS' server.log may not contain everything that happened in your server scripts on initial world creation.
+[02Dec2024 10:59:01.468] [Render thread/WARN] [KubeJS Server/]: You can still see the full log (including past reloads) in your latest.log file.
+[02Dec2024 10:59:01.468] [Render thread/INFO] [EMI/]: [EMI] Disconnecting from server, EMI data cleared
+[02Dec2024 10:59:01.470] [Thread-12/INFO] [EMI/]: [EMI] Clearing data
+[02Dec2024 10:59:01.477] [Render thread/INFO] [FluxNetworks/]: Released client Flux Networks cache
+[02Dec2024 10:59:01.479] [Render thread/INFO] [de.keksuccino.fancymenu.customization.layer.ScreenCustomizationLayerHandler/]: [FANCYMENU] ScreenCustomizationLayer registered: progress_screen
+[02Dec2024 10:59:01.579] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.1
+[02Dec2024 10:59:01.579] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[02Dec2024 10:59:01.620] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\luka\AppData\Roaming\PrismLauncher\instances\eve-pack\.minecraft\saves\New World (2)\serverconfig\jei-server.toml is not correct. Correcting
+[02Dec2024 10:59:01.620] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode was corrected from null to its default, SimpleCommentedConfig:{}. 
+[02Dec2024 10:59:01.620] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode.enableCheatModeForOp was corrected from null to its default, true. 
+[02Dec2024 10:59:01.620] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode.enableCheatModeForCreative was corrected from null to its default, true. 
+[02Dec2024 10:59:01.620] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode.enableCheatModeForGive was corrected from null to its default, false. 
+[02Dec2024 10:59:01.622] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\luka\AppData\Roaming\PrismLauncher\instances\eve-pack\.minecraft\saves\New World (2)\serverconfig\mcjtylib-server.toml is not correct. Correcting
+[02Dec2024 10:59:01.622] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
+[02Dec2024 10:59:01.622] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.logging was corrected from null to its default, false. 
+[02Dec2024 10:59:01.622] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.manageOwnership was corrected from null to its default, true. 
+[02Dec2024 10:59:01.622] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.maxInfuse was corrected from null to its default, 256. 
+[02Dec2024 10:59:01.625] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\luka\AppData\Roaming\PrismLauncher\instances\eve-pack\.minecraft\saves\New World (2)\serverconfig\rftoolsbase-server.toml is not correct. Correcting
+[02Dec2024 10:59:01.625] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key infuser was corrected from null to its default, SimpleCommentedConfig:{}. 
+[02Dec2024 10:59:01.625] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key infuser.maxInfuse was corrected from null to its default, 256. 
+[02Dec2024 10:59:01.625] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key infuser.usePerTick was corrected from null to its default, 600. 
+[02Dec2024 10:59:01.625] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key infuser.infuserMaxRF was corrected from null to its default, 60000. 
+[02Dec2024 10:59:01.625] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key infuser.infuserRFPerTick was corrected from null to its default, 600. 
+[02Dec2024 10:59:01.628] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\luka\AppData\Roaming\PrismLauncher\instances\eve-pack\.minecraft\saves\New World (2)\serverconfig\xnet-server.toml is not correct. Correcting
+[02Dec2024 10:59:01.628] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
+[02Dec2024 10:59:01.628] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.unsidedBlocks was corrected from null to its default, [minecraft:chest, minecraft:trapped_chest, rftools:modular_storage, rftools:storage_scanner, rftools:pearl_injector]. 
+[02Dec2024 10:59:01.628] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.controllerMaxRF was corrected from null to its default, 100000. 
+[02Dec2024 10:59:01.628] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.controllerRfPerTick was corrected from null to its default, 1000. 
+[02Dec2024 10:59:01.628] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.wirelessRouterMaxRF was corrected from null to its default, 100000. 
+[02Dec2024 10:59:01.628] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.wirelessRouterRfPerTick was corrected from null to its default, 5000. 
+[02Dec2024 10:59:01.628] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.wireless1RfPerChannel was corrected from null to its default, 20. 
+[02Dec2024 10:59:01.628] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.wireless2RfPerChannel was corrected from null to its default, 50. 
+[02Dec2024 10:59:01.628] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.wirelessInfRfPerChannel was corrected from null to its default, 200. 
+[02Dec2024 10:59:01.628] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.maxRfConnector was corrected from null to its default, 50000. 
+[02Dec2024 10:59:01.628] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.maxRfAdvancedConnector was corrected from null to its default, 500000. 
+[02Dec2024 10:59:01.628] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.maxRfRateNormal was corrected from null to its default, 10000. 
+[02Dec2024 10:59:01.628] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.maxRfRateAdvanced was corrected from null to its default, 100000. 
+[02Dec2024 10:59:01.628] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.maxFluidRateNormal was corrected from null to its default, 1000. 
+[02Dec2024 10:59:01.629] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.maxFluidRateAdvanced was corrected from null to its default, 5000. 
+[02Dec2024 10:59:01.629] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.maxPublishedChannels was corrected from null to its default, 32. 
+[02Dec2024 10:59:01.629] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.controllerRFPerTick was corrected from null to its default, 0. 
+[02Dec2024 10:59:01.629] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.controllerChannelRFT was corrected from null to its default, 1. 
+[02Dec2024 10:59:01.629] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.controllerOperationRFT was corrected from null to its default, 2. 
+[02Dec2024 10:59:01.629] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.antennaTier1Range was corrected from null to its default, 100. 
+[02Dec2024 10:59:01.629] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.antennaTier2Range was corrected from null to its default, 500. 
+[02Dec2024 10:59:01.631] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\luka\AppData\Roaming\PrismLauncher\instances\eve-pack\.minecraft\saves\New World (2)\serverconfig\curios-server.toml is not correct. Correcting
+[02Dec2024 10:59:01.632] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key keepCurios was corrected from null to its default, DEFAULT. 
+[02Dec2024 10:59:01.633] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key menu was corrected from null to its default, SimpleCommentedConfig:{}. 
+[02Dec2024 10:59:01.633] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key menu.enableLegacyMenu was corrected from null to its default, false. 
+[02Dec2024 10:59:01.633] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key menu.experimental was corrected from null to its default, SimpleCommentedConfig:{}. 
+[02Dec2024 10:59:01.633] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key menu.experimental.minimumColumns was corrected from null to its default, 1. 
+[02Dec2024 10:59:01.633] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key menu.experimental.maxSlotsPerPage was corrected from null to its default, 48. 
+[02Dec2024 10:59:01.635] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\luka\AppData\Roaming\PrismLauncher\instances\eve-pack\.minecraft\saves\New World (2)\serverconfig\fluxnetworks-server.toml is not correct. Correcting
+[02Dec2024 10:59:01.635] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key networks was corrected from null to its default, SimpleCommentedConfig:{}. 
+[02Dec2024 10:59:01.635] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key networks.maximumPerPlayer was corrected from null to its default, 5. 
+[02Dec2024 10:59:01.635] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key networks.enableSuperAdmin was corrected from null to its default, true. 
+[02Dec2024 10:59:01.635] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key networks.superAdminRequiredPermission was corrected from null to its default, 1. 
+[02Dec2024 10:59:01.635] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
+[02Dec2024 10:59:01.636] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.enableFluxRecipe was corrected from null to its default, true. 
+[02Dec2024 10:59:01.636] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.enableChunkLoading was corrected from null to its default, true. 
+[02Dec2024 10:59:01.636] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blacklist was corrected from null to its default, SimpleCommentedConfig:{}. 
+[02Dec2024 10:59:01.636] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blacklist.blockBlacklistStrings was corrected from null to its default, [actuallyadditions:block_phantom_energyface]. 
+[02Dec2024 10:59:01.636] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blacklist.itemBlackListStrings was corrected from null to its default, []. 
+[02Dec2024 10:59:01.636] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key energy was corrected from null to its default, SimpleCommentedConfig:{}. 
+[02Dec2024 10:59:01.636] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key energy.defaultLimit was corrected from null to its default, 800000. 
+[02Dec2024 10:59:01.636] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key energy.basicCapacity was corrected from null to its default, 2000000. 
+[02Dec2024 10:59:01.637] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key energy.basicTransfer was corrected from null to its default, 20000. 
+[02Dec2024 10:59:01.637] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key energy.herculeanCapacity was corrected from null to its default, 16000000. 
+[02Dec2024 10:59:01.637] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key energy.herculeanTransfer was corrected from null to its default, 120000. 
+[02Dec2024 10:59:01.637] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key energy.gargantuanCapacity was corrected from null to its default, 128000000. 
+[02Dec2024 10:59:01.637] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key energy.gargantuanTransfer was corrected from null to its default, 720000. 
+[02Dec2024 10:59:01.637] [Server thread/INFO] [FluxNetworks/Energy]: Energy blacklist loaded: 1 block entries, 0 item entries
+[02Dec2024 10:59:01.639] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\luka\AppData\Roaming\PrismLauncher\instances\eve-pack\.minecraft\saves\New World (2)\serverconfig\tiab-server.toml is not correct. Correcting
+[02Dec2024 10:59:01.639] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Time In A Bottle was corrected from null to its default, SimpleCommentedConfig:{}. 
+[02Dec2024 10:59:01.639] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Time In A Bottle.Max Time Rate Power was corrected from null to its default, 8. 
+[02Dec2024 10:59:01.639] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Time In A Bottle.Each Use Duration was corrected from null to its default, 30. 
+[02Dec2024 10:59:01.639] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Time In A Bottle.Average Update Random Tick was corrected from null to its default, 1365. 
+[02Dec2024 10:59:01.639] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Time In A Bottle.Max Stored Time was corrected from null to its default, 622080000. 
+[02Dec2024 10:59:01.640] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Time In A Bottle.API Access was corrected from null to its default, []. 
+[02Dec2024 10:59:01.641] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\luka\AppData\Roaming\PrismLauncher\instances\eve-pack\.minecraft\saves\New World (2)\serverconfig\forge-server.toml is not correct. Correcting
+[02Dec2024 10:59:01.642] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
+[02Dec2024 10:59:01.642] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringBlockEntities was corrected from null to its default, false. 
+[02Dec2024 10:59:01.642] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
+[02Dec2024 10:59:01.642] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
+[02Dec2024 10:59:01.642] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1. 
+[02Dec2024 10:59:01.642] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05. 
+[02Dec2024 10:59:01.642] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.permissionHandler was corrected from null to its default, forge:default_handler. 
+[02Dec2024 10:59:01.642] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advertiseDedicatedServerToLan was corrected from null to its default, true. 
+[02Dec2024 10:59:01.644] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\luka\AppData\Roaming\PrismLauncher\instances\eve-pack\.minecraft\saves\New World (2)\serverconfig\constructionwand-server.toml is not correct. Correcting
+[02Dec2024 10:59:01.644] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key stone_wand was corrected from null to its default, SimpleCommentedConfig:{}. 
+[02Dec2024 10:59:01.644] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key stone_wand.durability was corrected from null to its default, 131. 
+[02Dec2024 10:59:01.644] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key stone_wand.limit was corrected from null to its default, 9. 
+[02Dec2024 10:59:01.645] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key stone_wand.angel was corrected from null to its default, 0. 
+[02Dec2024 10:59:01.645] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key stone_wand.destruction was corrected from null to its default, 0. 
+[02Dec2024 10:59:01.645] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key stone_wand.upgradeable was corrected from null to its default, false. 
+[02Dec2024 10:59:01.645] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key iron_wand was corrected from null to its default, SimpleCommentedConfig:{}. 
+[02Dec2024 10:59:01.645] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key iron_wand.durability was corrected from null to its default, 250. 
+[02Dec2024 10:59:01.645] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key iron_wand.limit was corrected from null to its default, 27. 
+[02Dec2024 10:59:01.645] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key iron_wand.angel was corrected from null to its default, 2. 
+[02Dec2024 10:59:01.645] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key iron_wand.destruction was corrected from null to its default, 9. 
+[02Dec2024 10:59:01.645] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key iron_wand.upgradeable was corrected from null to its default, true. 
+[02Dec2024 10:59:01.646] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key diamond_wand was corrected from null to its default, SimpleCommentedConfig:{}. 
+[02Dec2024 10:59:01.646] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key diamond_wand.durability was corrected from null to its default, 1561. 
+[02Dec2024 10:59:01.646] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key diamond_wand.limit was corrected from null to its default, 128. 
+[02Dec2024 10:59:01.646] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key diamond_wand.angel was corrected from null to its default, 8. 
+[02Dec2024 10:59:01.646] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key diamond_wand.destruction was corrected from null to its default, 25. 
+[02Dec2024 10:59:01.646] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key diamond_wand.upgradeable was corrected from null to its default, true. 
+[02Dec2024 10:59:01.647] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key infinity_wand was corrected from null to its default, SimpleCommentedConfig:{}. 
+[02Dec2024 10:59:01.647] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key infinity_wand.limit was corrected from null to its default, 1024. 
+[02Dec2024 10:59:01.647] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key infinity_wand.angel was corrected from null to its default, 16. 
+[02Dec2024 10:59:01.647] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key infinity_wand.destruction was corrected from null to its default, 81. 
+[02Dec2024 10:59:01.647] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key infinity_wand.upgradeable was corrected from null to its default, true. 
+[02Dec2024 10:59:01.647] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key misc was corrected from null to its default, SimpleCommentedConfig:{}. 
+[02Dec2024 10:59:01.647] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key misc.InfinityWandCreative was corrected from null to its default, 2048. 
+[02Dec2024 10:59:01.647] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key misc.MaxRange was corrected from null to its default, 100. 
+[02Dec2024 10:59:01.647] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key misc.UndoHistory was corrected from null to its default, 3. 
+[02Dec2024 10:59:01.647] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key misc.AngelFalling was corrected from null to its default, false. 
+[02Dec2024 10:59:01.647] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key misc.SimilarBlocks was corrected from null to its default, [minecraft:dirt;minecraft:grass_block;minecraft:coarse_dirt;minecraft:podzol;minecraft:mycelium;minecraft:farmland;minecraft:dirt_path;minecraft:rooted_dirt]. 
+[02Dec2024 10:59:01.648] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tileentity was corrected from null to its default, SimpleCommentedConfig:{}. 
+[02Dec2024 10:59:01.648] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tileentity.TEList was corrected from null to its default, [chiselsandbits]. 
+[02Dec2024 10:59:01.648] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tileentity.TEWhitelist was corrected from null to its default, false. 
+[02Dec2024 10:59:01.650] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\luka\AppData\Roaming\PrismLauncher\instances\eve-pack\.minecraft\saves\New World (2)\serverconfig\effortlessbuilding-server.toml is not correct. Correcting
+[02Dec2024 10:59:01.650] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Validation was corrected from null to its default, SimpleCommentedConfig:{}. 
+[02Dec2024 10:59:01.650] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Validation.allowInSurvival was corrected from null to its default, true. 
+[02Dec2024 10:59:01.650] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Validation.useWhitelist was corrected from null to its default, false. 
+[02Dec2024 10:59:01.650] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Validation.whitelist was corrected from null to its default, [Player1, Player2]. 
+[02Dec2024 10:59:01.650] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Validation.maxBlocksPlacedAtOnce was corrected from null to its default, 10000. 
+[02Dec2024 10:59:01.651] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Memory was corrected from null to its default, SimpleCommentedConfig:{}. 
+[02Dec2024 10:59:01.651] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Memory.undoStackSize was corrected from null to its default, 50. 
+[02Dec2024 10:59:01.679] [Render thread/INFO] [de.keksuccino.fancymenu.customization.layer.ScreenCustomizationLayerHandler/]: [FANCYMENU] ScreenCustomizationLayer registered: level_loading_screen
+[02Dec2024 10:59:04.868] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[02Dec2024 10:59:04.869] [Server thread/INFO] [KubeJS Server/]: Server resource reload complete!
+[02Dec2024 10:59:05.214] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Dec2024 10:59:05.400] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Dec2024 10:59:05.903] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Dec2024 10:59:06.451] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
+[02Dec2024 10:59:06.902] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[02Dec2024 10:59:07.431] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
+[02Dec2024 10:59:07.894] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
+[02Dec2024 10:59:08.407] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 6%
+[02Dec2024 10:59:08.905] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 9%
+[02Dec2024 10:59:09.391] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 10%
+[02Dec2024 10:59:09.899] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 11%
+[02Dec2024 10:59:10.396] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 14%
+[02Dec2024 10:59:10.966] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 15%
+[02Dec2024 10:59:11.396] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 17%
+[02Dec2024 10:59:11.902] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 19%
+[02Dec2024 10:59:12.405] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 22%
+[02Dec2024 10:59:12.890] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 24%
+[02Dec2024 10:59:13.390] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 26%
+[02Dec2024 10:59:13.906] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 29%
+[02Dec2024 10:59:14.414] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 32%
+[02Dec2024 10:59:14.899] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 34%
+[02Dec2024 10:59:15.396] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 38%
+[02Dec2024 10:59:15.913] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 39%
+[02Dec2024 10:59:17.124] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 41%
+[02Dec2024 10:59:17.124] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 41%
+[02Dec2024 10:59:17.393] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 42%
+[02Dec2024 10:59:17.903] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 43%
+[02Dec2024 10:59:18.391] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 46%
+[02Dec2024 10:59:18.893] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 48%
+[02Dec2024 10:59:19.401] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 52%
+[02Dec2024 10:59:21.032] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 54%
+[02Dec2024 10:59:21.032] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 54%
+[02Dec2024 10:59:21.032] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 54%
+[02Dec2024 10:59:21.398] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 55%
+[02Dec2024 10:59:21.890] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 59%
+[02Dec2024 10:59:22.396] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 60%
+[02Dec2024 10:59:22.898] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 63%
+[02Dec2024 10:59:23.411] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 67%
+[02Dec2024 10:59:23.947] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 69%
+[02Dec2024 10:59:24.394] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 72%
+[02Dec2024 10:59:24.886] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 72%
+[02Dec2024 10:59:25.437] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 74%
+[02Dec2024 10:59:25.887] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 77%
+[02Dec2024 10:59:26.508] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 79%
+[02Dec2024 10:59:26.902] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 82%
+[02Dec2024 10:59:27.399] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 84%
+[02Dec2024 10:59:27.895] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 86%
+[02Dec2024 10:59:28.408] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 87%
+[02Dec2024 10:59:28.899] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 89%
+[02Dec2024 10:59:29.401] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 92%
+[02Dec2024 10:59:29.891] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 95%
+[02Dec2024 10:59:30.440] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 97%
+[02Dec2024 10:59:30.910] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[02Dec2024 10:59:30.914] [Server thread/INFO] [AE2:S/]: Scanning class appeng.server.testplots.TestPlots for plots
+[02Dec2024 10:59:30.916] [Server thread/INFO] [AE2:S/]: Scanning class appeng.server.testplots.AutoCraftingTestPlots for plots
+[02Dec2024 10:59:30.916] [Server thread/INFO] [AE2:S/]: Scanning class appeng.server.testplots.InscriberTestPlots for plots
+[02Dec2024 10:59:30.918] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 99%
+[02Dec2024 10:59:30.918] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 26033 ms
+[02Dec2024 10:59:30.921] [Server thread/INFO] [AE2:S/]: Scanning class appeng.server.testplots.P2PTestPlots for plots
+[02Dec2024 10:59:30.921] [Server thread/INFO] [AE2:S/]: Scanning class appeng.server.testplots.ItemP2PTestPlots for plots
+[02Dec2024 10:59:30.921] [Server thread/INFO] [AE2:S/]: Scanning class appeng.server.testplots.MemoryCardTestPlots for plots
+[02Dec2024 10:59:30.921] [Server thread/INFO] [AE2:S/]: Scanning class appeng.server.testplots.PatternProviderLockModePlots for plots
+[02Dec2024 10:59:30.921] [Server thread/INFO] [AE2:S/]: Scanning class appeng.server.testplots.PatternProviderPlots for plots
+[02Dec2024 10:59:30.921] [Server thread/INFO] [AE2:S/]: Scanning class appeng.server.testplots.SpatialTestPlots for plots
+[02Dec2024 10:59:30.921] [Server thread/INFO] [AE2:S/]: Scanning class appeng.server.testplots.QnbTestPlots for plots
+[02Dec2024 10:59:30.921] [Server thread/INFO] [AE2:S/]: Scanning class appeng.server.testplots.GuidebookPlot for plots
+[02Dec2024 10:59:30.922] [Server thread/INFO] [AE2:S/]: Scanning class appeng.server.testplots.SubnetPlots for plots
+[02Dec2024 10:59:30.922] [Server thread/INFO] [AE2:S/]: Scanning class appeng.server.testplots.AnnihilationPlaneTests for plots
+[02Dec2024 10:59:30.922] [Server thread/INFO] [AE2:S/]: Scanning class de.mari_023.ae2wtlib.AE2WTLibTestPlots for plots
+[02Dec2024 10:59:30.926] [Server thread/INFO] [FTB Quests/]: Loading quests from C:\Users\luka\AppData\Roaming\PrismLauncher\instances\eve-pack\.minecraft\config\ftbquests\quests
+[02Dec2024 10:59:30.934] [Server thread/ERROR] [FTB Library/]: Failed to read C:\Users\luka\AppData\Roaming\PrismLauncher\instances\eve-pack\.minecraft\config\ftbquests\quests\chapters\iv.snbt: Unexpected end of file!
+[02Dec2024 10:59:30.934] [Server thread/ERROR] [FTB Library/]: Failed to read C:\Users\luka\AppData\Roaming\PrismLauncher\instances\eve-pack\.minecraft\config\ftbquests\quests\chapters\luv.snbt: Unexpected end of file!
+[02Dec2024 10:59:30.942] [Server thread/INFO] [FTB Quests/]: Loaded 1 chapter groups, 8 chapters, 190 quests, 0 reward tables
+[02Dec2024 10:59:31.374] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
+[02Dec2024 10:59:31.376] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[02Dec2024 10:59:31.443] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
+[02Dec2024 10:59:31.903] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
+[02Dec2024 10:59:31.932] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: LevLion1[local:E:3409ea14] logged in with entity id 140 at (-5.5, 131.0, 28.5)
+[02Dec2024 10:59:31.987] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LevLion1 joined the game
+[02Dec2024 10:59:32.086] [Netty Local Client IO #0/INFO] [FTB Quests/]: Read 19702 bytes, 399 objects
+[02Dec2024 10:59:32.093] [Server thread/INFO] [Jade/]: Syncing config to LevLion1 (afcd28b1-e3cd-424f-9a28-ed9e8ccad380)
+[02Dec2024 10:59:32.193] [Render thread/INFO] [BatchExecutor/]: Started 6 worker threads
+[02Dec2024 10:59:32.202] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.client.event.ClientPlayerNetworkEvent$LoggingIn
+[02Dec2024 10:59:32.202] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from DISABLED to ENABLED
+[02Dec2024 10:59:32.203] [Render thread/INFO] [de.keksuccino.fancymenu.customization.layer.ScreenCustomizationLayerHandler/]: [FANCYMENU] ScreenCustomizationLayer registered: receiving_level_screen
+[02Dec2024 10:59:32.250] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: ae2:charger/ae2:charger/guide
+[02Dec2024 10:59:32.265] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: ae2:charger/ae2:charger/meteorite_compass
+[02Dec2024 10:59:32.271] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: ae2:charger/ae2:charger/charged_certus_quartz_crystal
+[02Dec2024 10:59:33.866] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.client.event.RecipesUpdatedEvent
+[02Dec2024 10:59:33.866] [Render thread/INFO] [EMI/]: [EMI] Tags synchronized, reloading EMI
+[02Dec2024 10:59:33.866] [Render thread/INFO] [EMI/]: [EMI] Starting Reload
+[02Dec2024 10:59:33.866] [Thread-22/INFO] [EMI/]: [EMI] Starting EMI reload...
+[02Dec2024 10:59:33.866] [Thread-22/INFO] [EMI/]: [EMI] Clearing data
+[02Dec2024 10:59:33.880] [Thread-22/INFO] [EMI/]: [EMI] Initializing plugin from emi
+[02Dec2024 10:59:33.883] [Thread-22/INFO] [EMI/]: [EMI] Initialized plugin from emi in 3ms
+[02Dec2024 10:59:33.883] [Thread-22/INFO] [EMI/]: [EMI] Initializing plugin from ldlib
+[02Dec2024 10:59:33.883] [Thread-22/INFO] [EMI/]: [EMI] Initialized plugin from ldlib in 0ms
+[02Dec2024 10:59:33.883] [Thread-22/INFO] [EMI/]: [EMI] Initializing plugin from gtceu
+[02Dec2024 10:59:33.883] [Thread-22/INFO] [EMI/]: [EMI] Initialized plugin from gtceu in 0ms
+[02Dec2024 10:59:33.883] [Thread-22/INFO] [EMI/]: [EMI] Initializing plugin from jemi
+[02Dec2024 10:59:33.883] [Thread-22/INFO] [EMI/]: [EMI] Initialized plugin from jemi in 0ms
+[02Dec2024 10:59:33.884] [Thread-22/INFO] [EMI/]: [EMI] Processing tags
+[02Dec2024 10:59:33.890] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.event.TagsUpdatedEvent
+[02Dec2024 10:59:33.890] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from ENABLED to JEI_STARTED
+[02Dec2024 10:59:33.891] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Starting JEI...
+[02Dec2024 10:59:33.897] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes...
+[02Dec2024 10:59:33.898] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes took 1.487 ms
+[02Dec2024 10:59:33.898] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes...
+[02Dec2024 10:59:33.899] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes took 794.3 ?s
+[02Dec2024 10:59:33.901] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients...
+[02Dec2024 10:59:33.941] [Thread-22/INFO] [EMI/]: [EMI] Constructing index
+[02Dec2024 10:59:33.953] [Thread-22/INFO] [EMI/]: [EMI] Reloading item groups on client thread...
+[02Dec2024 10:59:33.968] [Render thread/WARN] [mezz.jei.library.plugins.vanilla.ingredients.ItemStackListFactory/]: Item Group has no display items and no search tab display items. Items from this group will be missing from the JEI ingredient list. Operator Utilities
+[02Dec2024 10:59:33.993] [Render thread/WARN] [mezz.jei.library.plugins.vanilla.ingredients.ItemStackListFactory/]: Item Group has no display items and no search tab display items. Items from this group will be missing from the JEI ingredient list. KubeJS
+[02Dec2024 10:59:34.092] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering ingredients: jei:minecraft took 191.6 milliseconds
+[02Dec2024 10:59:34.093] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients took 192.2 ms
+[02Dec2024 10:59:34.093] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering extra ingredients...
+[02Dec2024 10:59:34.094] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering extra ingredients took 462.8 ?s
+[02Dec2024 10:59:34.094] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering search ingredient aliases...
+[02Dec2024 10:59:34.095] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering search ingredient aliases took 681.8 ?s
+[02Dec2024 10:59:34.106] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories...
+[02Dec2024 10:59:34.128] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories took 21.62 ms
+[02Dec2024 10:59:34.129] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions...
+[02Dec2024 10:59:34.132] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions took 2.726 ms
+[02Dec2024 10:59:34.132] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts...
+[02Dec2024 10:59:34.138] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts took 5.621 ms
+[02Dec2024 10:59:34.138] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building recipe registry...
+[02Dec2024 10:59:34.146] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building recipe registry took 7.469 ms
+[02Dec2024 10:59:34.146] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins...
+[02Dec2024 10:59:34.147] [Render thread/INFO] [mezz.jei.library.load.registration.AdvancedRegistration/]: Added recipe manager plugin: class appeng.integration.modules.jei.FacadeRegistryPlugin
+[02Dec2024 10:59:34.152] [Render thread/INFO] [mezz.jei.library.load.registration.AdvancedRegistration/]: Added recipe manager plugin: class dev.ftb.mods.ftbxmodcompat.ftbquests.jei.QuestRecipeManagerPlugin
+[02Dec2024 10:59:34.153] [Render thread/INFO] [mezz.jei.library.load.registration.AdvancedRegistration/]: Added recipe manager plugin: class dev.ftb.mods.ftbxmodcompat.ftbquests.jei.LootCrateRecipeManagerPlugin
+[02Dec2024 10:59:34.153] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins took 7.014 ms
+[02Dec2024 10:59:34.154] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes...
+[02Dec2024 10:59:34.203] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: ae2:core took 48.18 milliseconds
+[02Dec2024 10:59:34.216] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: ironfurnaces:plugin_ironfurnaces took 12.55 milliseconds
+[02Dec2024 10:59:34.236] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: quark:quark took 19.97 milliseconds
+[02Dec2024 10:59:34.238] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes took 83.64 ms
+[02Dec2024 10:59:34.242] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers...
+[02Dec2024 10:59:34.245] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers took 3.105 ms
+[02Dec2024 10:59:34.246] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building runtime...
+[02Dec2024 10:59:34.247] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers...
+[02Dec2024 10:59:34.253] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers took 5.515 ms
+[02Dec2024 10:59:34.254] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime...
+[02Dec2024 10:59:34.256] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime took 1.390 ms
+[02Dec2024 10:59:34.256] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building runtime took 10.21 ms
+[02Dec2024 10:59:34.256] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime...
+[02Dec2024 10:59:34.257] [Render thread/INFO] [mezz.jei.library.ingredients.IngredientManager/]: Ingredients are being removed at runtime: 9 net.minecraft.world.item.ItemStack
+[02Dec2024 10:59:34.269] [Render thread/INFO] [mezz.jei.library.ingredients.IngredientManager/]: Ingredients are being removed at runtime: 532 net.minecraft.world.item.ItemStack
+[02Dec2024 10:59:34.275] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Sending Runtime: kubejs:jei took 11.40 milliseconds
+[02Dec2024 10:59:34.275] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime took 18.53 ms
+[02Dec2024 10:59:34.275] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Starting JEI took 383.9 ms
+[02Dec2024 10:59:34.275] [Render thread/INFO] [EMI/]: [EMI] Recipes synchronized, waiting for tags to reload EMI...
+[02Dec2024 10:59:34.408] [Render thread/INFO] [Jade/]: Received config from the server: 
+[02Dec2024 10:59:34.415] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2 advancements
+[02Dec2024 10:59:36.232] [Thread-22/INFO] [EMI/]: [EMI] Reloading item groups on client thread took 2279ms
+[02Dec2024 10:59:36.278] [Thread-22/INFO] [EMI/]: [EMI] Loading plugin from emi
+[02Dec2024 10:59:36.821] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[02Dec2024 10:59:36.848] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[02Dec2024 10:59:38.121] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[02Dec2024 10:59:38.123] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[02Dec2024 10:59:38.124] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/ae2:spatial_storage
+[02Dec2024 10:59:38.258] [Thread-22/INFO] [EMI/]: [EMI] Reloaded plugin from emi in 1980ms
+[02Dec2024 10:59:38.258] [Thread-22/INFO] [EMI/]: [EMI] Loading plugin from ldlib
+[02Dec2024 10:59:38.260] [Thread-22/INFO] [EMI/]: [EMI] Reloaded plugin from ldlib in 2ms
+[02Dec2024 10:59:38.260] [Thread-22/INFO] [EMI/]: [EMI] Loading plugin from gtceu
+[02Dec2024 10:59:40.720] [Thread-22/INFO] [EMI/]: [EMI] Reloaded plugin from gtceu in 2460ms
+[02Dec2024 10:59:40.720] [Thread-22/INFO] [EMI/]: [EMI] Loading plugin from jemi
+[02Dec2024 10:59:40.720] [Thread-22/INFO] [EMI/]: [EMI] [JEMI] Waiting for JEI to finish reloading...
+[02Dec2024 10:59:40.720] [Thread-22/INFO] [EMI/]: [EMI] Waiting for JEI to finish...
+[02Dec2024 10:59:40.720] [Thread-22/INFO] [EMI/]: [EMI] [JEMI] JEI reloaded!
+[02Dec2024 10:59:40.724] [Thread-22/INFO] [EMI/]: [EMI] Loading information from JEI...
+[02Dec2024 10:59:40.725] [Thread-22/INFO] [EMI/]: [EMI] Processing JEI stacks...
+[02Dec2024 10:59:40.725] [Thread-22/INFO] [EMI/]: [EMI] Processing JEI subtypes...
+[02Dec2024 10:59:40.730] [Thread-22/INFO] [EMI/]: [EMI] Processing JEI recipes...
+[02Dec2024 10:59:40.732] [Thread-22/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Crafting
+[02Dec2024 10:59:40.732] [Thread-22/INFO] [EMI/]: [EMI] Loading JEI data for Crafting
+[02Dec2024 10:59:40.741] [Thread-22/ERROR] [EMI/]: [EMI] [JEMI] Exception thrown setting JEI crafting recipe
+[02Dec2024 10:59:40.741] [Thread-22/ERROR] [EMI/]: [EMI] java.lang.AbstractMethodError: Receiver class dev.emi.emi.jemi.impl.JemiRecipeSlotBuilder does not define or inherit an implementation of the resolved method 'abstract mezz.jei.api.gui.builder.IRecipeSlotBuilder setStandardSlotBackground()' of interface mezz.jei.api.gui.builder.IRecipeSlotBuilder.
+	at TRANSFORMER
+[02Dec2024 10:59:40.741] [Thread-22/ERROR] [EMI/]: [EMI] jei@15.20.0.105
+[02Dec2024 10:59:40.742] [Thread-22/ERROR] [EMI/]: [EMI] mezz.jei.library.gui.helpers.CraftingGridHelper.createAndSetInputs(CraftingGridHelper.java:28)
+	at TRANSFORMER
+[02Dec2024 10:59:40.742] [Thread-22/ERROR] [EMI/]: [EMI] jei@15.20.0.105
+[02Dec2024 10:59:40.742] [Thread-22/ERROR] [EMI/]: [EMI] mezz.jei.api.gui.ingredient.ICraftingGridHelper.createAndSetInputs(ICraftingGridHelper.java:31)
+	at TRANSFORMER
+[02Dec2024 10:59:40.742] [Thread-22/ERROR] [EMI/]: [EMI] quark@4.0-460
+[02Dec2024 10:59:40.742] [Thread-22/ERROR] [EMI/]: [EMI] org.violetmoon.quark.integration.jei.SlabToBlockExtension.setRecipe(SlabToBlockExtension.java:37)
+	at TRANSFORMER
+[02Dec2024 10:59:40.742] [Thread-22/ERROR] [EMI/]: [EMI] jei@15.20.0.105
+[02Dec2024 10:59:40.742] [Thread-22/ERROR] [EMI/]: [EMI] mezz.jei.library.plugins.vanilla.crafting.CraftingRecipeCategory.setRecipe(CraftingRecipeCategory.java:54)
+	at TRANSFORMER
+[02Dec2024 10:59:40.742] [Thread-22/ERROR] [EMI/]: [EMI] jei@15.20.0.105
+[02Dec2024 10:59:40.742] [Thread-22/ERROR] [EMI/]: [EMI] mezz.jei.library.plugins.vanilla.crafting.CraftingRecipeCategory.setRecipe(CraftingRecipeCategory.java:31)
+	at TRANSFORMER
+[02Dec2024 10:59:40.742] [Thread-22/ERROR] [EMI/]: [EMI] emi@1.1.14+1.20.1+forge
+[02Dec2024 10:59:40.742] [Thread-22/ERROR] [EMI/]: [EMI] dev.emi.emi.jemi.JemiPlugin.addCraftingRecipes(JemiPlugin.java:317)
+	at TRANSFORMER
+[02Dec2024 10:59:40.742] [Thread-22/ERROR] [EMI/]: [EMI] emi@1.1.14+1.20.1+forge
+[02Dec2024 10:59:40.742] [Thread-22/ERROR] [EMI/]: [EMI] dev.emi.emi.jemi.JemiPlugin.register(JemiPlugin.java:239)
+	at TRANSFORMER
+[02Dec2024 10:59:40.742] [Thread-22/ERROR] [EMI/]: [EMI] emi@1.1.14+1.20.1+forge
+[02Dec2024 10:59:40.742] [Thread-22/ERROR] [EMI/]: [EMI] dev.emi.emi.runtime.EmiReloadManager$ReloadWorker.run(EmiReloadManager.java:185)
+	at java.base
+[02Dec2024 10:59:40.742] [Thread-22/ERROR] [EMI/]: [EMI] java.lang.Thread.run(Unknown Source)
+
+[02Dec2024 10:59:40.742] [Thread-22/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Anvil
+[02Dec2024 10:59:40.742] [Thread-22/INFO] [EMI/]: [EMI] Loading JEI data for Anvil
+[02Dec2024 10:59:40.742] [Thread-22/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Blasting
+[02Dec2024 10:59:40.742] [Thread-22/INFO] [EMI/]: [EMI] Loading JEI data for Blasting
+[02Dec2024 10:59:40.742] [Thread-22/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Brewing
+[02Dec2024 10:59:40.742] [Thread-22/INFO] [EMI/]: [EMI] Loading JEI data for Brewing
+[02Dec2024 10:59:40.742] [Thread-22/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Campfire Cooking
+[02Dec2024 10:59:40.742] [Thread-22/INFO] [EMI/]: [EMI] Loading JEI data for Campfire Cooking
+[02Dec2024 10:59:40.743] [Thread-22/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Composting
+[02Dec2024 10:59:40.743] [Thread-22/INFO] [EMI/]: [EMI] Loading JEI data for Composting
+[02Dec2024 10:59:40.743] [Thread-22/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Fuel
+[02Dec2024 10:59:40.743] [Thread-22/INFO] [EMI/]: [EMI] Loading JEI data for Fuel
+[02Dec2024 10:59:40.743] [Thread-22/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Smelting
+[02Dec2024 10:59:40.743] [Thread-22/INFO] [EMI/]: [EMI] Loading JEI data for Smelting
+[02Dec2024 10:59:40.743] [Thread-22/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Smithing Table
+[02Dec2024 10:59:40.743] [Thread-22/INFO] [EMI/]: [EMI] Loading JEI data for Smithing Table
+[02Dec2024 10:59:40.743] [Thread-22/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Smoking
+[02Dec2024 10:59:40.743] [Thread-22/INFO] [EMI/]: [EMI] Loading JEI data for Smoking
+[02Dec2024 10:59:40.743] [Thread-22/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Stonecutting
+[02Dec2024 10:59:40.743] [Thread-22/INFO] [EMI/]: [EMI] Loading JEI data for Stonecutting
+[02Dec2024 10:59:40.743] [Thread-22/INFO] [EMI/]: [EMI] [JEMI] Collecting data for P2P Tunnel Attunement
+[02Dec2024 10:59:40.743] [Thread-22/INFO] [EMI/]: [EMI] Loading JEI data for P2P Tunnel Attunement
+[02Dec2024 10:59:40.748] [Thread-22/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Certus Quartz Growth
+[02Dec2024 10:59:40.748] [Thread-22/INFO] [EMI/]: [EMI] Loading JEI data for Certus Quartz Growth
+[02Dec2024 10:59:40.749] [Thread-22/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Charger
+[02Dec2024 10:59:40.749] [Thread-22/INFO] [EMI/]: [EMI] Loading JEI data for Charger
+[02Dec2024 10:59:40.750] [Thread-22/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Matter Condenser
+[02Dec2024 10:59:40.750] [Thread-22/INFO] [EMI/]: [EMI] Loading JEI data for Matter Condenser
+[02Dec2024 10:59:40.750] [Thread-22/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Entropy Manipulator
+[02Dec2024 10:59:40.750] [Thread-22/INFO] [EMI/]: [EMI] Loading JEI data for Entropy Manipulator
+[02Dec2024 10:59:40.751] [Thread-22/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Inscriber
+[02Dec2024 10:59:40.751] [Thread-22/INFO] [EMI/]: [EMI] Loading JEI data for Inscriber
+[02Dec2024 10:59:40.751] [Thread-22/INFO] [EMI/]: [EMI] [JEMI] Collecting data for In-World Transformation
+[02Dec2024 10:59:40.751] [Thread-22/INFO] [EMI/]: [EMI] Loading JEI data for In-World Transformation
+[02Dec2024 10:59:40.752] [Thread-22/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Creating Flux
+[02Dec2024 10:59:40.752] [Thread-22/INFO] [EMI/]: [EMI] Loading JEI data for Creating Flux
+[02Dec2024 10:59:40.753] [Thread-22/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Loot Crates
+[02Dec2024 10:59:40.753] [Thread-22/INFO] [EMI/]: [EMI] Loading JEI data for Loot Crates
+[02Dec2024 10:59:40.753] [Thread-22/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Quests
+[02Dec2024 10:59:40.753] [Thread-22/INFO] [EMI/]: [EMI] Loading JEI data for Quests
+[02Dec2024 10:59:40.762] [Thread-22/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Custom Compacting
+[02Dec2024 10:59:40.762] [Thread-22/INFO] [EMI/]: [EMI] Loading JEI data for Custom Compacting
+[02Dec2024 10:59:40.763] [Thread-22/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Generator | Blasting
+[02Dec2024 10:59:40.763] [Thread-22/INFO] [EMI/]: [EMI] Loading JEI data for Generator | Blasting
+[02Dec2024 10:59:40.763] [Thread-22/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Augment: Generator
+[02Dec2024 10:59:40.763] [Thread-22/INFO] [EMI/]: [EMI] Loading JEI data for Augment: Generator
+[02Dec2024 10:59:40.765] [Thread-22/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Generator | Smoking
+[02Dec2024 10:59:40.765] [Thread-22/INFO] [EMI/]: [EMI] Loading JEI data for Generator | Smoking
+[02Dec2024 10:59:40.765] [Thread-22/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Information
+[02Dec2024 10:59:40.765] [Thread-22/INFO] [EMI/]: [EMI] Loading JEI data for Information
+[02Dec2024 10:59:40.783] [Thread-22/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Matrix Influencing
+[02Dec2024 10:59:40.783] [Thread-22/INFO] [EMI/]: [EMI] Loading JEI data for Matrix Influencing
+[02Dec2024 10:59:40.784] [Thread-22/INFO] [EMI/]: [EMI] Reloaded plugin from jemi in 64ms
+[02Dec2024 10:59:40.784] [Thread-22/INFO] [EMI/]: [EMI] Baking index
+[02Dec2024 10:59:40.943] [Thread-22/INFO] [EMI/]: [EMI] Registering late recipes
+[02Dec2024 10:59:40.944] [Thread-22/INFO] [EMI/]: [EMI] Baking recipes
+[02Dec2024 10:59:41.692] [Thread-22/INFO] [EMI/]: [EMI] Baked 45230 recipes in 747ms
+[02Dec2024 10:59:41.694] [Thread-22/INFO] [EMI/]: [EMI] Baking search
+[02Dec2024 10:59:42.242] [Thread-24/INFO] [EMI/]: [EMI] Baked recipes after reload in 551ms
+[02Dec2024 10:59:43.103] [Thread-22/INFO] [EMI/]: [EMI] Finishing up
+[02Dec2024 10:59:43.136] [Thread-22/INFO] [EMI/]: [EMI] Reloaded EMI in 9270ms
+[02Dec2024 10:59:45.219] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Saved screenshot as 2024-12-02_10.59.44.png
+[02Dec2024 11:00:04.313] [Render thread/INFO] [de.keksuccino.fancymenu.customization.layer.ScreenCustomizationLayerHandler/]: [FANCYMENU] ScreenCustomizationLayer registered: inventory_screen
+[02Dec2024 11:00:08.443] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[02Dec2024 11:00:08.448] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[02Dec2024 11:00:08.462] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[02Dec2024 11:00:08.463] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[02Dec2024 11:00:08.465] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/ae2:spatial_storage
+[02Dec2024 11:00:09.122] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[02Dec2024 11:00:09.124] [Render thread/INFO] [EMI/]: [EMI] Disconnecting from server, EMI data cleared
+[02Dec2024 11:00:09.124] [Thread-27/INFO] [EMI/]: [EMI] Clearing data
+[02Dec2024 11:00:09.125] [Render thread/INFO] [FluxNetworks/]: Released client Flux Networks cache
+[02Dec2024 11:00:09.125] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.client.event.ClientPlayerNetworkEvent$LoggingOut
+[02Dec2024 11:00:09.125] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from JEI_STARTED to DISABLED
+[02Dec2024 11:00:09.125] [Render thread/INFO] [mezz.jei.library.startup.JeiStarter/]: Stopping JEI
+[02Dec2024 11:00:09.125] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable...
+[02Dec2024 11:00:09.125] [Render thread/INFO] [mezz.jei.forge.plugins.forge.ForgeGuiPlugin/]: Stopping JEI GUI
+[02Dec2024 11:00:09.126] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable took 879.6 ?s
+[02Dec2024 11:00:09.158] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LevLion1 lost connection: Disconnected
+[02Dec2024 11:00:09.159] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LevLion1 left the game
+[02Dec2024 11:00:09.165] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
+[02Dec2024 11:00:09.193] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[02Dec2024 11:00:09.194] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[02Dec2024 11:00:09.194] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[02Dec2024 11:00:09.702] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[02Dec2024 11:00:10.368] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[02Dec2024 11:00:10.370] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[02Dec2024 11:00:10.371] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/ae2:spatial_storage
+[02Dec2024 11:00:10.412] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World (2)): All chunks are saved
+[02Dec2024 11:00:10.413] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02Dec2024 11:00:10.413] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[02Dec2024 11:00:10.413] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (spatial_storage): All chunks are saved
+[02Dec2024 11:00:10.413] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[02Dec2024 11:00:12.963] [Server thread/INFO] [FluxNetworks/Energy]: Energy blacklist loaded: 1 block entries, 0 item entries

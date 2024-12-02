@@ -1,0 +1,12 @@
+{
+	version: 1
+	uuid: "afcd28b1e3cd424f9a28ed9e8ccad380"
+	name: "LevLion1#afcd28b1"
+	lock: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	claimed_rewards: { }
+	player_data: { }
+}
