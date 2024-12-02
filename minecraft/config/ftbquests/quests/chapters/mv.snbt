@@ -5,7 +5,7 @@
 	group: ""
 	icon: "gtceu:mv_electric_motor"
 	id: "521F57958D6FA1EF"
-	order_index: 5
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
@@ -62,7 +62,7 @@
 						display: {
 							Name: "{\"text\":\"Oils\"}"
 						}
-						"ftbfiltersystem:filter": "or(item(gtceu:seed_oil_bucket)item(examplemod:quasifissioning_plasma_bucket)item(gtceu:creosote_bucket))"
+						"ftbfiltersystem:filter": "or(item(gtceu:seed_oil_bucket)item(gtceu:creosote_bucket))"
 					}
 				}
 				type: "item"
