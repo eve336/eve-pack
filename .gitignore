@@ -3,9 +3,16 @@ instance.cfg
 mmc-pack.json
 modlist.html
 
-!minecraft/kubejs*
 !minecraft/config*
-!minecraft/resourcepacks*
-!minecraft/mods/examplemod-1.0.0
+!minecraft/defaultconfigs*
+!minecraft/kubejs*
+!minecraft/config/emi.json
+!minecraft/config/icon.png
+!minecraft/mods/worldshaper*
 
-minecraft/saves
+minecraft/config/alexsmobs*
+minecraft/config/everycomp-hazardous.properties
+minecraft/config/konkrete/locals
+minecraft/config/jei*
+minecraft/config/emi.css
+minecraft/config/ae2/client.json
