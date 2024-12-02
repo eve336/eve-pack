@@ -9,6 +9,8 @@ modlist.html
 !minecraft/config/emi.json
 !minecraft/config/icon.png
 !minecraft/mods/worldshaper*
+!minecraft/resourcepacks*
+!minecraft/resourcepacks
 
 minecraft/config/alexsmobs*
 minecraft/config/everycomp-hazardous.properties
