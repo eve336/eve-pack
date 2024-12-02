@@ -9,6 +9,7 @@ modlist.html
 !minecraft/config/emi.json
 !minecraft/config/icon.png
 !minecraft/mods/worldshaper*
+!minecraft/mods/examplemod
 !minecraft/resourcepacks*
 !minecraft/resourcepacks
 
