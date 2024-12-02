@@ -6,4 +6,6 @@ modlist.html
 !minecraft/kubejs*
 !minecraft/config*
 !minecraft/resourcepacks*
+!minecraft/mods/examplemod-1.0.0
 
+minecraft/saves
