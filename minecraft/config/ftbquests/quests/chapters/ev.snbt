@@ -7,15 +7,368 @@
 	id: "047651D6DE7947DF"
 	order_index: 5
 	quest_links: [ ]
-	quests: [{
-		id: "2727F7FA086AB1F9"
-		tasks: [{
-			id: "2C848784D02045B7"
-			item: "gtceu:ev_machine_hull"
-			type: "item"
-		}]
-		x: 0.5d
-		y: -0.5d
-	}]
+	quests: [
+		{
+			dependencies: [
+				"42D84C8CB424EC56"
+				"2EA2BDE1F7B36708"
+			]
+			id: "0086AA3811F5D02B"
+			tasks: [{
+				id: "165063912BDD0611"
+				item: "gtceu:nano_processor"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"0086AA3811F5D02B"
+				"38983A3B33B7A83F"
+			]
+			id: "0C14E8D24C099F17"
+			tasks: [{
+				id: "39A87E81C5248662"
+				item: "gtceu:nano_processor_assembly"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"0C14E8D24C099F17"
+				"5912A5524A54C041"
+			]
+			id: "75ED0E4751754A88"
+			tasks: [{
+				id: "182FB11E3B445C05"
+				item: "gtceu:nano_processor_computer"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["75ED0E4751754A88"]
+			id: "7DC0EF1DFAEA56A6"
+			tasks: [{
+				id: "6B1D60CBF5C01F9F"
+				item: "gtceu:nano_processor_mainframe"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["12A47C1F3F808316"]
+			id: "2EA2BDE1F7B36708"
+			tasks: [{
+				id: "6A205B105ED8371B"
+				item: "gtceu:ev_circuit_assembler"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["622D5DD19BCB5103"]
+			id: "12A47C1F3F808316"
+			tasks: [{
+				id: "7838F52231E67BB5"
+				item: "gtceu:ev_emitter"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"15154C26D8B521E4"
+				"5B1B517871902E36"
+			]
+			id: "622D5DD19BCB5103"
+			tasks: [{
+				id: "180CDE543127BD58"
+				item: "gtceu:platinum_dust"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["622D5DD19BCB5103"]
+			id: "5912A5524A54C041"
+			tasks: [{
+				id: "62B6942C0AF72A1F"
+				item: "gtceu:uranium_triplatinum_single_wire"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6B5D2788A53943EE"]
+			id: "42D84C8CB424EC56"
+			tasks: [{
+				id: "098E1E78A97E43F4"
+				item: "gtceu:fiber_reinforced_printed_circuit_board"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"5F7CADAE78C5A49E"
+				"5C3C289DA3524EF7"
+			]
+			icon: "examplemod:reprecipitated_platinum_dust"
+			id: "15154C26D8B521E4"
+			tasks: [{
+				id: "25C042C394D890F7"
+				type: "checkmark"
+			}]
+			title: "Reprecipitated Platinum dust"
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"0784840A3B12C244"
+				"67BDB325BFC820E1"
+			]
+			icon: "examplemod:platinum_concentrate_bucket"
+			id: "5C3C289DA3524EF7"
+			tasks: [{
+				id: "5BF1B4FA9E6B4F52"
+				type: "checkmark"
+			}]
+			title: "Plastinum Concentrate"
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			icon: "gtceu:ammonium_chloride_bucket"
+			id: "5F7CADAE78C5A49E"
+			tasks: [{
+				id: "6B9610AAC89424D1"
+				type: "checkmark"
+			}]
+			title: "Ammonium Chloride"
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			id: "0784840A3B12C244"
+			tasks: [{
+				id: "1945B5ED2E98B24F"
+				item: "examplemod:platinum_metallic_powder_dust"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			icon: "gtceu:aqua_regia_bucket"
+			id: "67BDB325BFC820E1"
+			tasks: [{
+				id: "19016C6A39DBD5DB"
+				type: "checkmark"
+			}]
+			title: "Aqua Regia"
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0920AF961962C05C"]
+			id: "5B1B517871902E36"
+			tasks: [{
+				id: "11C6E196F0061B59"
+				item: "gtceu:large_chemical_reactor"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"2E8AD82C96FEA71D"
+				"5835496F2395ED23"
+			]
+			id: "0920AF961962C05C"
+			tasks: [{
+				id: "5652F68E3356F40C"
+				item: "gtceu:polytetrafluoroethylene_plate"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["579704AA3D5D47EF"]
+			id: "38983A3B33B7A83F"
+			tasks: [{
+				id: "096527A1AF6352B3"
+				item: "gtceu:tungsten_steel_ingot"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"5B1B517871902E36"
+				"71516024208B8440"
+			]
+			id: "579704AA3D5D47EF"
+			tasks: [{
+				id: "3486462A3D7C34DD"
+				item: "gtceu:tungsten_dust"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"3E6D17479EC8B990"
+				"0AA55BD016A8742C"
+			]
+			dependency_requirement: "one_completed"
+			id: "6B5D2788A53943EE"
+			tasks: [{
+				id: "07BBEFBDF41AA796"
+				item: "gtceu:reinforced_epoxy_resin_plate"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			id: "3E6D17479EC8B990"
+			tasks: [{
+				id: "12B4B6FE6B212E7E"
+				item: "gtceu:fine_borosilicate_glass_wire"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			id: "0AA55BD016A8742C"
+			tasks: [{
+				id: "7B9531870D7FF90D"
+				item: "gtceu:carbon_fibers"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			id: "2E8AD82C96FEA71D"
+			tasks: [{
+				id: "6A98E96EAEE5597F"
+				item: "gtceu:chloroform_bucket"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			id: "5835496F2395ED23"
+			tasks: [{
+				id: "5690A7569A2FF830"
+				item: "gtceu:hydrofluoric_acid_bucket"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["265131D6F72D4739"]
+			icon: "examplemod:tungsten_trioxide_dust"
+			id: "71516024208B8440"
+			tasks: [{
+				id: "63464C6A6FCBDDA9"
+				type: "checkmark"
+			}]
+			title: "Tungsten Trioxide"
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["280C495ED544B435"]
+			icon: "gtceu:tungstic_acid_dust"
+			id: "265131D6F72D4739"
+			tasks: [{
+				id: "14FAE9C37B5BDDA2"
+				type: "checkmark"
+			}]
+			title: "Tungstic Acid"
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["23B43BA896D95B63"]
+			icon: "examplemod:calcium_tungstate_dust"
+			id: "280C495ED544B435"
+			tasks: [{
+				id: "1BE790F1D1947A86"
+				type: "checkmark"
+			}]
+			title: "Calcium Tungstate"
+			x: -6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"40ED08104F6897B0"
+				"14219C4809730B7C"
+			]
+			dependency_requirement: "one_completed"
+			icon: "examplemod:sodium_tungstate_bucket"
+			id: "23B43BA896D95B63"
+			tasks: [{
+				id: "2BE384E50D39B0EE"
+				type: "checkmark"
+			}]
+			title: "Sodium Tungstate"
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6B9A7250C064CE75"]
+			id: "40ED08104F6897B0"
+			tasks: [{
+				id: "1C498C851B119ACF"
+				item: "gtceu:scheelite_dust"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			id: "14219C4809730B7C"
+			tasks: [{
+				id: "740EC2EC3E6774BD"
+				item: "gtceu:tungstate_dust"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			id: "6B9A7250C064CE75"
+			tasks: [{
+				id: "2CF897AB740609F5"
+				item: "examplemod:hydrogen_peroxide_bucket"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -2.5d
+		}
+	]
 	title: "EV"
 }
