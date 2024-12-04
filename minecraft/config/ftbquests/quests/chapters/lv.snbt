@@ -5,7 +5,7 @@
 	group: ""
 	icon: "minecraft:oak_wood"
 	id: "066FD6B90B30D013"
-	order_index: 1
+	order_index: 11
 	quest_links: [ ]
 	quests: [
 		{
@@ -366,6 +366,21 @@
 			title: "More JEI/EMI information"
 			x: -8.0d
 			y: 4.5d
+		}
+		{
+			icon: "ae2:crystal_resonance_generator"
+			id: "0D4CC1D66AA72E40"
+			rewards: [{
+				id: "10C1BC3869AEF6A8"
+				item: "ae2:crystal_resonance_generator"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5857EA8BB11D45BE"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 4.0d
 		}
 	]
 	title: "The beginning"

@@ -1,7 +1,8 @@
 Delete furnace
 Delete drawer upgrades 
-Delete pollution cleaning machines
+Delete pollution cleaning machines?? i think theyre already turned off with pollution off?
 Possibly make laser io cheaper
 Models for component blocks
 Destruction gadget recipe/ender pearl recipe
 connected gcyl coils
+Add create incompatibility script

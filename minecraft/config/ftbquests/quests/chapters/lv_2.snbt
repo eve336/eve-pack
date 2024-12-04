@@ -5,7 +5,7 @@
 	group: ""
 	icon: "gtceu:lv_electric_motor"
 	id: "2B8CBDF51E1864E1"
-	order_index: 3
+	order_index: 13
 	quest_links: [ ]
 	quests: [
 		{
@@ -557,6 +557,96 @@
 			}]
 			x: -2.0d
 			y: -0.5d
+		}
+		{
+			id: "2119126528EB8969"
+			tasks: [{
+				id: "29F190DFD17F9F71"
+				item: "minecraft:grass_block"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 5.0d
+		}
+		{
+			id: "35FB26A42AA0F957"
+			tasks: [{
+				id: "61DE6590061F21C9"
+				item: "modularrouters:modular_router"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			id: "22DC7AA1C6722EF0"
+			tasks: [{
+				id: "3EAF45B1D797C166"
+				item: "modularrouters:modular_router"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			id: "4CB20730442F4F5D"
+			tasks: [{
+				id: "6E77B08DCE9446A8"
+				item: "minecraft:oak_sapling"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 4.0d
+		}
+		{
+			id: "52BABD7033C47645"
+			tasks: [{
+				id: "43DB587964EFF81D"
+				item: "modularrouters:modular_router"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			id: "7D973D3DB11BE794"
+			tasks: [{
+				id: "0DAB519C2CD3C071"
+				item: "modularrouters:modular_router"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.0d
+		}
+		{
+			id: "0F7FAA34AF3C4FFB"
+			tasks: [{
+				id: "0CE4AF159B376E18"
+				item: "modularrouters:modular_router"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			id: "7900BBE4BB0507B0"
+			tasks: [{
+				id: "03426C7409DD648E"
+				item: "minecraft:stone"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.0d
+		}
+		{
+			id: "0E1EAB544C8B699A"
+			tasks: [{
+				id: "083A9225AAFD5B0C"
+				item: "ae2:growth_accelerator"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.0d
 		}
 	]
 	title: "LV"

@@ -5,5 +5,13 @@
 console.info('Hello, World! (Loaded client scripts)')
 
 JEIEvents.hideItems(event => {
-    event.hide(['ae2:facade', 'ae2:vibration_chamber'])
+    event.hide(global.nukeList)
+    
 })
+
+JEIEvents.hideFluids(event =>{
+    fluidNukeList.forEach(element => {
+        event.hide(element)
+    })
+}
+)

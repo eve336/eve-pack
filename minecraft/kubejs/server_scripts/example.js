@@ -4,3 +4,12 @@
 
 console.info('Hello, World! (Loaded server scripts)')
 
+ServerEvents.recipes(event => {
+
+global.nukeList.forEach((item) => {
+    // console.log(item)
+    event.remove({ output: item })
+})
+
+
+})
