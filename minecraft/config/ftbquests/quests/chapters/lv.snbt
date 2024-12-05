@@ -5,7 +5,7 @@
 	group: ""
 	icon: "minecraft:oak_wood"
 	id: "066FD6B90B30D013"
-	order_index: 17
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -370,15 +370,42 @@
 		{
 			icon: "ae2:crystal_resonance_generator"
 			id: "0D4CC1D66AA72E40"
-			rewards: [{
-				id: "10C1BC3869AEF6A8"
-				item: "ae2:crystal_resonance_generator"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "10C1BC3869AEF6A8"
+					item: "ae2:crystal_resonance_generator"
+					type: "item"
+				}
+				{
+					id: "7F0FBA55ACB33171"
+					item: {
+						Count: 1
+						id: "ae2:energy_cell"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "502B09D325FAC548"
+					item: "ae2:drive"
+					type: "item"
+				}
+				{
+					id: "21E6849FBE8355EF"
+					item: "fulleng:crafting_terminal"
+					type: "item"
+				}
+				{
+					id: "4E867670722597E5"
+					item: "fulleng:terminal"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "5857EA8BB11D45BE"
 				type: "checkmark"
 			}]
+			title: "Ae2 Storage System"
 			x: -3.0d
 			y: 4.0d
 		}

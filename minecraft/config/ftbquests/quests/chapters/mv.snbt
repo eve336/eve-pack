@@ -5,7 +5,7 @@
 	group: ""
 	icon: "gtceu:mv_electric_motor"
 	id: "521F57958D6FA1EF"
-	order_index: 20
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
