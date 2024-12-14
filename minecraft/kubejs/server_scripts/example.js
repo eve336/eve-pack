@@ -13,3 +13,18 @@ global.nukeList.forEach((item) => {
 
 
 })
+
+ServerEvents.tags('item', event =>{
+    global.nukeList.forEach((item) =>{
+        event.removeAllTagsFrom(item)
+    })
+    event.removeAllTagsFrom(/flowercrops:.*_dye/)
+    event.removeAllTagsFrom(/flowercrops:.*_pigment/)
+})
+
+ServerEvents.tags('fluid', event =>{
+
+    global.fluidNukeList.forEach(element =>{
+    event.removeAllTagsFrom(element)
+})
+})

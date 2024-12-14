@@ -648,6 +648,26 @@
 			x: 10.0d
 			y: 4.0d
 		}
+		{
+			id: "4A70AC79859D5F40"
+			tasks: [{
+				id: "5EEAD1812AAC1F0E"
+				item: "modularrouters:breaker_module"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 4.0d
+		}
+		{
+			id: "724DAF7FD0088FE7"
+			tasks: [{
+				id: "026FC8BD1E59B523"
+				item: "modularrouters:placer_module"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 3.0d
+		}
 	]
 	title: "LV"
 }

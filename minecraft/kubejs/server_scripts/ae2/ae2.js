@@ -11,5 +11,37 @@ ServerEvents.recipes(e => {
     e.remove({id: 'ae2:network/blocks/pattern_providers_interface'})
     e.remove({id: 'ae2:network/blocks/interfaces_interface'})
     e.remove({id: 'ae2:network/crafting/patterns_blank'})
+    e.remove({id: 'ae2:network/blocks/crystal_processing_growth_accelerator'})
 
-})
+
+
+
+    e.shaped(
+        Item.of('ae2:energy_acceptor', 1), // arg 1: output
+        [
+          'PGP',
+          'GHG', // arg 2: the shape (array of strings)
+          'PGP'
+        ],
+        {
+          P: 'gtceu:steel_plate',
+          G: 'ae2:quartz_glass', 
+          H: 'gtceu:lv_machine_hull'
+        }
+      )
+
+      e.shaped(
+        Item.of('ae2:energy_acceptor', 1), // arg 1: output
+        [
+          'PGP',
+          'GHG', // arg 2: the shape (array of strings)
+          'PGP'
+        ],
+        {
+          P: 'gtceu:steel_plate',
+          G: 'ae2:quartz_glass', 
+          H: 'gtceu:lv_machine_hull'
+        
+        }
+      )
+})  
