@@ -1,7 +1,7 @@
 ServerEvents.recipes(e => {
     e.remove({id: 'xnet:controller'})
-
-
+    e.remove({id: /^xnet:netcable_[a-z]*$/})
+    e.remove({id: /^xnet:connector_[a-z]*$/})
 
     e.shaped(
         Item.of('xnet:netcable_yellow', 20), 
@@ -150,6 +150,21 @@ ServerEvents.recipes(e => {
           C: '#xnet:connectors',
           W: 'gtceu:wrought_iron_ingot', 
           R: 'minecraft:redstone',
+        }
+      )
+
+      e.shaped(
+        Item.of('xnet:controller', 1), 
+        [
+          'CCC',
+          'RFR',
+          'WWW'
+        ],
+        {
+          C: 'minecraft:copper_ingot',
+          W: 'gtceu:wrought_iron_ingot', 
+          R: 'minecraft:redstone',
+          F: 'rftoolsbase:machine_frame'
         }
       )
 })

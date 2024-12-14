@@ -12,6 +12,7 @@ modlist.html
 !minecraft/mods/examplemod
 !minecraft/resourcepacks*
 !minecraft/resourcepacks
+!minecraft/defaultconfigs*
 
 minecraft/config/alexsmobs*
 minecraft/config/everycomp-hazardous.properties
