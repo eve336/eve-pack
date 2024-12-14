@@ -629,6 +629,7 @@
 			y: 0.0d
 		}
 		{
+			description: ["Make sure the trees dont grow the wrong size."]
 			id: "7900BBE4BB0507B0"
 			tasks: [{
 				id: "03426C7409DD648E"
@@ -639,6 +640,7 @@
 			y: -2.0d
 		}
 		{
+			description: ["Makes the sapling grow significantly faster."]
 			id: "0E1EAB544C8B699A"
 			tasks: [{
 				id: "083A9225AAFD5B0C"
@@ -667,6 +669,16 @@
 			}]
 			x: 13.0d
 			y: 3.0d
+		}
+		{
+			id: "027D33E1646E9C62"
+			tasks: [{
+				id: "16562A5D92549B0E"
+				item: "ae2:energy_acceptor"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 5.0d
 		}
 	]
 	title: "LV"

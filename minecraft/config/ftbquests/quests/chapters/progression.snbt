@@ -731,6 +731,18 @@
 			x: -0.5d
 			y: 2.5d
 		}
+		{
+			description: ["hehehehehehe"]
+			id: "2D17BA2FC5E7022E"
+			tasks: [{
+				id: "367378F7844FEB11"
+				item: "gtceu:polyvinyl_butyral_ingot"
+				type: "item"
+			}]
+			title: "ZPM ingot"
+			x: -3.5d
+			y: -0.5d
+		}
 	]
 	title: "progression"
 }

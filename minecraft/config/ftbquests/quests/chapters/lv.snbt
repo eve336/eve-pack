@@ -9,7 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			icon: "minecraft:oak_log"
+			icon: "gtceu:iron_ore"
 			id: "15BC09BC9BB13540"
 			rewards: [
 				{
