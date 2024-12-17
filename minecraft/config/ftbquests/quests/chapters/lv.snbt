@@ -36,8 +36,7 @@
 									lvl: 10s
 								}
 								{
-									id: "minecraft:unbreaking"
-									lvl: 10s
+									Unbreakable: 1
 								}
 							]
 							GT.Behaviours: {
@@ -56,6 +55,7 @@
 								ToolSpeed: 6.4f
 							}
 							HideFlags: 2
+							Unbreakable: 1
 						}
 					}
 					type: "item"
@@ -73,8 +73,7 @@
 									lvl: 10s
 								}
 								{
-									id: "minecraft:unbreaking"
-									lvl: 10s
+									Unbreakable: 1
 								}
 							]
 							GT.Behaviours: {
@@ -92,6 +91,40 @@
 								ToolSpeed: 6.4f
 							}
 							HideFlags: 2
+							Unbreakable: 1
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1B4CC03B4BC8AE0D"
+					item: {
+						Count: 1
+						id: "gtceu:lv_invar_drill"
+						tag: {
+							Charge: 2147483647L
+							DisallowContainerItem: 0b
+							Enchantments: [{
+								id: "minecraft:efficiency"
+								lvl: 10s
+							}]
+							GT.Behaviours: {
+								AoEColumn: 1
+								AoELayer: 0
+								AoERow: 1
+								MaxAoEColumn: 1
+								MaxAoELayer: 0
+								MaxAoERow: 1
+								TorchPlacing: 1b
+							}
+							GT.Tool: {
+								Damage: 0
+								HarvestLevel: 2
+								MaxDamage: 1151
+								ToolSpeed: 8.0f
+							}
+							HideFlags: 2
+							MaxCharge: 2147483647L
 						}
 					}
 					type: "item"
@@ -400,6 +433,15 @@
 					item: "fulleng:terminal"
 					type: "item"
 				}
+				{
+					id: "32CE3A59868FD43C"
+					item: {
+						Count: 1
+						id: "ae2things:disk_drive_64k"
+						tag: { }
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "5857EA8BB11D45BE"
@@ -408,6 +450,57 @@
 			title: "Ae2 Storage System"
 			x: -3.0d
 			y: 4.0d
+		}
+		{
+			can_repeat: true
+			icon: "gtceu:rubber_sapling"
+			id: "7FB9DA65CB217970"
+			rewards: [{
+				count: 10
+				id: "7C1BE449FEA2C263"
+				item: "gtceu:rubber_sapling"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "56CB14691F157CD8"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			title: "Rubber Saplings"
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			icon: "minecraft:kelp"
+			id: "439797F34F558AB3"
+			rewards: [{
+				id: "197C6C27E9466962"
+				item: "minecraft:kelp"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "522BC1540314B254"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			title: "Kelp"
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			id: "363E19B452BB112C"
+			tasks: [{
+				id: "77B636A7C1EB49B6"
+				item: "dankstorage:dank_1"
+				type: "item"
+			}]
+			title: "Dank Storage"
+			x: -3.0d
+			y: -2.0d
 		}
 	]
 	title: "The beginning"

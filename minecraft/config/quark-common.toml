@@ -39,15 +39,15 @@
 		"Middle Y" = 0
 
 [categories]
-	automation = true
-	building = true
-	management = true
-	tools = true
-	tweaks = true
-	world = true
-	mobs = true
+	automation = false
+	building = false
+	management = false
+	tools = false
+	tweaks = false
+	world = false
+	mobs = false
 	client = true
-	experimental = true
+	experimental = false
 	oddities = true
 
 [automation]
@@ -108,40 +108,40 @@
 		"Delayed Update List" = ["minecraft:dispenser", "minecraft:dropper"]
 
 [building]
-	"Celebratory Lamps" = true
-	"Compressed Blocks" = true
-	"Duskbound Blocks" = true
-	"Framed Glass" = true
-	"Glass Item Frame" = true
-	"Gold Bars" = true
-	Grate = true
-	Hedges = true
-	"Hollow Logs" = true
-	"Industrial Palette" = true
-	"Japanese Palette" = true
-	"Leaf Carpet" = true
-	Midori = true
-	"More Brick Types" = true
-	"More Mud Blocks" = true
-	"More Potted Plants" = true
-	"Nether Brick Fence Gate" = true
-	"Rainbow Lamps" = true
-	"Raw Metal Bricks" = true
-	Rope = true
-	"Shear Vines" = true
-	Shingles = true
-	"Soul Sandstone" = true
-	Stools = true
-	"Sturdy Stone" = true
-	Thatch = true
-	"Variant Bookshelves" = true
-	"Variant Chests" = true
-	"Variant Furnaces" = true
-	"Variant Ladders" = true
-	"Vertical Planks" = true
-	"Vertical Slabs" = true
-	"Wooden Posts" = true
-	"More Stone Variants" = true
+	"Celebratory Lamps" = false
+	"Compressed Blocks" = false
+	"Duskbound Blocks" = false
+	"Framed Glass" = false
+	"Glass Item Frame" = false
+	"Gold Bars" = false
+	Grate = false
+	Hedges = false
+	"Hollow Logs" = false
+	"Industrial Palette" = false
+	"Japanese Palette" = false
+	"Leaf Carpet" = false
+	Midori = false
+	"More Brick Types" = false
+	"More Mud Blocks" = false
+	"More Potted Plants" = false
+	"Nether Brick Fence Gate" = false
+	"Rainbow Lamps" = false
+	"Raw Metal Bricks" = false
+	Rope = false
+	"Shear Vines" = false
+	Shingles = false
+	"Soul Sandstone" = false
+	Stools = false
+	"Sturdy Stone" = false
+	Thatch = false
+	"Variant Bookshelves" = false
+	"Variant Chests" = false
+	"Variant Furnaces" = false
+	"Variant Ladders" = false
+	"Vertical Planks" = false
+	"Vertical Slabs" = false
+	"Wooden Posts" = false
+	"More Stone Variants" = false
 
 	[building.celebratory_lamps]
 		"Light Level" = 15
@@ -197,8 +197,8 @@
 
 	[building.leaf_carpet]
 		#This feature disables itself if any of the following mods are loaded:
-		# - immersive_weathering
 		# - woodworks
+		# - immersive_weathering
 		#This is done to prevent content overlap.
 		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
 		"Ignore Anti Overlap" = false
@@ -237,8 +237,8 @@
 		#Allowed values: [0,1]
 		"Fall Damage Multiplier" = 0.5
 		#This feature disables itself if any of the following mods are loaded:
-		# - environmental
 		# - goated
+		# - environmental
 		#This is done to prevent content overlap.
 		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
 		"Ignore Anti Overlap" = false
@@ -246,8 +246,8 @@
 	[building.variant_bookshelves]
 		"Change Names" = true
 		#This feature disables itself if any of the following mods are loaded:
-		# - woodster
 		# - woodworks
+		# - woodster
 		#This is done to prevent content overlap.
 		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
 		"Ignore Anti Overlap" = false
@@ -266,8 +266,8 @@
 	[building.variant_ladders]
 		"Change Names" = true
 		#This feature disables itself if any of the following mods are loaded:
-		# - woodster
 		# - woodworks
+		# - woodster
 		#This is done to prevent content overlap.
 		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
 		"Ignore Anti Overlap" = false
@@ -766,21 +766,21 @@
 		"Smelt Raw Ore Blocks" = true
 
 [world]
-	"Ancient Wood" = true
-	"Azalea Wood" = true
-	"Big Stone Clusters" = true
-	"Blossom Trees" = true
-	"Chorus Vegetation" = true
-	Corundum = true
-	"Fairy Rings" = true
-	"Fallen Logs" = true
-	"Glimmering Weald" = true
-	"Monster Box" = true
-	"Nether Obsidian Spikes" = true
-	"New Stone Types" = true
-	"No More Lava Pockets" = true
-	Permafrost = true
-	"Spiral Spires" = true
+	"Ancient Wood" = false
+	"Azalea Wood" = false
+	"Big Stone Clusters" = false
+	"Blossom Trees" = false
+	"Chorus Vegetation" = false
+	Corundum = false
+	"Fairy Rings" = false
+	"Fallen Logs" = false
+	"Glimmering Weald" = false
+	"Monster Box" = false
+	"Nether Obsidian Spikes" = false
+	"New Stone Types" = false
+	"No More Lava Pockets" = false
+	Permafrost = false
+	"Spiral Spires" = false
 
 	[world.ancient_wood]
 		"Ancient Fruit Gives Exp" = true
@@ -1347,12 +1347,12 @@
 				"Is Blacklist" = false
 
 [mobs]
-	Crabs = true
+	Crabs = false
 	Forgotten = false
 	Foxhound = false
-	Shiba = true
-	Stonelings = true
-	Toretoise = true
+	Shiba = false
+	Stonelings = false
+	Toretoise = false
 	Wraith = false
 
 	[mobs.crabs]
@@ -1552,21 +1552,21 @@
 					"Is Blacklist" = false
 
 [client]
-	"Auto Walk Keybind" = true
+	"Auto Walk Keybind" = false
 	"Back Button Keybind" = true
 	"Buckets Show Inhabitants" = true
 	Camera = true
 	"Chest Searching" = true
-	"Elytra Indicator" = true
-	"Greener Grass" = true
-	"Improved Tooltips" = true
+	"Elytra Indicator" = false
+	"Greener Grass" = false
+	"Improved Tooltips" = false
 	"Long Range Pick Block" = true
 	"Microcrafting Helper" = false
-	"Soul Candles" = true
-	"Usage Ticker" = true
+	"Soul Candles" = false
+	"Usage Ticker" = false
 	"Uses For Curses" = false
 	"Variant Animal Textures" = false
-	"Wool Shuts Up Minecarts" = true
+	"Wool Shuts Up Minecarts" = false
 
 	[client.auto_walk_keybind]
 		"Draw Hud" = true

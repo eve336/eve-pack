@@ -6,9 +6,13 @@ console.info('Hello, World! (Loaded server scripts)')
 
 ServerEvents.recipes(event => {
 
+    event.remove({input: /flowercrops:.*_dye/})
+    event.remove({input: /flowercrops:.*_pigment/})
+
 global.nukeList.forEach((item) => {
     // console.log(item)
     event.remove({ output: item })
+    event.remove({input: item})
 })
 
 

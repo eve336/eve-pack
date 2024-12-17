@@ -31,16 +31,16 @@ ServerEvents.recipes(e => {
       )
 
       e.shaped(
-        Item.of('ae2:energy_acceptor', 1), // arg 1: output
+        Item.of('ae2:growth_accelerator', 1), // arg 1: output
         [
-          'PGP',
-          'GHG', // arg 2: the shape (array of strings)
-          'PGP'
+          'GCG',
+          'PGP', // arg 2: the shape (array of strings)
+          'GCG'
         ],
         {
-          P: 'gtceu:steel_plate',
+          P: 'gtceu:wrought_iron_plate',
           G: 'ae2:quartz_glass', 
-          H: 'gtceu:lv_machine_hull'
+          C: '#gtceu:circuits/lv'
         
         }
       )
