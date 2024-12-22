@@ -16,6 +16,8 @@ ItemEvents.modification(e => {
 
 WorldgenEvents.remove(event => {
       event.removeOres(props => {
-            props.blocks = ['rftoolsbase:dimensionalshard_nether', 'rftoolsbase:dimensionalshard_overworld', 'rftoolsbase:dimensionalshard_end']
+            props.blocks = ['rftoolsbase:dimensionalshard_nether', 'rftoolsbase:dimensionalshard_overworld', 'rftoolsbase:dimensionalshard_end',
+                  'minecraft:gold_ore', 'minecraft:deepslate_gold_ore', 'minecraft:nether_gold_ore', 'minecraft:gold_ore'
+            ]
       })
 })

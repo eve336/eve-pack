@@ -45,6 +45,7 @@ ServerEvents.recipes(e => {
       I: 'minecraft:iron_ingot'
     }
   )
+
     e.shaped(
         Item.of('minecraft:copper_block', 1), 
         [
@@ -54,6 +55,18 @@ ServerEvents.recipes(e => {
         ],
         {
           C: 'minecraft:copper_ingot'
+        }
+      )
+
+      e.shaped(
+        Item.of('minecraft:redstone_block', 1), 
+        [
+          'CCC',
+          'CCC',
+          'CCC'
+        ],
+        {
+          C: 'minecraft:redstone'
         }
       )
 
@@ -68,12 +81,21 @@ ServerEvents.recipes(e => {
           C: 'minecraft:gold_ingot'
         }
       )
-      e.shapeless(
+
+        e.shapeless(
         Item.of('minecraft:gold_ingot', 9),
         [
           'minecraft:gold_block'
         ]
       )
+
+      e.shapeless(
+        Item.of('minecraft:redstone', 9),
+        [
+          'minecraft:redstone_block'
+        ]
+      )
+
       e.shapeless(
         Item.of('minecraft:flint_and_steel', 1),
         [

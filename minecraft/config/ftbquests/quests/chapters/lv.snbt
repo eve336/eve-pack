@@ -104,10 +104,15 @@
 						tag: {
 							Charge: 2147483647L
 							DisallowContainerItem: 0b
-							Enchantments: [{
-								id: "minecraft:efficiency"
-								lvl: 10s
-							}]
+							Enchantments: [
+								{
+									id: "minecraft:efficiency"
+									lvl: 10s
+								}
+								{
+									Unbreakable: 1
+								}
+							]
 							GT.Behaviours: {
 								AoEColumn: 1
 								AoELayer: 0
@@ -116,6 +121,7 @@
 								MaxAoELayer: 0
 								MaxAoERow: 1
 								TorchPlacing: 1b
+								Unbreakable: 1
 							}
 							GT.Tool: {
 								Damage: 0
@@ -125,6 +131,7 @@
 							}
 							HideFlags: 2
 							MaxCharge: 2147483647L
+							Unbreakable: 1
 						}
 					}
 					type: "item"
