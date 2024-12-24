@@ -12,6 +12,18 @@ JEIEvents.hideItems(event => {
     event.hide(/flowercrops:.*_pigment/)
     event.hide(/quark:.*_corundum/)
     event.hide(/quark:.*_waxed_corundum/)
+    event.hide(/quark:.*/)
+
+    event.hide(/^sophisticatedstorage:.*chest.*/)
+    event.hide(/^sophisticatedstorage:.*barrel.*/)
+    event.hide(/^sophisticatedstorage:.*shulker.*/)
+})
+
+JEIEvents.addItems(event =>{
+event.add(Item.of('sophisticatedstorage:chest', '{woodType:"oak"}'))    
+event.add('sophisticatedstorage:shulker_box')
+event.add(Item.of('sophisticatedstorage:barrel', '{woodType:"oak"}'))
+
 })
 
 JEIEvents.hideFluids(event =>{
