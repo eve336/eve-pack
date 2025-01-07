@@ -1,0 +1,461 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "nuclear"
+	group: ""
+	icon: "gtceu:plutonium_waste"
+	id: "5E6D69358B4425C4"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			id: "626781B9787FE4E8"
+			tasks: [{
+				id: "7F4CD425B9E3C1D8"
+				item: "examplemod:nuclear_reactor"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			id: "4E141D8870AD3A2F"
+			tasks: [{
+				id: "3B98D38A45442DD2"
+				item: "gtceu:uranium_dust"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4E141D8870AD3A2F"]
+			icon: "gtceu:uranium_nitrite"
+			id: "54E4EE4A7B2F0306"
+			tasks: [{
+				id: "6333CABD53B97FD4"
+				type: "checkmark"
+			}]
+			title: "Uranium Nitrite"
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["54E4EE4A7B2F0306"]
+			icon: "gtceu:uranium_dioxide"
+			id: "36B4E0185253C173"
+			tasks: [{
+				id: "10F6652347C51478"
+				type: "checkmark"
+			}]
+			title: "Uranium Dioxide"
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["36B4E0185253C173"]
+			icon: "gtceu:uranium_hexachloride_bucket"
+			id: "261355BE01724BA2"
+			tasks: [{
+				id: "534CB03AB174E7A3"
+				type: "checkmark"
+			}]
+			title: "Uranium Hexachloride"
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["261355BE01724BA2"]
+			icon: "gtceu:ev_uranium_hexafluoride_bucket"
+			id: "5891581B808A1BF1"
+			tasks: [{
+				id: "7BF216FB76985262"
+				type: "checkmark"
+			}]
+			title: "Uranium Hexafluoride"
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["384B36E9207D83ED"]
+			icon: "examplemod:ev_uranium_238_hexafluoride_bucket"
+			id: "14B851996B958039"
+			tasks: [{
+				id: "357516ADCE2F7B94"
+				type: "checkmark"
+			}]
+			title: "Uranium 238 Hexafluoride"
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5891581B808A1BF1"]
+			id: "384B36E9207D83ED"
+			tasks: [{
+				id: "7FEBC7924586BA19"
+				type: "checkmark"
+			}]
+			title: "Gas Centrifuge"
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["384B36E9207D83ED"]
+			icon: "gtceu:ev_uranium_235_hexafluoride_bucket"
+			id: "2FCF062B3C3B3706"
+			tasks: [{
+				id: "074363AC8FE58216"
+				type: "checkmark"
+			}]
+			title: "Uranium 235 Hexafluoride"
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["384B36E9207D83ED"]
+			icon: "examplemod:ev_uranium_234_hexafluoride_bucket"
+			id: "1569643ED811084E"
+			tasks: [{
+				id: "73429C0715E6F0D5"
+				type: "checkmark"
+			}]
+			title: "Uranium 234 Hexafluoride"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["68BAD843535A8EB9"]
+			icon: "examplemod:steam_cracked_uranium_238_hexafluoride_bucket"
+			id: "4D5978F2B9532ABC"
+			tasks: [{
+				id: "09628908F1504933"
+				type: "checkmark"
+			}]
+			title: "Steam Cracked Uranium 238 Hexafluoride"
+			x: 11.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["14B851996B958039"]
+			id: "68BAD843535A8EB9"
+			tasks: [{
+				id: "46123E1D9DEC024D"
+				item: "gtceu:cracker"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4D5978F2B9532ABC"]
+			icon: "examplemod:uranium_238_dioxide"
+			id: "7CA02B8D912115F8"
+			tasks: [{
+				id: "51449038C083D46E"
+				type: "checkmark"
+			}]
+			title: "Uranium 238 Dioxide"
+			x: 12.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7CA02B8D912115F8"]
+			id: "05742018D6A70CD9"
+			tasks: [{
+				id: "68B8669A625953F8"
+				item: "examplemod:uranium_238_ingot"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2D7F132842A27011"]
+			id: "4A230332A1CC44C5"
+			tasks: [{
+				id: "0AEA1DE0E4238D05"
+				item: "gtceu:uranium_waste"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4A230332A1CC44C5"]
+			id: "6952278404268B4B"
+			tasks: [{
+				id: "7653DC198835E11C"
+				item: "gtceu:neptunium_dust"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"6952278404268B4B"
+				"4E4C16F86B85077E"
+			]
+			id: "16EFA03665BFD61A"
+			tasks: [{
+				id: "51DF75CF5DC2E541"
+				item: "gtceu:neptunium_waste"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["16EFA03665BFD61A"]
+			id: "60FEF4CABE565323"
+			tasks: [{
+				id: "30300149CB7C66AD"
+				item: "gtceu:plutonium_dust"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"60FEF4CABE565323"
+				"652AC5FFE0FEF913"
+			]
+			id: "209B2586AC41AD58"
+			tasks: [{
+				id: "409DFE6CB5274659"
+				item: "gtceu:plutonium_waste"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["209B2586AC41AD58"]
+			id: "72CB1DCAFA7665D6"
+			tasks: [{
+				id: "0A844D7B64827A97"
+				item: "gtceu:americium_dust"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"72CB1DCAFA7665D6"
+				"63DD7FDBFAAE8E5E"
+			]
+			id: "00DD70318C6613CE"
+			tasks: [{
+				id: "3A519C96FD1CB728"
+				item: "gtceu:americium_waste"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["00DD70318C6613CE"]
+			id: "321E386DF02C3738"
+			tasks: [{
+				id: "6454AFE3144D9089"
+				item: "gtceu:curium_dust"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["321E386DF02C3738"]
+			id: "0D8BBEDFDF460A38"
+			tasks: [{
+				id: "505791E88C4FCBE1"
+				item: "gtceu:curium_waste"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0D8BBEDFDF460A38"]
+			id: "1DA3C607CBF182B5"
+			tasks: [{
+				id: "7B7685AA638A7AEF"
+				item: "gtceu:berkelium_dust"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1DA3C607CBF182B5"]
+			id: "1B70C952051E4A3A"
+			tasks: [{
+				id: "57F6E477D4CD2980"
+				item: "gtceu:berkelium_waste"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1B70C952051E4A3A"]
+			id: "21F7868D1242C9BB"
+			tasks: [{
+				id: "3E2B11788437D3A3"
+				item: "gtceu:californium_dust"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["21F7868D1242C9BB"]
+			id: "47BFB814B8430819"
+			tasks: [{
+				id: "028DF2589BEE534E"
+				item: "gtceu:californium_waste"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["47BFB814B8430819"]
+			id: "131A8F56315B2CA1"
+			tasks: [{
+				id: "113ACA5315851142"
+				item: "gtceu:einsteinium_dust"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["131A8F56315B2CA1"]
+			id: "065C14DB2C9BFCC2"
+			tasks: [{
+				id: "1B8EF5197702A862"
+				item: "gtceu:einsteinium_waste"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["065C14DB2C9BFCC2"]
+			id: "365328A96FFD6FBD"
+			tasks: [{
+				id: "6AF83E8D9519956D"
+				item: "gtceu:fermium_dust"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["365328A96FFD6FBD"]
+			id: "7EE03CE801F9C657"
+			tasks: [{
+				id: "22C68ABC09F56EE4"
+				item: "gtceu:fermium_waste"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["7EE03CE801F9C657"]
+			id: "37391C3FA68F3C85"
+			tasks: [{
+				id: "3559B98A70CCA738"
+				item: "gtceu:mendelevium_dust"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 9.5d
+		}
+		{
+			id: "4E4C16F86B85077E"
+			tasks: [{
+				id: "3CBEADE07A9ADCAB"
+				item: "examplemod:cryotheum_bucket"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			id: "652AC5FFE0FEF913"
+			tasks: [{
+				id: "6DB5BA05A007AE8E"
+				item: "examplemod:supercooled_cryotheum_bucket"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			id: "6AA2AC958C54E980"
+			tasks: [{
+				id: "363EDFF125BE4E86"
+				item: "examplemod:active_cooler"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			id: "2D7F132842A27011"
+			tasks: [{
+				id: "6538E095A3D9FAE6"
+				item: "gtceu:distilled_water_bucket"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			id: "63DD7FDBFAAE8E5E"
+			tasks: [{
+				id: "7F326A0B7394A40C"
+				item: "examplemod:dichlorodifluoromethane_bucket"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			id: "7EBC5390B6D9D04E"
+			tasks: [{
+				id: "4B4365AC9AD48404"
+				item: "examplemod:fuel_cell"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			id: "43295DD97DEB4C6F"
+			tasks: [{
+				id: "31D1519BACD8EA4E"
+				title: "Isotope Separation"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			id: "0E9BA0645CC1CDA2"
+			tasks: [{
+				id: "61D2A481F45608B8"
+				title: "Nuclear Reactor"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: -2.5d
+		}
+	]
+	title: "Nuclear"
+}
