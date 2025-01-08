@@ -509,6 +509,37 @@
 			x: -3.0d
 			y: -2.0d
 		}
+		{
+			id: "581F31831DA39064"
+			tasks: [{
+				id: "1114707C72F0C25D"
+				item: {
+					Count: 1
+					id: "tiab:time_in_a_bottle"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			id: "28829966E3B03193"
+			tasks: [{
+				id: "1906B9851C7F4A34"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:chest"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			title: "Sophisticated Storage"
+			x: 0.0d
+			y: -0.5d
+		}
 	]
 	title: "The beginning"
 }
