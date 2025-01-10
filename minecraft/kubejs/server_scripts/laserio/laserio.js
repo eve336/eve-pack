@@ -5,7 +5,7 @@ ServerEvents.recipes(e => {
     e.remove({id: 'laserio:filter_basic'})
     
     e.shaped(
-        Item.of('laserio:logic_chip_raw', 16), 
+        Item.of('laserio:logic_chip_raw', 4), 
         [
           'RRR',
           'CQC',
