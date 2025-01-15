@@ -8,7 +8,8 @@ ItemEvents.modification(e => {
             'gtceu:luv_solar_panel', 'gtceu:zpm_solar_panel', 'gtceu:uv_solar_panel', 'ad_astra:steel_rod', 'ad_astra:iron_rod', 'ad_astra:steel_block', 'ad_astra:steel_plate',
             'ad_astra:cryo_fuel_bucket', 'ad_astra:oil_bucket', 'ad_astra:fuel_bucket', 'ad_astra:iron_plate', 'functionalstorage:gold_upgrade', 'functionalstorage:diamond_upgrade',
             'functionalstorage:netherite_upgrade', 'functionalstorage:max_storage_upgrade', 'functionalstorage:creative_vending_upgrade', 'rftoolsbase:machine_infuser', 'ironfurnaces:million_furnace', 'ironfurnaces:rainbow_plating', 'ironfurnaces:rainbow_core', 'ironfurnaces:rainbow_coal',
-            'ironfurnaces:augment_generator','rftoolsbase:dimensionalshard_overworld', 'rftoolsbase:dimensionalshard_nether', 'rftoolsbase:dimensionalshard_end', 'ironfurnaces:crystal_furnace'
+            'ironfurnaces:augment_generator','rftoolsbase:dimensionalshard_overworld', 'rftoolsbase:dimensionalshard_nether', 'rftoolsbase:dimensionalshard_end', 'ironfurnaces:crystal_furnace', 'simple_resource_generators:simple_ore_generator',
+            'simple_resource_generators:simple_ore_generator_placement', 'ad_astra:steel_ingot'
       )
 
 })

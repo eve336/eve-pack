@@ -9,6 +9,8 @@ ServerEvents.recipes(event => {
     event.remove({input: /flowercrops:.*_dye/})
     event.remove({input: /flowercrops:.*_pigment/})
 
+    event.remove({id: 'simple_resource_generators:simple_lava_condenser'})
+
 global.nukeList.forEach((item) => {
     // console.log(item)
     event.remove({ output: item })

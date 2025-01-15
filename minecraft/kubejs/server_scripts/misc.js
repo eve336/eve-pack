@@ -30,6 +30,34 @@ ServerEvents.recipes(e => {
     }
   )
 
+  e.shaped(
+    Item.of('minecraft:glass_bottle', 3),
+    [
+      'G G',
+      ' G '
+    ],
+    {
+      G: 'minecraft:glass'
+    }
+  )
+
+  e.remove({id: 'gtceu:shaped/steam_boiler_coal_steel'})
+  e.shaped(
+    Item.of('gtceu:hp_steam_solid_boiler'),
+    [
+      'WWW',
+      'STS',
+      'BFB'
+    ],
+    {
+      W: 'gtceu:wrought_iron_plate',
+      S: 'gtceu:steel_plate',
+      T: '#forge:tools/wrenches',
+      B: 'minecraft:bricks',
+      F: 'minecraft:furnace'
+    }
+  )
+
 
   e.remove({id: 'quark:oddities/crafting/backpack'})
   e.shaped(
