@@ -590,11 +590,18 @@
 		}
 		{
 			id: "4CB20730442F4F5D"
-			tasks: [{
-				id: "6E77B08DCE9446A8"
-				item: "minecraft:oak_sapling"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6E77B08DCE9446A8"
+					item: "minecraft:oak_sapling"
+					type: "item"
+				}
+				{
+					id: "2BCF357CB3EB550E"
+					item: "examplemod:straight_rubber_sapling"
+					type: "item"
+				}
+			]
 			x: 11.0d
 			y: 4.0d
 		}
@@ -679,6 +686,22 @@
 			}]
 			x: 10.0d
 			y: 5.0d
+		}
+		{
+			dependencies: ["05A7652D228404A3"]
+			id: "6381240F1619A30A"
+			rewards: [{
+				id: "0078A1F652B1E2A4"
+				item: "examplemod:lv_solar_panel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2692BBA0745729D4"
+				type: "checkmark"
+			}]
+			title: "Temporary solar panel"
+			x: 6.5d
+			y: 6.0d
 		}
 	]
 	title: "LV"
