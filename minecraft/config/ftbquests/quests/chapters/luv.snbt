@@ -13,6 +13,7 @@
 				"03965E75EAFA3F71"
 				"7491FCBCEDD06D07"
 				"5CFC30E025992CF6"
+				"54F15C998562BC28"
 			]
 			id: "4DB4DE7B7E5873CD"
 			tasks: [{
@@ -67,6 +68,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["71050BACDBCE23B8"]
 			id: "7491FCBCEDD06D07"
 			tasks: [{
 				id: "10886F72C6B45CFD"
@@ -203,8 +205,8 @@
 				item: "gtceu:indium_tin_barium_titanium_cuprate_single_wire"
 				type: "item"
 			}]
-			x: -5.5d
-			y: -2.0d
+			x: -3.5d
+			y: -4.0d
 		}
 		{
 			id: "331B947AE85070F1"
@@ -213,8 +215,8 @@
 				item: "gtceu:indium_tin_barium_titanium_cuprate_ingot"
 				type: "item"
 			}]
-			x: -5.5d
-			y: -3.0d
+			x: -4.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["33C50C10511ED75C"]
@@ -224,8 +226,8 @@
 				item: "gtceu:superconducting_coil"
 				type: "item"
 			}]
-			x: -5.5d
-			y: -1.0d
+			x: -3.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["61B19C448B41E0BF"]
@@ -236,7 +238,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: -1.0d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -333,6 +335,43 @@
 			}]
 			title: "Phthalic Acid"
 			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["777746A9816C045B"]
+			id: "71050BACDBCE23B8"
+			tasks: [{
+				id: "2BF1C6BA5A4D7223"
+				item: "gtceu:raw_crystal_chip"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["32FE19EF77746049"]
+			id: "54F15C998562BC28"
+			tasks: [{
+				id: "61B52EF56E13986F"
+				item: "examplemod:kapton_circuit_board"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"5AD7F3172D46C7DB"
+				"6AAE388E633EF2CE"
+			]
+			icon: "examplemod:kapton_board"
+			id: "32FE19EF77746049"
+			tasks: [{
+				id: "095CE59243CD6B47"
+				type: "checkmark"
+			}]
+			title: "Kapton Board"
+			x: -0.5d
 			y: -2.0d
 		}
 	]

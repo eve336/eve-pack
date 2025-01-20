@@ -1,0 +1,175 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "zpm"
+	group: ""
+	id: "17F093C54C6A76C0"
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"40F1EAE8A277C47C"
+				"24C40BDF83FEF356"
+			]
+			id: "72A66987306D49DB"
+			tasks: [{
+				id: "6924BE5AFCFD265A"
+				item: "gtceu:wetware_processor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["72A66987306D49DB"]
+			id: "5B80B2DE04401943"
+			tasks: [{
+				id: "08A328AB8E3FB331"
+				item: "gtceu:wetware_processor_assembly"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5B80B2DE04401943"]
+			id: "26DEE3B6FC2FABBA"
+			tasks: [{
+				id: "0C8BEFA85B78ACEF"
+				item: "gtceu:wetware_processor_computer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"26DEE3B6FC2FABBA"
+				"6B09E9090FD6C1BA"
+			]
+			id: "5D7DB4E610A62405"
+			tasks: [{
+				id: "6DC5109CF7BB39F2"
+				item: "gtceu:wetware_processor_mainframe"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			icon: "gtceu:uu_matter_bucket"
+			id: "6B09E9090FD6C1BA"
+			tasks: [{
+				id: "16CBEE8B0F4AEC1E"
+				type: "checkmark"
+			}]
+			title: "UU-Matter"
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["375DEBE7BC7CEF19"]
+			id: "24C40BDF83FEF356"
+			tasks: [{
+				id: "1AE12E9AA4067778"
+				item: "gtceu:stem_cells"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			icon: "gtceu:sterilized_growth_medium_bucket"
+			id: "375DEBE7BC7CEF19"
+			tasks: [{
+				id: "0BB2A388BE3D5E99"
+				type: "checkmark"
+			}]
+			title: "Sterilised Growth Medium"
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"3431010A7B19E13D"
+				"49905D570CEA80C9"
+			]
+			id: "40F1EAE8A277C47C"
+			tasks: [{
+				id: "44B9074056C1CC97"
+				item: "examplemod:cyber_processing_unit"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2333B753E15CD1F2"]
+			id: "3431010A7B19E13D"
+			tasks: [{
+				id: "4C4AC63A884220E0"
+				item: "gtceu:tritanium_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			id: "2333B753E15CD1F2"
+			tasks: [{
+				id: "2F56C1EFDB27E6E6"
+				item: "gtceu:zpm_fusion_reactor"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"21980C713A482EDD"
+				"1957DA72A90FE592"
+				"0D5F41E78712F109"
+			]
+			id: "49905D570CEA80C9"
+			tasks: [{
+				id: "1F6C1204687742E1"
+				item: "examplemod:smd_resistor_wetware"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			id: "21980C713A482EDD"
+			tasks: [{
+				id: "5E11EDF5D8D038EC"
+				item: "gtceu:naquadria_ingot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			id: "1957DA72A90FE592"
+			tasks: [{
+				id: "4574414902DFA469"
+				item: "examplemod:ruthenium_dioxide_ingot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			id: "0D5F41E78712F109"
+			tasks: [{
+				id: "561B671191B6D6E0"
+				item: "gtceu:enriched_naquadah_ingot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+	]
+	title: "ZPM"
+}
