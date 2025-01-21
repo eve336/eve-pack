@@ -540,6 +540,50 @@
 			x: 0.0d
 			y: -0.5d
 		}
+		{
+			description: ["I added these bc gregtech pipes are literally unusable and ae2 just overshadows them completely later on."]
+			id: "4C66C9DAA374C4EA"
+			tasks: [
+				{
+					id: "7ED4D5C482C288ED"
+					item: "examplemod:ulv_electric_piston"
+					type: "item"
+				}
+				{
+					id: "2BA37E9A9024FCE5"
+					item: "examplemod:ulv_electric_motor"
+					type: "item"
+				}
+				{
+					id: "23DC869B82D6E351"
+					item: "examplemod:ulv_robot_arm"
+					type: "item"
+				}
+				{
+					id: "5AB6C8EB0DA8EB50"
+					item: "examplemod:ulv_conveyor_module"
+					type: "item"
+				}
+				{
+					id: "28A0A79026B189FA"
+					item: "examplemod:ulv_electric_pump"
+					type: "item"
+				}
+			]
+			title: "ULV Compnents"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			id: "0BDF9018298FFB9D"
+			tasks: [{
+				id: "346B3E50D9C39860"
+				item: "xnet:controller"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
 	]
 	title: "The beginning"
 }

@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "zpm"
 	group: ""
+	icon: "gtceu:zpm_electric_motor"
 	id: "17F093C54C6A76C0"
 	order_index: 9
 	quest_links: [ ]

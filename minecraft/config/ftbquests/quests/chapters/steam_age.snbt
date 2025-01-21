@@ -126,6 +126,12 @@
 		{
 			dependencies: ["307B616CB7155DBA"]
 			id: "48D623308E670D40"
+			rewards: [{
+				count: 16
+				id: "4C3DB259F60C2CC2"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
 			tasks: [{
 				id: "32C5137635C3F588"
 				item: "gtceu:bronze_ingot"
@@ -258,6 +264,12 @@
 		{
 			dependencies: ["461E7CF818ED4D27"]
 			id: "3D1173C0064E4645"
+			rewards: [{
+				count: 16
+				id: "3C6096BEC4394AC5"
+				item: "gtceu:bronze_ingot"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0FC1C3750666A7F7"
 				item: "gtceu:bronze_large_boiler"
