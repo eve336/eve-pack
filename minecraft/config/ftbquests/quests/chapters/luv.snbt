@@ -374,6 +374,16 @@
 			x: -0.5d
 			y: -2.0d
 		}
+		{
+			description: ["why is this chapter so short bruh lmao"]
+			id: "2B5FF3C2E478738D"
+			tasks: [{
+				id: "7DFFC2FC40DA7BD0"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
 	]
 	title: "LuV"
 }

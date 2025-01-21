@@ -81,6 +81,7 @@
 			y: -2.5d
 		}
 		{
+			description: ["Just a short little chemline, nothing too major :3"]
 			icon: "gtceu:sterilized_growth_medium_bucket"
 			id: "375DEBE7BC7CEF19"
 			tasks: [{

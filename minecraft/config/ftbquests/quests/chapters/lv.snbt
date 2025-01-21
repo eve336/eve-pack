@@ -576,11 +576,25 @@
 		}
 		{
 			id: "0BDF9018298FFB9D"
-			tasks: [{
-				id: "346B3E50D9C39860"
-				item: "xnet:controller"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "346B3E50D9C39860"
+					item: "xnet:controller"
+					type: "item"
+				}
+				{
+					id: "67DA698509F2B3AA"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item_tag(xnet:cables))"
+						}
+					}
+					title: "Xnet Cables"
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: 2.5d
 		}
