@@ -222,6 +222,12 @@
 		}
 		{
 			id: "5EAA06D390EAE82D"
+			rewards: [{
+				count: 16
+				id: "55340D1302B48D87"
+				item: "gtceu:wrought_iron_plate"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "4376823231EE9BBB"
@@ -477,7 +483,7 @@
 			}]
 			title: "Rubber Saplings"
 			x: -3.0d
-			y: -0.5d
+			y: -2.0d
 		}
 		{
 			can_repeat: true
@@ -507,7 +513,7 @@
 			}]
 			title: "Dank Storage"
 			x: -3.0d
-			y: -2.0d
+			y: -0.5d
 		}
 		{
 			id: "581F31831DA39064"
@@ -521,7 +527,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -2.0d
+			y: 5.5d
 		}
 		{
 			id: "28829966E3B03193"
@@ -543,6 +549,12 @@
 		{
 			description: ["I added these bc gregtech pipes are literally unusable and ae2 just overshadows them completely later on."]
 			id: "4C66C9DAA374C4EA"
+			rewards: [{
+				count: 16
+				id: "43A89E5B9D735161"
+				item: "gtceu:lead_plate"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "7ED4D5C482C288ED"
@@ -597,6 +609,94 @@
 			]
 			x: 0.0d
 			y: 2.5d
+		}
+		{
+			description: ["Make sure to configure your ftb settings so fake players can run in force loaded chunks."]
+			id: "6FBC791D85818F79"
+			tasks: [{
+				id: "546E0CEFC0A95D96"
+				item: "modularrouters:modular_router"
+				type: "item"
+			}]
+			title: "Modular Routers"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			id: "2E992A4417D29149"
+			tasks: [{
+				id: "27FD85A04DDF5CC3"
+				item: {
+					Count: 1
+					id: "quark:backpack"
+					tag: {
+						Inventory: [
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.5d
+		}
+		{
+			id: "2379D8E2CF84D9C8"
+			tasks: [{
+				id: "618517EEA5E2FACE"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			title: "Sophisticated Backpacks"
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			can_repeat: true
+			description: ["this is supposed to be a temporary quest but it will probably end up being permanent"]
+			icon: "minecraft:shulker_shell"
+			id: "65724F55F801874F"
+			rewards: [{
+				count: 2
+				id: "45CF2234B2A51083"
+				item: "minecraft:shulker_shell"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "36F2EFA21CC60F92"
+				item: "minecraft:gold_block"
+				type: "item"
+			}]
+			title: "Shulker Shells"
+			x: 0.0d
+			y: -2.0d
 		}
 	]
 	title: "The beginning"

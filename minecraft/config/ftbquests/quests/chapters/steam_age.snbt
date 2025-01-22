@@ -60,7 +60,7 @@
 				item: "gtceu:lp_steam_solar_boiler"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -5.5d
 			y: 1.5d
 		}
 		{
@@ -82,7 +82,7 @@
 				item: "gtceu:lp_steam_liquid_boiler"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -5.5d
 			y: 2.5d
 		}
 		{
