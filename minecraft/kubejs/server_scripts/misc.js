@@ -31,6 +31,20 @@ ServerEvents.recipes(e => {
   )
 
   e.shaped(
+    Item.of('sophisticatedstorage:barrel', '{woodType:"oak"}'),
+    [
+      'PSP',
+      'PTP',
+      'PSP'
+    ],
+    {
+      P: 'gtceu:rubber_planks',
+      S: 'gtceu:rubber_slab',
+      T: 'minecraft:redstone_torch'
+    }
+  )
+
+  e.shaped(
     Item.of('minecraft:glass_bottle', 3),
     [
       'G G',
