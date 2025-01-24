@@ -252,6 +252,7 @@
 			dependencies: ["78F799F5D40EE206"]
 			description: ["If youre gonna do it this route then start it early bc the recipe times are really long,,,"]
 			id: "06FDF560A5E655DF"
+			optional: true
 			tasks: [{
 				id: "1E989A9918CF361D"
 				item: "examplemod:alumino_silicate_wool_dust"

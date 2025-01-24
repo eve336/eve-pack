@@ -428,7 +428,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["4B8FD7A8D756E370"]
@@ -441,6 +441,48 @@
 			}]
 			x: -1.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["4B8FD7A8D756E370"]
+			id: "0566202AFA01533B"
+			optional: true
+			tasks: [{
+				id: "09BDF59AF87FD034"
+				item: "gtceu:nitrobenzene_bucket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "1B4C225F482B6D9A"
+			tasks: [{
+				id: "234F0EFA3282EED2"
+				item: "gtceu:lv_gas_turbine"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			id: "0866683B9707A116"
+			tasks: [{
+				id: "0F61A1A18A811DB2"
+				item: "gtceu:mv_gas_turbine"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			id: "798CB5A45A44010A"
+			tasks: [{
+				id: "5E278720A7869513"
+				item: "gtceu:hv_gas_turbine"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
 		}
 	]
 	title: "HV"

@@ -22,7 +22,7 @@
 				type: "item"
 			}]
 			title: "Bio Diesel"
-			x: 6.0d
+			x: 5.5d
 			y: 4.5d
 		}
 		{
@@ -45,7 +45,7 @@
 				type: "item"
 			}]
 			title: "Methanol or Ethanol"
-			x: 5.0d
+			x: 4.5d
 			y: 3.5d
 		}
 		{
@@ -68,7 +68,7 @@
 				type: "item"
 			}]
 			title: "Oils"
-			x: 7.0d
+			x: 6.5d
 			y: 3.5d
 		}
 		{
@@ -78,7 +78,7 @@
 				item: "gtceu:tiny_sodium_hydroxide_dust"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 5.5d
 			y: 3.5d
 		}
 		{
@@ -314,7 +314,7 @@
 				item: "gtceu:oil_bucket"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 3.0d
 			y: 2.5d
 		}
 		{
@@ -328,7 +328,7 @@
 				item: "gtceu:diesel_bucket"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 3.0d
 			y: 4.5d
 		}
 		{
@@ -339,7 +339,7 @@
 				item: "gtceu:light_fuel_bucket"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.5d
 			y: 3.5d
 		}
 		{
@@ -350,7 +350,7 @@
 				item: "gtceu:heavy_fuel_bucket"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 3.5d
 			y: 3.5d
 		}
 		{
