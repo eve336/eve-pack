@@ -136,6 +136,22 @@
 					}
 					type: "item"
 				}
+				{
+					id: "0A11742D7C860500"
+					item: "gtceu:prospector.luv"
+					type: "item"
+				}
+				{
+					id: "40602B296C74D82E"
+					item: {
+						Count: 1
+						id: "gtceu:prospector.luv"
+						tag: {
+							Charge: 1000000000L
+						}
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "39CA04E3365EFF70"
@@ -455,6 +471,15 @@
 					}
 					type: "item"
 				}
+				{
+					id: "76C7E1B97DC800BD"
+					item: {
+						Count: 1
+						id: "ae2:fluid_storage_cell_4k"
+						tag: { }
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "5857EA8BB11D45BE"
@@ -607,6 +632,7 @@
 					type: "item"
 				}
 			]
+			title: "Xnet"
 			x: 0.0d
 			y: 2.5d
 		}

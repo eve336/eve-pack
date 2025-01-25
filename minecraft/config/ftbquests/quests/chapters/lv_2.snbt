@@ -202,6 +202,12 @@
 		{
 			dependencies: ["6D08AA2C53ABF818"]
 			id: "211179A3366AA803"
+			rewards: [{
+				count: 4
+				id: "79731C7E24E4E7EF"
+				item: "gtceu:aluminium_dust"
+				type: "item"
+			}]
 			tasks: [{
 				id: "703BD00252F0C334"
 				item: "gtceu:aluminium_ingot"
@@ -342,6 +348,7 @@
 			dependencies: [
 				"1BFA6E139D455170"
 				"5033A3F93C6A5AE1"
+				"1859935833E8851B"
 			]
 			id: "623B82301658914B"
 			tasks: [{
@@ -367,15 +374,8 @@
 		{
 			id: "699677F9B76055D2"
 			tasks: [{
-				id: "1D4FC9E356F574AB"
-				item: {
-					Count: 1
-					id: "ftbfiltersystem:smart_filter"
-					tag: {
-						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:ores/sphalerite)"
-					}
-				}
-				title: "Any #forge:ores/sphalerite"
+				id: "0ABB20C3FB517803"
+				item: "gtceu:raw_sphalerite"
 				type: "item"
 			}]
 			x: 5.5d
@@ -704,6 +704,27 @@
 			title: "Temporary solar panel"
 			x: 6.5d
 			y: 6.0d
+		}
+		{
+			dependencies: ["2F664B59779079BB"]
+			id: "1859935833E8851B"
+			tasks: [{
+				id: "52E94B27152BC713"
+				item: "gtceu:arsenic_dust"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			id: "2F664B59779079BB"
+			tasks: [{
+				id: "6EEF3E2EEFD653E8"
+				item: "gtceu:raw_realgar"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.0d
 		}
 	]
 	title: "LV"

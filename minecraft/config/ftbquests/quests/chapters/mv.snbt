@@ -503,6 +503,7 @@
 				"546E71F4217D0BB8"
 			]
 			dependency_requirement: "one_completed"
+			description: ["Fully passivable in mv"]
 			id: "04AF2E84C621FADF"
 			tasks: [{
 				id: "4B4C005A5C969A2C"
