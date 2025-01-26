@@ -358,12 +358,13 @@
 				"264CF1845737726B"
 				"37C5A2CAD99DC3DF"
 			]
+			icon: "gtceu:ethylene_bucket"
 			id: "50D8D32BEB0EC3F0"
 			tasks: [{
-				id: "11AFD4ADC280328B"
-				item: "gtceu:ethylene_bucket"
-				type: "item"
+				id: "1E63EF6287751A59"
+				type: "checkmark"
 			}]
+			title: "Ethylene"
 			x: -1.0d
 			y: 1.5d
 		}
@@ -394,6 +395,7 @@
 				"Depite everything, its still water."
 			]
 			id: "00D593B9EBF41C06"
+			optional: true
 			tasks: [{
 				id: "12A068ECCE87AFF2"
 				item: "gtceu:distilled_water_bucket"

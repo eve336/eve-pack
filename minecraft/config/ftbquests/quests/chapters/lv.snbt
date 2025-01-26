@@ -13,17 +13,6 @@
 			id: "15BC09BC9BB13540"
 			rewards: [
 				{
-					id: "056897498B208490"
-					item: {
-						Count: 1
-						id: "gtceu:prospector.lv"
-						tag: {
-							Charge: 100000L
-						}
-					}
-					type: "item"
-				}
-				{
 					id: "1D2FF6CCEE299C58"
 					item: {
 						Count: 1
@@ -134,11 +123,6 @@
 							Unbreakable: 1
 						}
 					}
-					type: "item"
-				}
-				{
-					id: "0A11742D7C860500"
-					item: "gtceu:prospector.luv"
 					type: "item"
 				}
 				{
