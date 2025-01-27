@@ -16,7 +16,7 @@
 				item: "gtceu:lv_machine_casing"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 4.5d
 			y: 4.0d
 		}
 		{
@@ -108,7 +108,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["58D1C9ECDD2DAE4C"]
+			dependencies: ["7185B1608B53677F"]
 			id: "64F71D1E9B12FCE9"
 			tasks: [{
 				id: "03877E3D0F7878D4"
@@ -117,25 +117,6 @@
 			}]
 			x: 1.0d
 			y: 1.0d
-		}
-		{
-			dependencies: ["406392945784104D"]
-			id: "58D1C9ECDD2DAE4C"
-			tasks: [{
-				id: "3114B688F39C4D03"
-				item: {
-					Count: 1
-					id: "ftbfiltersystem:smart_filter"
-					tag: {
-						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:ores/precious_metal)"
-					}
-				}
-				title: "Any #forge:ores/precious_metal"
-				type: "item"
-			}]
-			title: "Precious Metal Ore"
-			x: 1.0d
-			y: 0.0d
 		}
 		{
 			description: ["Gold line is the chemical line required to extract gold from precious metal ore found in the ground. All of the chemicals loop in this line, which means that all the chemicals stay within the line. The only inputs are precious metal, it also makes some extra outputs aside from the gold."]
@@ -725,6 +706,16 @@
 			}]
 			x: 4.5d
 			y: -3.0d
+		}
+		{
+			id: "7185B1608B53677F"
+			tasks: [{
+				id: "1835C698DCA78A7E"
+				item: "examplemod:raw_precious_metal"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
 		}
 	]
 	title: "LV"

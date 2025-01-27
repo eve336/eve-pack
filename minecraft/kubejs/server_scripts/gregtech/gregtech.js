@@ -1,4 +1,18 @@
 ServerEvents.recipes(event => {
+
+    
+    event.remove({id: 'gtceu:assembler/cover_infinite_water'})
+
+    event.recipes.gtceu.assembler("infinite_water_cover")
+.itemInputs("2x gtceu:mv_electric_pump")
+.itemInputs("minecraft:cauldron")
+.itemInputs("#gtceu:circuits/mv")
+.itemOutputs("gtceu:infinite_water_cover")
+.EUt(120)
+.duration(100)
+
+
+
     event.shaped("gtceu:item_voiding_cover", [
         "ABA",
         "CDE",
@@ -6,9 +20,9 @@ ServerEvents.recipes(event => {
     ], {
         A: "gtceu:steel_screw",
         B: "gtceu:item_detector_cover",
-        C: "gtceu:aluminium_screwdriver",
+        C: "#forge:tools/screwdrivers",
         D: "gtceu:brass_normal_item_pipe",
-        E: "gtceu:lv_aluminium_wrench",
+        E: "#forge:tools/wrenches",
         F: "minecraft:cactus"
     })
     event.shaped("gtceu:item_voiding_cover", [
@@ -18,9 +32,9 @@ ServerEvents.recipes(event => {
     ], {
         A: "gtceu:steel_screw",
         B: "gtceu:item_detector_cover",
-        C: "gtceu:aluminium_screwdriver",
+        C: "#forge:tools/screwdrivers",
         D: "gtceu:brass_normal_item_pipe",
-        E: "gtceu:lv_aluminium_wrench",
+        E: "#forge:tools/wrenches",
         F: "minecraft:lava_bucket"
     })
     event.shaped("gtceu:fluid_voiding_cover", [
@@ -30,9 +44,9 @@ ServerEvents.recipes(event => {
     ], {
         A: "gtceu:steel_screw",
         B: "gtceu:fluid_detector_cover",
-        C: "gtceu:aluminium_screwdriver",
+        C: "#forge:tools/screwdriversr",
         D: "gtceu:bronze_normal_fluid_pipe",
-        E: "gtceu:lv_aluminium_wrench",
+        E: "#forge:tools/wrenches",
         F: "minecraft:lava_bucket"
     })
     event.shaped("gtceu:fluid_voiding_cover", [
@@ -42,9 +56,9 @@ ServerEvents.recipes(event => {
     ], {
         A: "gtceu:steel_screw",
         B: "gtceu:fluid_detector_cover",
-        C: "gtceu:aluminium_screwdriver",
+        C: "#forge:tools/screwdrivers",
         D: "gtceu:bronze_normal_fluid_pipe",
-        E: "gtceu:lv_aluminium_wrench",
+        E: "#forge:tools/wrenches",
         F: "minecraft:cactus"
     })
 
