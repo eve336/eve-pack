@@ -117,6 +117,7 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["216DB4226EB6D6A8"]
 			id: "33AB8BD059504064"
 			tasks: [{
 				id: "0DA420EE8BB824C0"
@@ -483,6 +484,16 @@
 			}]
 			x: 1.0d
 			y: 1.0d
+		}
+		{
+			id: "216DB4226EB6D6A8"
+			tasks: [{
+				id: "1ABC6C997879B226"
+				item: "gtceu:chromium_dust"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.0d
 		}
 	]
 	title: "HV"
