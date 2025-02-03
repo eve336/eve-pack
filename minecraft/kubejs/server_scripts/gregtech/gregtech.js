@@ -44,7 +44,7 @@ ServerEvents.recipes(event => {
     ], {
         A: "gtceu:steel_screw",
         B: "gtceu:fluid_detector_cover",
-        C: "#forge:tools/screwdriversr",
+        C: "#forge:tools/screwdrivers",
         D: "gtceu:bronze_normal_fluid_pipe",
         E: "#forge:tools/wrenches",
         F: "minecraft:lava_bucket"
