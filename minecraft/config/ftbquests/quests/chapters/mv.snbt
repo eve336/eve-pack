@@ -16,6 +16,7 @@
 			]
 			icon: "gtceu:bio_diesel_bucket"
 			id: "18C1E8E3140CD268"
+			optional: true
 			tasks: [{
 				id: "693E95123191F0D4"
 				item: "gtceu:bio_diesel_bucket"
@@ -29,6 +30,7 @@
 			dependency_requirement: "one_completed"
 			icon: "gtceu:ethanol_bucket"
 			id: "63E2E961086A138A"
+			optional: true
 			tasks: [{
 				id: "58033124259E7BA1"
 				item: {
@@ -52,6 +54,7 @@
 			dependency_requirement: "one_completed"
 			icon: "gtceu:creosote_bucket"
 			id: "3F5B2A8A0F0CDEF2"
+			optional: true
 			tasks: [{
 				id: "625EE3766FD5093D"
 				item: {
@@ -73,6 +76,7 @@
 		}
 		{
 			id: "7C2D3FA39F3491FC"
+			optional: true
 			tasks: [{
 				id: "3E537ADE67472AAB"
 				item: "gtceu:tiny_sodium_hydroxide_dust"
@@ -185,6 +189,7 @@
 			dependencies: [
 				"34EF8337374D3F82"
 				"262538B0D12B31AE"
+				"40EDE51CE03FDFF3"
 			]
 			id: "5EB777188FD7A21E"
 			tasks: [{
@@ -199,6 +204,7 @@
 			dependencies: [
 				"34EF8337374D3F82"
 				"262538B0D12B31AE"
+				"752A15D6D8E67D39"
 			]
 			id: "0509D36CD9281FB8"
 			tasks: [{
@@ -244,6 +250,7 @@
 			y: -2.5d
 		}
 		{
+			description: [""]
 			id: "5637AB5D25D77C99"
 			optional: true
 			tasks: [{
@@ -316,6 +323,7 @@
 		{
 			dependencies: ["4D1973BE4A539924"]
 			id: "15ACC27F7AF3865F"
+			optional: true
 			tasks: [{
 				id: "2AB6F6E812B6105D"
 				item: "gtceu:oil_bucket"
@@ -367,6 +375,7 @@
 			]
 			icon: "gtceu:ethylene_bucket"
 			id: "50D8D32BEB0EC3F0"
+			optional: true
 			tasks: [{
 				id: "1E63EF6287751A59"
 				type: "checkmark"
@@ -475,6 +484,7 @@
 				"0A193068BB5A516B"
 				"04AF2E84C621FADF"
 			]
+			dependency_requirement: "one_completed"
 			id: "2ADEED6B14930F6B"
 			tasks: [{
 				id: "04AC805DB1665F05"
@@ -493,6 +503,7 @@
 			dependency_requirement: "one_completed"
 			description: ["Fully passivable in mv"]
 			id: "04AF2E84C621FADF"
+			optional: true
 			tasks: [{
 				id: "4B4C005A5C969A2C"
 				item: "gtceu:sodium_persulfate_bucket"
@@ -503,6 +514,7 @@
 		}
 		{
 			id: "0A193068BB5A516B"
+			optional: true
 			tasks: [{
 				id: "70D642BA4D534920"
 				item: "gtceu:iron_iii_chloride_bucket"
@@ -544,6 +556,7 @@
 		{
 			icon: "gtceu:ethanol_bucket"
 			id: "0982F3A0D2E6DEE8"
+			optional: true
 			tasks: [{
 				id: "4D51FFF290255C0B"
 				type: "checkmark"
@@ -566,6 +579,7 @@
 		}
 		{
 			id: "4D1973BE4A539924"
+			optional: true
 			tasks: [{
 				id: "257CE58F8494DCEE"
 				item: "examplemod:mv_infinite_fluid_drilling_rig"
@@ -573,6 +587,26 @@
 			}]
 			x: 3.0d
 			y: 1.5d
+		}
+		{
+			id: "752A15D6D8E67D39"
+			tasks: [{
+				id: "3DF0ED7F28D1C595"
+				item: "gtceu:emerald_lens"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			id: "40EDE51CE03FDFF3"
+			tasks: [{
+				id: "38BFAA83497B46FD"
+				item: "gtceu:ruby_lens"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.5d
 		}
 	]
 	title: "MV"

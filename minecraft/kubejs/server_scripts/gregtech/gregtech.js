@@ -11,6 +11,14 @@ ServerEvents.recipes(event => {
 .EUt(120)
 .duration(100)
 
+event.shaped("gtceu:fluid_filter", [
+    "AAA",
+    "ABA",
+    "AAA"
+], {
+    A: "gtceu:zinc_foil",
+    B: "minecraft:lapis_lazuli"
+})
 
 
     event.shaped("gtceu:item_voiding_cover", [
@@ -25,6 +33,13 @@ ServerEvents.recipes(event => {
         E: "#forge:tools/wrenches",
         F: "minecraft:cactus"
     })
+    event.shapeless(
+        Item.of('gtceu:fluid_detector_cover'),
+        [
+            'gtceu:iron_plate',
+            'minecraft:heavy_weighted_pressure_plate'
+        ]
+    )
     event.shaped("gtceu:item_voiding_cover", [
         "ABA",
         "CDE",
@@ -44,7 +59,7 @@ ServerEvents.recipes(event => {
     ], {
         A: "gtceu:steel_screw",
         B: "gtceu:fluid_detector_cover",
-        C: "#forge:tools/screwdriversr",
+        C: "#forge:tools/screwdrivers",
         D: "gtceu:bronze_normal_fluid_pipe",
         E: "#forge:tools/wrenches",
         F: "minecraft:lava_bucket"

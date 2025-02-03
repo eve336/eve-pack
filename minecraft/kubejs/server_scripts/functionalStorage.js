@@ -8,7 +8,7 @@ ServerEvents.recipes(event => {
         "B"
     ], {
         A: "minecraft:cactus",
-        B: "functionalstorage:oak_4"
+        B: "#functionalstorage:drawer"
     })
 
     event.shaped("functionalstorage:void_upgrade", [
@@ -16,7 +16,7 @@ ServerEvents.recipes(event => {
         "B"
     ], {
         A: "minecraft:lava_bucket",
-        B: "functionalstorage:oak_4"
+        B: "#functionalstorage:drawer"
     })
 
     // event.shaped("functionalstorage:oak_1", [
