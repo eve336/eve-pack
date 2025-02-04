@@ -10,9 +10,6 @@ JEIEvents.hideItems(event => {
 
     event.hide(/flowercrops:.*_dye/)
     event.hide(/flowercrops:.*_pigment/)
-    event.hide(/quark:.*_corundum/)
-    event.hide(/quark:.*_waxed_corundum/)
-    event.hide(/quark:.*/)
 
     event.hide(/^sophisticatedstorage:.*chest.*/)
     event.hide(/^sophisticatedstorage:.*barrel.*/)
