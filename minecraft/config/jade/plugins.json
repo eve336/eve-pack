@@ -80,6 +80,9 @@
   "fulleng": {
     "storage_monitor": true
   },
+  "cardboardbox": {
+    "crate": true
+  },
   "jade": {
     "coordinates.rel": false,
     "distance": false,

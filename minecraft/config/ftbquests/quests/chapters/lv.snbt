@@ -708,6 +708,16 @@
 			x: 0.0d
 			y: -2.0d
 		}
+		{
+			id: "6C99B1D43F9747EF"
+			tasks: [{
+				id: "16F164425D6314CB"
+				item: "travelanchors:travel_anchor"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 7.0d
+		}
 	]
 	title: "The beginning"
 }
