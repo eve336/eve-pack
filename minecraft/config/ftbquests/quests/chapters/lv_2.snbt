@@ -58,7 +58,13 @@
 				"549FB0356DDF3409"
 				"79CC20120ABBF2FD"
 			]
+			description: ["I know some of you are just gonna make potassium metabisulfate and macerate a gold ingot to get this quest done"]
 			id: "3FF107F179B962C1"
+			rewards: [{
+				id: "16B8AAF8B3CC23D9"
+				item: "minecraft:gold_block"
+				type: "item"
+			}]
 			tasks: [{
 				id: "418CFFCD21CBC127"
 				item: "gtceu:gold_dust"
@@ -87,23 +93,25 @@
 				"521E508C50C98B06"
 				"5C888994EA64EF19"
 			]
+			icon: "examplemod:gold_leach_dust"
 			id: "3B8B2B32A8E9878E"
 			tasks: [{
-				id: "54FC9469EF326822"
-				item: "examplemod:gold_leach_dust"
-				type: "item"
+				id: "0A9A86BDCE94CF88"
+				type: "checkmark"
 			}]
+			title: "Gold Leach Dust"
 			x: 1.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["64F71D1E9B12FCE9"]
+			icon: "examplemod:gold_alloy_ingot"
 			id: "521E508C50C98B06"
 			tasks: [{
-				id: "0CBE518C60992BFD"
-				item: "examplemod:gold_alloy_ingot"
-				type: "item"
+				id: "1854BF096B21ECE0"
+				type: "checkmark"
 			}]
+			title: "Gold Alloy Ingot"
 			x: 1.0d
 			y: 2.0d
 		}
@@ -119,7 +127,7 @@
 			y: 1.0d
 		}
 		{
-			description: ["Gold line is the chemical line required to extract gold from precious metal ore found in the ground. All of the chemicals loop in this line, which means that all the chemicals stay within the line. The only inputs are precious metal, it also makes some extra outputs aside from the gold."]
+			description: ["Gold line is the chemical line required to extract gold from precious metal ore found in the ground. "]
 			icon: "minecraft:gold_ingot"
 			id: "147EE9A32F56FE7E"
 			tasks: [{
@@ -158,7 +166,11 @@
 				"7990DAB94A7316CB"
 				"6D0F5F1187D9F237"
 			]
-			description: ["You will only need a small amount of nitric acid at the start as the chemicals in the line are looped back around."]
+			description: [
+				"You will only need a small amount of nitric acid at the start as the chemicals in the line are looped back around."
+				""
+				"except maybe oxygen i might fix it or i might not idk"
+			]
 			icon: "gtceu:nitric_acid_bucket"
 			id: "5C888994EA64EF19"
 			tasks: [{
@@ -454,6 +466,7 @@
 				"1BED98CAEF8EA92A"
 				"4BBFE9C2903A1F4C"
 			]
+			dependency_requirement: "one_completed"
 			id: "7990DAB94A7316CB"
 			tasks: [{
 				id: "037C5126DA0D7464"
@@ -502,6 +515,7 @@
 			y: 0.5d
 		}
 		{
+			description: ["Glass dust is very good oxygen source"]
 			id: "62A44CF5FA84083E"
 			tasks: [{
 				id: "08E978BEC388CCB0"

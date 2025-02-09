@@ -1,4 +1,6 @@
-global.fluidNukeList = ["ad_astra:oxygen", "ad_astra:hydrogen", "ad_astra:oxygen", "ad_astra:cryo_fuel", "ad_astra:oil", "ad_astra:fuel"]
+global.fluidNukeList = [
+      "ad_astra:oxygen", "ad_astra:hydrogen", "ad_astra:oxygen", "ad_astra:cryo_fuel", "ad_astra:oil", "ad_astra:fuel"
+      ]
 global.nukeList = []
 
 ItemEvents.modification(e => {

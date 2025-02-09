@@ -12,8 +12,10 @@
 			dependencies: [
 				"3965A9E8101C2963"
 				"7945B63B3279E9FD"
+				"67364E8E113163E8"
 			]
 			id: "0003F477B341EEF5"
+			subtitle: "MV-tier circuit"
 			tasks: [{
 				id: "5844D0C00778FE06"
 				item: "gtceu:micro_processor"
@@ -28,6 +30,7 @@
 				"692E3CBFE8486850"
 			]
 			id: "1FF17F26CBFCF615"
+			subtitle: "HV-tier circuit"
 			tasks: [{
 				id: "00735E66E6A302E2"
 				item: "gtceu:micro_processor_assembly"
@@ -42,6 +45,7 @@
 				"1FF17F26CBFCF615"
 			]
 			id: "775253B5D1621E13"
+			subtitle: "EV-tier circuit"
 			tasks: [{
 				id: "30913F830646F2E3"
 				item: "gtceu:micro_processor_computer"
@@ -53,6 +57,13 @@
 		{
 			dependencies: ["775253B5D1621E13"]
 			id: "76BB1F18F804B874"
+			rewards: [{
+				count: 16
+				id: "112CBAB7AA12DEF7"
+				item: "gtceu:epoxy_printed_circuit_board"
+				type: "item"
+			}]
+			subtitle: "IV-tier circuit"
 			tasks: [{
 				id: "73B1CC363927E99B"
 				item: "gtceu:micro_processor_mainframe"
@@ -96,6 +107,7 @@
 		}
 		{
 			dependencies: ["7788977430DC0519"]
+			icon: "gtceu:titanium_ingot"
 			id: "692E3CBFE8486850"
 			tasks: [{
 				id: "2B632E11339EB76C"
@@ -128,14 +140,11 @@
 			y: -3.0d
 		}
 		{
-			dependencies: [
-				"7DDF2BC057988375"
-				"7526CA8C4693E8FF"
-			]
+			dependencies: ["7526CA8C4693E8FF"]
 			id: "1D1930C84702F0A1"
 			tasks: [{
-				id: "68E8CAB047681FD7"
-				item: "examplemod:hv_superconductor_single_wire"
+				id: "73601B468B8FEF80"
+				item: "gtceu:mercury_barium_calcium_cuprate_single_wire"
 				type: "item"
 			}]
 			x: -5.0d
@@ -143,12 +152,13 @@
 		}
 		{
 			dependencies: ["4B8FD7A8D756E370"]
+			icon: "gtceu:titanium_tetrachloride_bucket"
 			id: "7788977430DC0519"
 			tasks: [{
-				id: "1EBC210DDB387189"
-				item: "gtceu:titanium_tetrachloride_bucket"
-				type: "item"
+				id: "307D2238A776A615"
+				type: "checkmark"
 			}]
+			title: "Titanium Tetrachloride"
 			x: -2.0d
 			y: 0.0d
 		}
@@ -159,12 +169,13 @@
 				"32C0A4A323E3CDBC"
 			]
 			dependency_requirement: "one_completed"
+			icon: "gtceu:epoxy_bucket"
 			id: "7E6168B8301625A9"
 			tasks: [{
-				id: "295C0FD114621895"
-				item: "gtceu:epoxy_bucket"
-				type: "item"
+				id: "0405915E18D894B3"
+				type: "checkmark"
 			}]
+			title: "Liquid Epoxy"
 			x: -6.5d
 			y: -2.0d
 		}
@@ -175,12 +186,13 @@
 				"4EFE8C7259E066B0"
 			]
 			dependency_requirement: "one_completed"
+			icon: "gtceu:epichlorohydrin_bucket"
 			id: "1CCD066B21DD866E"
 			tasks: [{
-				id: "154F9EDDE63511BE"
-				item: "gtceu:epichlorohydrin_bucket"
-				type: "item"
+				id: "73FCD0C80A8A818A"
+				type: "checkmark"
 			}]
+			title: "Epichlorohydrin"
 			x: -6.5d
 			y: -5.0d
 		}
@@ -189,25 +201,27 @@
 				"4000EF1ACA26A57C"
 				"2EFC823FF56C2D09"
 			]
+			icon: "gtceu:bisphenol_a_bucket"
 			id: "0D01A2DA4657D836"
 			optional: true
 			tasks: [{
-				id: "037D1A6CD7525805"
-				item: "gtceu:bisphenol_a_bucket"
-				type: "item"
+				id: "6C3CFBFED289D82F"
+				type: "checkmark"
 			}]
+			title: "Bisphenol A"
 			x: -5.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["1DDCF4FB74AC9DE9"]
+			icon: "gtceu:naphtha_bucket"
 			id: "32C0A4A323E3CDBC"
 			optional: true
 			tasks: [{
-				id: "63CFAA0FB09C5840"
-				item: "gtceu:naphtha_bucket"
-				type: "item"
+				id: "30F3268335E204EA"
+				type: "checkmark"
 			}]
+			title: "Naphtha"
 			x: -7.5d
 			y: -3.0d
 		}
@@ -234,80 +248,76 @@
 			y: 1.0d
 		}
 		{
+			icon: "gtceu:nitrogen_dioxide_bucket"
 			id: "1DDCF4FB74AC9DE9"
 			optional: true
 			tasks: [{
-				id: "712B50E71A07F375"
-				item: "gtceu:nitrogen_dioxide_bucket"
-				type: "item"
+				id: "02320B89BAE96605"
+				type: "checkmark"
 			}]
+			title: "Nitrogen Dioxide"
 			x: -7.5d
 			y: -4.0d
 		}
 		{
+			icon: "gtceu:phenol_bucket"
 			id: "4000EF1ACA26A57C"
 			optional: true
 			tasks: [{
-				id: "38B84059F4667C2C"
-				item: "gtceu:phenol_bucket"
-				type: "item"
+				id: "000B8D9F173EF3B0"
+				type: "checkmark"
 			}]
+			title: "Phenol"
 			x: -5.5d
 			y: -4.0d
 		}
 		{
+			icon: "gtceu:acetone_bucket"
 			id: "2EFC823FF56C2D09"
 			optional: true
 			tasks: [{
-				id: "04FDE64894E3B4B4"
-				item: "gtceu:acetone_bucket"
-				type: "item"
+				id: "7ECB247A70F2EDF6"
+				type: "checkmark"
 			}]
+			title: "Acetone"
 			x: -4.5d
 			y: -4.0d
 		}
 		{
+			icon: "gtceu:glycerol_bucket"
 			id: "4EFE8C7259E066B0"
 			optional: true
 			tasks: [{
-				id: "405BD24AEF169ABA"
-				item: "gtceu:glycerol_bucket"
-				type: "item"
+				id: "35169C898CBF7C1F"
+				type: "checkmark"
 			}]
+			title: "Glycerol"
 			x: -7.5d
 			y: -6.0d
 		}
 		{
+			icon: "gtceu:allyl_chloride_bucket"
 			id: "794C31B20D2ADD1B"
 			optional: true
 			tasks: [{
-				id: "18325CEE3CAF93F3"
-				item: "gtceu:allyl_chloride_bucket"
-				type: "item"
+				id: "5C1D6522AF674E04"
+				type: "checkmark"
 			}]
+			title: "Allyl Chloride"
 			x: -6.5d
 			y: -6.0d
 		}
 		{
+			icon: "gtceu:hypochlorous_acid_bucket"
 			id: "66C4D34BA7280031"
 			optional: true
 			tasks: [{
-				id: "69B8EADE684D2648"
-				item: "gtceu:hypochlorous_acid_bucket"
-				type: "item"
+				id: "06D7B2CB0A7A0A68"
+				type: "checkmark"
 			}]
+			title: "Hypochlorous acid"
 			x: -5.5d
 			y: -6.0d
-		}
-		{
-			id: "7DDF2BC057988375"
-			tasks: [{
-				id: "21C7E029D04A7628"
-				item: "gtceu:hv_assembler"
-				type: "item"
-			}]
-			x: -5.0d
-			y: 1.0d
 		}
 		{
 			dependencies: [
@@ -316,8 +326,8 @@
 			]
 			id: "7526CA8C4693E8FF"
 			tasks: [{
-				id: "412C921D13658F57"
-				item: "examplemod:hv_superconductor_base_ingot"
+				id: "04B9D119D6819B64"
+				item: "gtceu:mercury_barium_calcium_cuprate_ingot"
 				type: "item"
 			}]
 			x: -6.0d
@@ -368,7 +378,7 @@
 				item: "gtceu:barite_dust"
 				type: "item"
 			}]
-			x: -9.0d
+			x: -8.0d
 			y: -1.0d
 		}
 		{
@@ -378,7 +388,7 @@
 				item: "examplemod:barytocalcite_dust"
 				type: "item"
 			}]
-			x: -8.0d
+			x: -7.0d
 			y: 0.0d
 		}
 		{
@@ -388,7 +398,7 @@
 				item: "examplemod:witherite_dust"
 				type: "item"
 			}]
-			x: -7.0d
+			x: -9.0d
 			y: 0.0d
 		}
 		{
@@ -399,7 +409,7 @@
 				item: "gtceu:barium_sulfide_dust"
 				type: "item"
 			}]
-			x: -9.0d
+			x: -8.0d
 			y: 0.0d
 		}
 		{
@@ -495,6 +505,43 @@
 			}]
 			x: -3.0d
 			y: -4.0d
+		}
+		{
+			id: "00D80EB10E139C02"
+			tasks: [{
+				id: "0AFCAA801A9293BB"
+				item: "gtceu:polyvinyl_chloride_plate"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			id: "4DD681E1884BFDC1"
+			tasks: [{
+				id: "43BBE7ACCA319E82"
+				item: "gtceu:silicone_rubber_plate"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"4DD681E1884BFDC1"
+				"00D80EB10E139C02"
+			]
+			dependency_requirement: "one_completed"
+			description: ["Only PVC or Silicone rubber are required for the whole game. You should be able to make one and not make the other, idk its not like im the one making the pack (i am)"]
+			icon: "examplemod:smd_capacitor_micro"
+			id: "67364E8E113163E8"
+			tasks: [{
+				id: "3970823CBBC03D34"
+				item: "examplemod:smd_capacitor_micro"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
 		}
 	]
 	title: "HV"

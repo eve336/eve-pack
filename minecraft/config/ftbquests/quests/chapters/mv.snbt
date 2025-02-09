@@ -439,8 +439,17 @@
 		}
 		{
 			dependencies: ["2D35864EE5E66507"]
-			description: ["Your first EV circuits!!"]
+			description: [
+				"Your first EV circuits!!"
+				"It is recommended to make only a few of these due to the high cost. 5 Will let you reach the next tier of circuits."
+			]
 			id: "0EFF541458EB191D"
+			rewards: [{
+				count: 16
+				id: "65E774BF07728CBE"
+				item: "gtceu:plastic_printed_circuit_board"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3005028D9B0BF42A"
 				item: "examplemod:refined_mainframe"
@@ -501,7 +510,10 @@
 				"20F0BBB805D227DE"
 			]
 			dependency_requirement: "one_completed"
-			description: ["Fully passivable in mv"]
+			description: [
+				"Fully passivable in mv"
+				"Sulfur is really slow though, i intend to add some form of blaze spawner"
+			]
 			id: "04AF2E84C621FADF"
 			optional: true
 			tasks: [{
