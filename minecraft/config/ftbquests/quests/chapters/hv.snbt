@@ -346,12 +346,13 @@
 		}
 		{
 			dependencies: ["116D4424DD10FAFB"]
+			icon: "examplemod:barium_oxide_dust"
 			id: "7A1D205530764372"
 			tasks: [{
-				id: "78245679D6E131A1"
-				item: "examplemod:barium_oxide_dust"
-				type: "item"
+				id: "74737DF526D1740F"
+				type: "checkmark"
 			}]
+			title: "Barium Oxide"
 			x: -8.0d
 			y: 2.0d
 		}
@@ -362,12 +363,13 @@
 				"3EA869DC811D62F2"
 			]
 			dependency_requirement: "one_completed"
+			icon: "examplemod:barium_carbonate_dust"
 			id: "116D4424DD10FAFB"
 			tasks: [{
-				id: "36B5965AACBA2D89"
-				item: "examplemod:barium_carbonate_dust"
-				type: "item"
+				id: "6C70C76492216EE2"
+				type: "checkmark"
 			}]
+			title: "Barium Carbonate"
 			x: -8.0d
 			y: 1.0d
 		}
@@ -447,6 +449,7 @@
 			id: "1D2CF414D2F2D9B5"
 			optional: true
 			tasks: [{
+				count: 3L
 				id: "5355F1DE013AA618"
 				item: "gtceu:rocket_fuel_bucket"
 				type: "item"
@@ -542,6 +545,17 @@
 			}]
 			x: -5.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["1AE025DE9BE26C32"]
+			id: "64539E8C819FF0FF"
+			tasks: [{
+				id: "7E9887D066A560CB"
+				item: "gtceu:raw_rutile"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
 		}
 	]
 	title: "HV"

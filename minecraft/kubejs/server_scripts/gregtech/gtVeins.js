@@ -1,9 +1,9 @@
 GTCEuServerEvents.oreVeins(event => {
 
     event.add('kubejs:moon/rutile', vein => {
-        vein.weight(80)
+        vein.weight(60)
         vein.clusterSize(40)
-        vein.density(0.8)
+        vein.density(0.6)
         vein.layer("moonstones")
         vein.dimensions(
             "ad_astra:moon"

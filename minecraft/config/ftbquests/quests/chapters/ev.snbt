@@ -14,6 +14,7 @@
 				"2EA2BDE1F7B36708"
 			]
 			id: "0086AA3811F5D02B"
+			subtitle: "HV-tier circuit"
 			tasks: [{
 				id: "165063912BDD0611"
 				item: "gtceu:nano_processor"
@@ -28,6 +29,7 @@
 				"38983A3B33B7A83F"
 			]
 			id: "0C14E8D24C099F17"
+			subtitle: "EV-tier circuit"
 			tasks: [{
 				id: "39A87E81C5248662"
 				item: "gtceu:nano_processor_assembly"
@@ -42,6 +44,7 @@
 				"5912A5524A54C041"
 			]
 			id: "75ED0E4751754A88"
+			subtitle: "IV-tier circuit"
 			tasks: [{
 				id: "182FB11E3B445C05"
 				item: "gtceu:nano_processor_computer"
@@ -53,6 +56,7 @@
 		{
 			dependencies: ["75ED0E4751754A88"]
 			id: "7DC0EF1DFAEA56A6"
+			subtitle: "LuV-tier circuit"
 			tasks: [{
 				id: "6B1D60CBF5C01F9F"
 				item: "gtceu:nano_processor_mainframe"
@@ -185,8 +189,8 @@
 			dependencies: ["0920AF961962C05C"]
 			id: "5B1B517871902E36"
 			tasks: [{
-				id: "11C6E196F0061B59"
-				item: "gtceu:large_chemical_reactor"
+				id: "35FEF088D182AD28"
+				item: "examplemod:ev_chemical_reactor"
 				type: "item"
 			}]
 			x: -4.5d

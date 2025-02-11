@@ -407,6 +407,7 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "457FAF94F7F38423"
+			subtitle: "LV-tier circuit"
 			tasks: [{
 				id: "72F4106D49F3432D"
 				item: "examplemod:refined_processor"
@@ -418,6 +419,7 @@
 		{
 			dependencies: ["457FAF94F7F38423"]
 			id: "14A3AB65F1892812"
+			subtitle: "MV-tier circuit"
 			tasks: [{
 				id: "463419AF58159326"
 				item: "examplemod:refined_assembly"
@@ -429,6 +431,7 @@
 		{
 			dependencies: ["14A3AB65F1892812"]
 			id: "2D35864EE5E66507"
+			subtitle: "HV-tier circuit"
 			tasks: [{
 				id: "1CECCC133D50060B"
 				item: "examplemod:refined_computer"
@@ -450,6 +453,7 @@
 				item: "gtceu:plastic_printed_circuit_board"
 				type: "item"
 			}]
+			subtitle: "EV-tier circuit"
 			tasks: [{
 				id: "3005028D9B0BF42A"
 				item: "examplemod:refined_mainframe"

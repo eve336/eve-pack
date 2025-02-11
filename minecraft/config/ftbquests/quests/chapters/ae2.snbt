@@ -1,0 +1,70 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ae2"
+	group: ""
+	id: "7C5DD0C0998B497A"
+	order_index: 11
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1CBA91D0301653CD"
+			tasks: [{
+				id: "7BF549EF79A6FADF"
+				item: "ae2:fluix_glass_cable"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0373B50ED021CBA1"]
+			id: "7017BA807AB3B618"
+			rewards: [{
+				count: 16
+				id: "65F65BA74E28703C"
+				item: "ae2:interface"
+				type: "item"
+			}]
+			tasks: [{
+				id: "606DD564592E3A2E"
+				item: "ae2:interface"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			id: "0373B50ED021CBA1"
+			tasks: [{
+				id: "50715E0578DA0670"
+				item: "ae2:inscriber"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3B1112231ECD883B"]
+			id: "3E2C422156040D70"
+			tasks: [{
+				id: "51044323C2FF683A"
+				item: "ae2:storage_bus"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			id: "3B1112231ECD883B"
+			tasks: [{
+				id: "44960A5ED020489A"
+				item: "gtceu:stainless_steel_plate"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+	]
+	title: "Ae2"
+}
