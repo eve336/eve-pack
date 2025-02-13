@@ -13,6 +13,9 @@ ServerEvents.recipes(event => {
     event.remove({id: 'ae2:network/blocks/crystal_processing_growth_accelerator'})
     event.remove({id: 'ae2:network/blocks/crafting/molecular_assembler'})
     event.remove({id: 'ae2:network/blocks/inscribers'})
+    event.remove({id: 'expatternprovider:tag_storage_bus'})
+    event.remove({id: 'expatternprovider:mod_storage_bus'})
+
 
     event.shaped(Item.of("ae2:storage_bus", 4), [
       "AB",
@@ -22,6 +25,24 @@ ServerEvents.recipes(event => {
       B: "gtceu:stainless_steel_plate",
       C: "minecraft:chest"
   })
+
+  event.shaped("expatternprovider:tag_storage_bus", [
+    "AB",
+    "BC"
+], {
+    A: "ae2:logic_processor",
+    B: "minecraft:redstone",
+    C: "ae2:storage_bus"
+})
+
+event.shaped("expatternprovider:mod_storage_bus", [
+  "AB",
+  "BC"
+], {
+  A: "ae2:calculation_processor",
+  B: "minecraft:redstone",
+  C: "ae2:storage_bus"
+})
 
 
   // event.remove({id: 'ae2:inscriber/silicon_print'})
@@ -40,6 +61,22 @@ ServerEvents.recipes(event => {
         "item": "ae2:printed_silicon"
     }
 }).id('kubejs:ae2/silicon_print')
+
+event.custom({
+  "type": "ae2:inscriber",
+  "ingredients": {
+      "middle": {
+          "item": 'gtceu:certus_quartz_gem'
+      },
+      "top": {
+          "item": 'ae2:calculation_processor_press'
+      }
+  },
+  "mode": "inscribe",
+  "result": {
+      "item": 'ae2:printed_calculation_processor'
+  }
+}).id('kubejs:ae2/calculation_print')
 
     event.shaped("ae2:interface", [
       "ABA",

@@ -1,0 +1,10 @@
+{
+  "dimension": "examplemod:phobos",
+  "gravity": 2.65,
+  "orbit": "examplemod:phobos_orbit",
+  "oxygen": false,
+  "solar_power": 16,
+  "solar_system": "ad_astra:solar_system",
+  "temperature": 30,
+  "tier": 1
+}
