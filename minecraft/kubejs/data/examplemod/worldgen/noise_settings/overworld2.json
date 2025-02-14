@@ -127,7 +127,8 @@
         }
       },
       "final_density": {
-        "xz_scale": 0.001,
+        "xz_scale": 1,
+
         "type": "minecraft:min",
         "argument1": {
           "type": "minecraft:squeeze",
@@ -142,6 +143,7 @@
                   "type": "minecraft:add",
                   "argument1": 0.1171875,
                   "argument2": {
+                    "xz_scale": 1,
                     "type": "minecraft:mul",
                     "argument1": {
                       "type": "minecraft:y_clamped_gradient",
@@ -151,7 +153,6 @@
                       "to_value": 1
                     },
                     "argument2": {
-                      "xz_scale": 0.001,
                       "type": "minecraft:add",
                       "argument1": -0.1171875,
                       "argument2": {
@@ -167,10 +168,14 @@
                             "to_value": 0
                           },
                           "argument2": {
-                            "xz_scale": 0.001,
+"xz_scale": 1,
+                            
                             "type": "minecraft:add",
                             "argument1": 0.078125,
                             "argument2": {
+
+        "xz_scale": 1,
+
                               "type": "minecraft:range_choice",
                               "input": "minecraft:overworld/sloped_cheese",
                               "min_inclusive": -1000000,
@@ -193,6 +198,8 @@
                                     "argument1": {
                                       "type": "minecraft:add",
                                       "argument1": {
+        "xz_scale": 1,
+
                                         "type": "minecraft:mul",
                                         "argument1": 4,
                                         "argument2": {
@@ -223,17 +230,16 @@
                                           "max": 1
                                         },
                                         "argument2": {
-                                          "xz_scale": 0.001,
                                           "type": "minecraft:clamp",
                                           "input": {
                                             "type": "minecraft:add",
                                             "argument1": 1.5,
                                             "argument2": {
+        "xz_scale": 1,
+
                                               "type": "minecraft:mul",
                                               "argument1": -0.64,
-                                              "argument2": {
-                                                "minecraft:overworld/sloped_cheese"
-                                              }
+                                              "argument2": "minecraft:overworld/sloped_cheese"
                                             }
                                           },
                                           "min": 0,
