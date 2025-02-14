@@ -1,5 +1,5 @@
 {
-    "sea_level": 63,
+    "sea_level": 65,
     "disable_mob_generation": false,
     "aquifers_enabled": true,
     "ore_veins_enabled": true,
@@ -70,6 +70,7 @@
         "type": "minecraft:add",
         "argument1": 0.1171875,
         "argument2": {
+          "xz_scale": 0.001,
           "type": "minecraft:mul",
           "argument1": {
             "type": "minecraft:y_clamped_gradient",
@@ -79,9 +80,11 @@
             "to_value": 1
           },
           "argument2": {
+
             "type": "minecraft:add",
             "argument1": -0.1171875,
             "argument2": {
+              "xz_scale": 0.001,
               "type": "minecraft:add",
               "argument1": -0.078125,
               "argument2": {
@@ -97,11 +100,13 @@
                   "type": "minecraft:add",
                   "argument1": 0.078125,
                   "argument2": {
+                    "xz_scale": 0.001,
                     "type": "minecraft:clamp",
                     "input": {
                       "type": "minecraft:add",
                       "argument1": -0.703125,
                       "argument2": {
+                        "xz_scale": 0.001,
                         "type": "minecraft:mul",
                         "argument1": 4,
                         "argument2": {
@@ -127,7 +132,7 @@
         }
       },
       "final_density": {
-        "xz_scale": 1,
+        "xz_scale": 0.001,
 
         "type": "minecraft:min",
         "argument1": {

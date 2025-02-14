@@ -21,6 +21,20 @@
     "grass_color": 10211293
   },
   "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:patch_tall_grass_2",
+      "examplemod:patch_grass_phobos"
+    ],
+    []
   ],
   "has_precipitation": true,
   "spawn_costs": {},

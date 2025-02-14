@@ -2,7 +2,7 @@
   "type": "examplemod:phobos",
   "generator": {
     "type": "minecraft:noise",
-    "settings": "examplemod:overworld2",
+    "settings": "examplemod:phobos",
     "biome_source": {
       "type": "minecraft:fixed",
       "biome": "examplemod:phobos"
