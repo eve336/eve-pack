@@ -6,7 +6,7 @@
       "minecraft:canyon"
     ]
   },
-  "downfall": 0.0,
+  "downfall": 0.1,
   "effects": {
     "fog_color": 14736013,
     "mood_sound": {
@@ -18,7 +18,7 @@
     "sky_color": 6994658,
     "water_color": 5949895,
     "water_fog_color": 1744882,
-    "grass_color": 10211293
+    "grass_color": 5685066
   },
   "features": [
     [],
@@ -28,11 +28,22 @@
     [],
     [],
     [],
-    [],
-    [],
+    [
+      "minecraft:ore_dirt",
+      "minecraft:disk_sand",
+      "minecraft:disk_clay",
+      "minecraft:disk_gravel"
+    ],
+    [
+
+    ],
     [
       "minecraft:patch_tall_grass_2",
-      "examplemod:patch_grass_phobos"
+      "examplemod:patch_grass_phobos",
+      "minecraft:kelp_cold",
+      "minecraft:seagrass_warm",
+      "minecraft:warm_ocean_vegetation",
+      "minecraft:sea_pickle"
     ],
     []
   ],
@@ -40,5 +51,5 @@
   "spawn_costs": {},
   "spawners": {
   },
-  "temperature": 1
+  "temperature": 1.5
 }

@@ -26,6 +26,16 @@ ServerEvents.recipes(event => {
       C: "minecraft:chest"
   })
 
+  event.shaped(Item.of("ae2:storage_bus", 6), [
+    "AB ",
+    "BC ",
+    "   "
+], {
+    A: "ae2:quartz_glass",
+    B: "gtceu:titanium_plate",
+    C: "minecraft:chest"
+})
+
   event.shaped("expatternprovider:tag_storage_bus", [
     "AB",
     "BC"
@@ -88,6 +98,48 @@ event.custom({
       C: "gtceu:lv_electric_motor",
       D: "ae2:engineering_processor"
   })
+
+  event.shaped("ae2:me_p2p_tunnel", [
+    " A ",
+    "ABA",
+    " A "
+], {
+    A: "minecraft:iron_ingot",
+    B: "ae2:engineering_processor"
+})
+
+  event.shaped(Item.of("ae2:interface", 3), [
+    "ABA",
+    "CDC",
+    "ABA"
+], {
+    A: "minecraft:iron_ingot",
+    B: "ae2:quartz_glass",
+    C: "gtceu:mv_electric_motor",
+    D: "ae2:engineering_processor"
+})
+
+event.shaped(Item.of("ae2:interface", 6), [
+  "ABA",
+  "CDC",
+  "ABA"
+], {
+  A: "minecraft:iron_ingot",
+  B: "ae2:quartz_glass",
+  C: "gtceu:hv_electric_motor",
+  D: "ae2:engineering_processor"
+})
+
+event.shaped(Item.of("ae2:interface", 12), [
+  "ABA",
+  "CDC",
+  "ABA"
+], {
+  A: "minecraft:iron_ingot",
+  B: "ae2:quartz_glass",
+  C: "gtceu:ev_electric_motor",
+  D: "ae2:engineering_processor"
+})
 
     event.shaped("ae2:inscriber", [
       "ABA",

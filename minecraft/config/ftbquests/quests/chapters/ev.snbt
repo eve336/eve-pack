@@ -149,7 +149,7 @@
 				id: "5BF1B4FA9E6B4F52"
 				type: "checkmark"
 			}]
-			title: "Plastinum Concentrate"
+			title: "Platinum Concentrate"
 			x: -2.5d
 			y: -2.5d
 		}
@@ -187,6 +187,7 @@
 		}
 		{
 			dependencies: ["0920AF961962C05C"]
+			description: ["If you on demand with this then i will nerf it even more..."]
 			id: "5B1B517871902E36"
 			tasks: [{
 				id: "35FEF088D182AD28"
@@ -198,8 +199,8 @@
 		}
 		{
 			dependencies: [
-				"2E8AD82C96FEA71D"
-				"5835496F2395ED23"
+				"655A707DCCCF05B7"
+				"477E46D02B8B34D1"
 			]
 			id: "0920AF961962C05C"
 			tasks: [{
@@ -251,7 +252,6 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["406392945784104D"]
 			id: "3E6D17479EC8B990"
 			tasks: [{
 				id: "12B4B6FE6B212E7E"
@@ -269,26 +269,6 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: -2.5d
-		}
-		{
-			id: "2E8AD82C96FEA71D"
-			tasks: [{
-				id: "6A98E96EAEE5597F"
-				item: "gtceu:chloroform_bucket"
-				type: "item"
-			}]
-			x: -4.5d
-			y: -2.5d
-		}
-		{
-			id: "5835496F2395ED23"
-			tasks: [{
-				id: "5690A7569A2FF830"
-				item: "gtceu:hydrofluoric_acid_bucket"
-				type: "item"
-			}]
-			x: -5.5d
 			y: -2.5d
 		}
 		{
@@ -373,6 +353,39 @@
 			}]
 			x: -6.5d
 			y: -2.5d
+		}
+		{
+			icon: "gtceu:chloroform_bucket"
+			id: "655A707DCCCF05B7"
+			tasks: [{
+				id: "196AE886D241088F"
+				type: "checkmark"
+			}]
+			title: "Chloroform"
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			icon: "gtceu:hydrofluoric_acid_bucket"
+			id: "477E46D02B8B34D1"
+			tasks: [{
+				id: "3936DAF6A2F0A796"
+				type: "checkmark"
+			}]
+			title: "Hydrofluoric Acid"
+			x: -5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["622D5DD19BCB5103"]
+			id: "30981FE49D3A8CFC"
+			tasks: [{
+				id: "545F061D8F59E0B0"
+				item: "gtceu:ev_large_miner"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
 		}
 	]
 	title: "EV"

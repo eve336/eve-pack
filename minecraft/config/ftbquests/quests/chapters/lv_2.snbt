@@ -9,14 +9,13 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["406392945784104D"]
 			id: "0ABA8BC73AE65D94"
 			tasks: [{
 				id: "7F4793CC042B1278"
 				item: "gtceu:lv_machine_casing"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 3.5d
 			y: 4.0d
 		}
 		{
@@ -44,6 +43,17 @@
 		}
 		{
 			dependencies: ["077FF30EB62EC932"]
+			description: [
+				"The electric blast furnace is the first electric multiblock you make!"
+				""
+				"You can press U on the electric blast furnace item to see how the multiblock structure is made."
+				"You will need input busses, output busses, a maintenance hatch, a muffler hatch and energy hatches."
+				""
+				"Electric multiblocks take in energy using the energy hatches."
+				""
+				"To cook an alumin(i)um ingot in the electric blast furnace you will need to use 2 lv energy hatches."
+				"Each lv evergy hatch accepts 2 amps of lv energy. 2 energy hatches accepting 2 amps each totals to 4 amps. 4 amps of any amount of energy in gregtech is the same amount of total energy as 1 amp of the next tier."
+			]
 			id: "6D08AA2C53ABF818"
 			tasks: [{
 				id: "6DCA43CF2D467668"
@@ -196,7 +206,7 @@
 			dependencies: ["6D08AA2C53ABF818"]
 			id: "211179A3366AA803"
 			rewards: [{
-				count: 4
+				count: 16
 				id: "79731C7E24E4E7EF"
 				item: "gtceu:aluminium_dust"
 				type: "item"
@@ -210,7 +220,6 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["406392945784104D"]
 			id: "507005F9D18FAF03"
 			tasks: [{
 				id: "7504D86D08C4EDBA"
@@ -221,7 +230,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["406392945784104D"]
 			id: "1BFA6E139D455170"
 			tasks: [{
 				id: "075430B438AA2F90"
@@ -275,7 +283,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["0CACFDC19C372E88"]
+			dependencies: ["08767A9ED0E5D3ED"]
 			description: ["The bender should be one of the first machines you make. It makes the crafting of plates cheaper. Plates are a very common crafting component"]
 			id: "214B41121E962BC1"
 			tasks: [{
@@ -301,7 +309,6 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["406392945784104D"]
 			description: ["Silicon dioxide can be obtained from many different sources, such as electrolysing sand, centrifuging glass dust or flint dust, or other methods. And as always, all this information is in EMI."]
 			id: "78F799F5D40EE206"
 			tasks: [{
@@ -375,7 +382,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["0CACFDC19C372E88"]
+			dependencies: ["08767A9ED0E5D3ED"]
 			description: ["The wiremill should be one of the first machines you make. It makes the crafting of wires cheaper. Wires are an extremely common crafting component."]
 			id: "4C78F0173026C6EB"
 			tasks: [{
@@ -394,11 +401,11 @@
 				item: "gtceu:lv_machine_hull"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 4.5d
 			y: 4.0d
 		}
 		{
-			dependencies: ["0CACFDC19C372E88"]
+			dependencies: ["08767A9ED0E5D3ED"]
 			description: ["The assembler is a useful block. Aside from being required for progression it can make certain recipes cheaper. It makes vacuum tubes straight up cheaper and reduces the copper cost of resin printed circuit boards in exchange for needing glue. However it makes resistors more expensive lol."]
 			id: "05A7652D228404A3"
 			tasks: [{
@@ -411,6 +418,16 @@
 		}
 		{
 			dependencies: ["0CACFDC19C372E88"]
+			description: [
+				"The gregtech energy system is a little bit complicated if it is your first time using it."
+				""
+				"Energy in gregtech is measured using Volts and Amps."
+				"The voltage in gregtech measures the tier of the energy you are using. 32 eu or less is within the LV tier of energy."
+				""
+				"The amperage in gregtech basically measures how many packets of energy you have. 2 amps of lv energy will be able to power 2 machines both running at lv."
+				""
+				"To put it simply, 1 steam turbine will be able to power at least 1 machine connected to it."
+			]
 			id: "08767A9ED0E5D3ED"
 			tasks: [{
 				id: "5CE676232D769460"
@@ -418,17 +435,19 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: 5.0d
+			y: 4.0d
 		}
 		{
+			dependencies: ["0CACFDC19C372E88"]
+			dependency_requirement: "one_completed"
 			id: "678FB6603181150B"
 			tasks: [{
 				id: "298B2CA7B7A273FF"
 				item: "gtceu:lv_super_tank"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 3.0d
+			x: 4.5d
+			y: 5.0d
 		}
 		{
 			id: "1994C399A2B175BA"
@@ -686,6 +705,7 @@
 		}
 		{
 			dependencies: ["05A7652D228404A3"]
+			icon: "examplemod:lv_solar_panel"
 			id: "6381240F1619A30A"
 			rewards: [{
 				id: "0078A1F652B1E2A4"
@@ -696,7 +716,7 @@
 				id: "2692BBA0745729D4"
 				type: "checkmark"
 			}]
-			title: "Temporary solar panel"
+			title: "Temporary solar panel quest"
 			x: 6.5d
 			y: 6.0d
 		}
@@ -730,6 +750,30 @@
 			}]
 			x: 1.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["08767A9ED0E5D3ED"]
+			description: [
+				"It is highly recommended to use this wire for your machines,"
+				""
+				"It is a superconductor which means that it will NOT lose any energy based on how long the cable is."
+				""
+				"It will also NOT shock you if you touch it."
+			]
+			id: "57944B51A25E409D"
+			rewards: [{
+				count: 8
+				id: "1BB97E1A01319A09"
+				item: "gtceu:antimony_dust"
+				type: "item"
+			}]
+			tasks: [{
+				id: "184A8458543B14C2"
+				item: "examplemod:lv_superconductor_single_wire"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.0d
 		}
 	]
 	title: "LV"

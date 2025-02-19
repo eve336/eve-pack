@@ -1,0 +1,488 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_beginning"
+	group: ""
+	id: "7337CF597AF6E3C8"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["518D2DF22A7B11A6"]
+			icon: "minecraft:oak_log"
+			id: "15BC09BC9BB13540"
+			rewards: [
+				{
+					id: "1D2FF6CCEE299C58"
+					item: {
+						Count: 1
+						id: "gtceu:diamond_mining_hammer"
+						tag: {
+							DisallowContainerItem: 0b
+							Enchantments: [
+								{
+									id: "minecraft:efficiency"
+									lvl: 10s
+								}
+								{
+									Unbreakable: 1
+								}
+							]
+							GT.Behaviours: {
+								AoEColumn: 1
+								AoELayer: 0
+								AoERow: 1
+								MaxAoEColumn: 1
+								MaxAoELayer: 0
+								MaxAoERow: 1
+								TorchPlacing: 1b
+							}
+							GT.Tool: {
+								Damage: 0
+								HarvestLevel: 3
+								MaxDamage: 2303
+								ToolSpeed: 6.4f
+							}
+							HideFlags: 2
+							Unbreakable: 1
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3708B8CF613FCA6C"
+					item: {
+						Count: 1
+						id: "gtceu:diamond_spade"
+						tag: {
+							DisallowContainerItem: 0b
+							Enchantments: [
+								{
+									id: "minecraft:efficiency"
+									lvl: 10s
+								}
+								{
+									Unbreakable: 1
+								}
+							]
+							GT.Behaviours: {
+								AoEColumn: 1
+								AoELayer: 0
+								AoERow: 1
+								MaxAoEColumn: 1
+								MaxAoELayer: 0
+								MaxAoERow: 1
+							}
+							GT.Tool: {
+								Damage: 0
+								HarvestLevel: 3
+								MaxDamage: 2303
+								ToolSpeed: 6.4f
+							}
+							HideFlags: 2
+							Unbreakable: 1
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1B4CC03B4BC8AE0D"
+					item: {
+						Count: 1
+						id: "gtceu:lv_invar_drill"
+						tag: {
+							Charge: 2147483647L
+							DisallowContainerItem: 0b
+							Enchantments: [
+								{
+									id: "minecraft:efficiency"
+									lvl: 10s
+								}
+								{
+									Unbreakable: 1
+								}
+							]
+							GT.Behaviours: {
+								AoEColumn: 1
+								AoELayer: 0
+								AoERow: 1
+								MaxAoEColumn: 1
+								MaxAoELayer: 0
+								MaxAoERow: 1
+								TorchPlacing: 1b
+								Unbreakable: 1
+							}
+							GT.Tool: {
+								Damage: 0
+								HarvestLevel: 2
+								MaxDamage: 1151
+								ToolSpeed: 8.0f
+							}
+							HideFlags: 2
+							MaxCharge: 2147483647L
+							Unbreakable: 1
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "40602B296C74D82E"
+					item: {
+						Count: 1
+						id: "gtceu:prospector.luv"
+						tag: {
+							Charge: 1000000000L
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "39CA04E3365EFF70"
+				type: "checkmark"
+			}]
+			title: "Free stuff"
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["33927818D080A175"]
+			description: [
+				"These tools from gregtech are what you will be using to craft items and machines from gregtech."
+				""
+				"Hammers allow you to flatten ingots into plates, files allow you to cut ingots into rods, wire cutters let you cut wires. Mortars are useful for crushing ingots and other materials into dusts."
+				""
+				"These tools are also useful for configuring and controlling machines which will be explored more later."
+			]
+			id: "6B69BA942C702198"
+			rewards: [{
+				count: 16
+				id: "0967D898E85E1ADB"
+				item: "gtceu:wrought_iron_plate"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "21319617B81A08DE"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:tools/files)"
+						}
+					}
+					title: "Files"
+					type: "item"
+				}
+				{
+					id: "4E9C4CF56E4648FD"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:tools/hammers)"
+						}
+					}
+					title: "Hammers"
+					type: "item"
+				}
+				{
+					id: "5BA481E99C49591D"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:tools/saws)"
+						}
+					}
+					title: "Saws"
+					type: "item"
+				}
+				{
+					id: "449C9CCAB2CD1446"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:tools/screwdrivers)"
+						}
+					}
+					title: "Screwdrivers"
+					type: "item"
+				}
+				{
+					id: "2945D8E88A762F93"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:tools/wire_cutters)"
+						}
+					}
+					title: "Wire Cutters"
+					type: "item"
+				}
+				{
+					id: "618CF0D4196F8FC6"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Wrenches\"}"
+							}
+							"ftbfiltersystem:filter": "or(item_tag(forge:tools/wrenches))"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "59FC1FA6C9A9AF48"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Mortars\"}"
+							}
+							"ftbfiltersystem:filter": "or(item_tag(forge:tools/mortars))"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Gregtech Tools"
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["15BC09BC9BB13540"]
+			description: ["Can be smelted from iron in a furnace."]
+			id: "33927818D080A175"
+			rewards: [{
+				count: 16
+				id: "3191A286E040140E"
+				item: "gtceu:wrought_iron_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3251B12A0AE87AA9"
+				item: "gtceu:wrought_iron_ingot"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependency_requirement: "one_started"
+			description: [
+				"JEI, or EMI, allows you to view recipes for items and blocks. You can press R by default to view all the recipes of an item. You can press U by default to see all the usages of an item. You can press A by default to bookmark an item to the left side of EMI."
+				""
+				""
+				"If you are EVER wondering about how you get an item you can check EMI. EMI also comes with some cool extra features. It allows you to view crafting trees for items. Always check EMI before asking a question on how to make or get something."
+			]
+			disable_toast: true
+			id: "518D2DF22A7B11A6"
+			rewards: [{
+				id: "77969FC2617C19B0"
+				item: {
+					Count: 1
+					id: "gtceu:nan_certificate"
+					tag: {
+						RepairCost: 0
+						display: {
+							Name: "{\"text\":\"Certificate of Media Literacy\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			size: 8.0d
+			tasks: [
+				{
+					id: "184BB082CB10B234"
+					title: "USE"
+					type: "checkmark"
+				}
+				{
+					id: "0C1DFEBE89106283"
+					title: "JEI"
+					type: "checkmark"
+				}
+				{
+					id: "791B6F130AB56585"
+					title: "PLEASE"
+					type: "checkmark"
+				}
+			]
+			title: "USE JEI PLEASSEEEE"
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["518D2DF22A7B11A6"]
+			description: ["@ allows you to search for all items from a mod. Simply search @ followed by the mods name. # allows you to search for tags. Type # followed by a tag and it will show all items that have that tag"]
+			id: "5861B88CDAE7B7DA"
+			tasks: [{
+				id: "426009E520F7CC5D"
+				type: "checkmark"
+			}]
+			title: "More JEI/EMI information"
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["15BC09BC9BB13540"]
+			description: [
+				"These are all the blocks necessary to construct a basic ae2 storage system. You can place all of the blocks next to each other."
+				""
+				"You insert the drives and storage cells in the ME Drive."
+				""
+				"The ME Terminal acts like a chest. It shows you the items inside the storage system. It allows you to put in items and take out items."
+			]
+			icon: "ae2:crystal_resonance_generator"
+			id: "0D4CC1D66AA72E40"
+			rewards: [
+				{
+					id: "10C1BC3869AEF6A8"
+					item: "ae2:crystal_resonance_generator"
+					type: "item"
+				}
+				{
+					id: "7F0FBA55ACB33171"
+					item: {
+						Count: 1
+						id: "ae2:energy_cell"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "502B09D325FAC548"
+					item: "ae2:drive"
+					type: "item"
+				}
+				{
+					id: "21E6849FBE8355EF"
+					item: "fulleng:crafting_terminal"
+					type: "item"
+				}
+				{
+					id: "4E867670722597E5"
+					item: "fulleng:terminal"
+					type: "item"
+				}
+				{
+					id: "32CE3A59868FD43C"
+					item: {
+						Count: 1
+						id: "ae2things:disk_drive_64k"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "76C7E1B97DC800BD"
+					item: {
+						Count: 1
+						id: "ae2:fluid_storage_cell_4k"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5857EA8BB11D45BE"
+				type: "checkmark"
+			}]
+			title: "Ae2 Storage System"
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["15BC09BC9BB13540"]
+			description: [
+				"Ore generation is much different in gregtech. Instead of ores spawning all throughout the world they spawn in very large veins. These veins can be a few chunks large and can contain thousands of ores (foreshadowing)."
+				""
+				"You can find these veins using the prospector you got. Clicking on a vein in the prospector will set down a waypoint which you can see in the world and can remind you where the vein is."
+				""
+				"You can then dig up these veins using the mining hammer you got."
+				""
+				"Keep in mind that some materials have multiple ores that can be used to obtain said material. Iron for example can be obtained from iron ore, hematite, pyrite, magnetite, etc. "
+				"You will want to use JEI or EMI to find out what ores you can use to get the materials you need."
+			]
+			icon: "minecraft:copper_ore"
+			id: "366534F91BF573EA"
+			rewards: [
+				{
+					count: 6
+					id: "24E56EDA1F94B3B0"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "74D7C8C57938357D"
+					item: "minecraft:torch"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6D5B74A3DC5362D2"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6B69BA942C702198"]
+			description: [
+				"I added these bc gregtech pipes are literally unusable and ae2 just overshadows them completely later on."
+				""
+				"These are gregtech component items, which can be placed on gregtech machines and blocks. You can right click on machines to place a component on them. You can then right click on the machine on the face that has the component with a screwdriver to configure the settings of the component."
+				""
+				"Conveyors move items, pumps move fluids and robot arms move items but have more useful settings."
+			]
+			id: "4C66C9DAA374C4EA"
+			rewards: [{
+				count: 16
+				id: "43A89E5B9D735161"
+				item: "gtceu:lead_plate"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7ED4D5C482C288ED"
+					item: "examplemod:ulv_electric_piston"
+					type: "item"
+				}
+				{
+					id: "2BA37E9A9024FCE5"
+					item: "examplemod:ulv_electric_motor"
+					type: "item"
+				}
+				{
+					id: "23DC869B82D6E351"
+					item: "examplemod:ulv_robot_arm"
+					type: "item"
+				}
+				{
+					id: "5AB6C8EB0DA8EB50"
+					item: "examplemod:ulv_conveyor_module"
+					type: "item"
+				}
+				{
+					id: "28A0A79026B189FA"
+					item: "examplemod:ulv_electric_pump"
+					type: "item"
+				}
+			]
+			title: "ULV Compnents"
+			x: -4.0d
+			y: 3.5d
+		}
+	]
+	title: "The Beginning"
+}

@@ -6,4 +6,12 @@ GTCEuStartupEvents.registry('gtceu:world_gen_layer', event => {
         .dimensions(
             "ad_astra:moon"
         )
+
+
+        event.create('stones')
+        .targets('#minecraft:stone_ore_replaceables')
+        .dimensions(
+            "examplemod:phobos"
+        )
+
 })

@@ -5,146 +5,9 @@
 	group: ""
 	icon: "minecraft:oak_wood"
 	id: "066FD6B90B30D013"
-	order_index: 0
+	order_index: 11
 	quest_links: [ ]
 	quests: [
-		{
-			icon: "gtceu:iron_ore"
-			id: "15BC09BC9BB13540"
-			rewards: [
-				{
-					id: "1D2FF6CCEE299C58"
-					item: {
-						Count: 1
-						id: "gtceu:diamond_mining_hammer"
-						tag: {
-							DisallowContainerItem: 0b
-							Enchantments: [
-								{
-									id: "minecraft:efficiency"
-									lvl: 10s
-								}
-								{
-									Unbreakable: 1
-								}
-							]
-							GT.Behaviours: {
-								AoEColumn: 1
-								AoELayer: 0
-								AoERow: 1
-								MaxAoEColumn: 1
-								MaxAoELayer: 0
-								MaxAoERow: 1
-								TorchPlacing: 1b
-							}
-							GT.Tool: {
-								Damage: 0
-								HarvestLevel: 3
-								MaxDamage: 2303
-								ToolSpeed: 6.4f
-							}
-							HideFlags: 2
-							Unbreakable: 1
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "3708B8CF613FCA6C"
-					item: {
-						Count: 1
-						id: "gtceu:diamond_spade"
-						tag: {
-							DisallowContainerItem: 0b
-							Enchantments: [
-								{
-									id: "minecraft:efficiency"
-									lvl: 10s
-								}
-								{
-									Unbreakable: 1
-								}
-							]
-							GT.Behaviours: {
-								AoEColumn: 1
-								AoELayer: 0
-								AoERow: 1
-								MaxAoEColumn: 1
-								MaxAoELayer: 0
-								MaxAoERow: 1
-							}
-							GT.Tool: {
-								Damage: 0
-								HarvestLevel: 3
-								MaxDamage: 2303
-								ToolSpeed: 6.4f
-							}
-							HideFlags: 2
-							Unbreakable: 1
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "1B4CC03B4BC8AE0D"
-					item: {
-						Count: 1
-						id: "gtceu:lv_invar_drill"
-						tag: {
-							Charge: 2147483647L
-							DisallowContainerItem: 0b
-							Enchantments: [
-								{
-									id: "minecraft:efficiency"
-									lvl: 10s
-								}
-								{
-									Unbreakable: 1
-								}
-							]
-							GT.Behaviours: {
-								AoEColumn: 1
-								AoELayer: 0
-								AoERow: 1
-								MaxAoEColumn: 1
-								MaxAoELayer: 0
-								MaxAoERow: 1
-								TorchPlacing: 1b
-								Unbreakable: 1
-							}
-							GT.Tool: {
-								Damage: 0
-								HarvestLevel: 2
-								MaxDamage: 1151
-								ToolSpeed: 8.0f
-							}
-							HideFlags: 2
-							MaxCharge: 2147483647L
-							Unbreakable: 1
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "40602B296C74D82E"
-					item: {
-						Count: 1
-						id: "gtceu:prospector.luv"
-						tag: {
-							Charge: 1000000000L
-						}
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "39CA04E3365EFF70"
-				type: "checkmark"
-			}]
-			title: "Free stuff"
-			x: -1.5d
-			y: 1.0d
-		}
 		{
 			dependencies: ["48633D70426F134C"]
 			id: "7FDB2C6108221BDE"
@@ -221,80 +84,6 @@
 			y: 5.5d
 		}
 		{
-			id: "5EAA06D390EAE82D"
-			rewards: [{
-				count: 16
-				id: "55340D1302B48D87"
-				item: "gtceu:wrought_iron_plate"
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "4376823231EE9BBB"
-					item: {
-						Count: 1
-						id: "ftbfiltersystem:smart_filter"
-						tag: {
-							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:tools/files)"
-						}
-					}
-					title: "Files"
-					type: "item"
-				}
-				{
-					id: "2F0462A1C6B19360"
-					item: {
-						Count: 1
-						id: "ftbfiltersystem:smart_filter"
-						tag: {
-							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:tools/hammers)"
-						}
-					}
-					title: "Hammers"
-					type: "item"
-				}
-				{
-					id: "10C16C20BBB67B0F"
-					item: {
-						Count: 1
-						id: "ftbfiltersystem:smart_filter"
-						tag: {
-							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:tools/saws)"
-						}
-					}
-					title: "Saws"
-					type: "item"
-				}
-				{
-					id: "2E59256A92DF87F9"
-					item: {
-						Count: 1
-						id: "ftbfiltersystem:smart_filter"
-						tag: {
-							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:tools/screwdrivers)"
-						}
-					}
-					title: "Screwdrivers"
-					type: "item"
-				}
-				{
-					id: "6381DFD049BD4E41"
-					item: {
-						Count: 1
-						id: "ftbfiltersystem:smart_filter"
-						tag: {
-							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:tools/wire_cutters)"
-						}
-					}
-					title: "Wire Cutters"
-					type: "item"
-				}
-			]
-			title: "Gregtech Tools"
-			x: -1.5d
-			y: 2.5d
-		}
-		{
 			id: "4B62B222ACF66697"
 			tasks: [{
 				id: "350AA32C607CF73D"
@@ -312,64 +101,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: -0.5d
-		}
-		{
-			description: ["Can be smelted from iron in a furnace."]
-			id: "728D5F8A097E97B5"
-			tasks: [{
-				id: "2D0301EC74D3A820"
-				item: "gtceu:wrought_iron_ingot"
-				type: "item"
-			}]
-			x: -3.0d
-			y: 1.0d
-		}
-		{
-			dependency_requirement: "one_started"
-			description: [
-				"JEI, or EMI in 1.20, allows you to view recipes for items. You can press R by default to view all the recipes of an item. You can press U by default to see all the usages of an item. You can press A by default to bookmark an item to the right side of EMI. It is your best friend. "
-				""
-				""
-				"If you are EVER wondering about how you get an item you can check EMI. EMI also comes with some cool extra features. It allows you to view crafting trees for items. Always check EMI before asking a question on how to make or get something."
-			]
-			disable_toast: true
-			id: "406392945784104D"
-			rewards: [{
-				id: "1CA8152C3E7D3FFC"
-				item: {
-					Count: 1
-					id: "gtceu:nan_certificate"
-					tag: {
-						RepairCost: 0
-						display: {
-							Name: "{\"text\":\"Certificate of Media Literacy\"}"
-						}
-					}
-				}
-				type: "item"
-			}]
-			size: 8.0d
-			tasks: [
-				{
-					id: "2A3152052B7F207C"
-					title: "USE"
-					type: "checkmark"
-				}
-				{
-					id: "6EDE1AADBF4C4373"
-					title: "JEI"
-					type: "checkmark"
-				}
-				{
-					id: "24E2ADFFB3F20192"
-					title: "PLEASE"
-					type: "checkmark"
-				}
-			]
-			title: "USE JEI PLEASSEEEE"
-			x: -8.0d
-			y: 0.0d
+			y: -2.0d
 		}
 		{
 			description: ["Useful item and fluid storage blocks."]
@@ -387,8 +119,8 @@
 				type: "item"
 			}]
 			title: "Functional Storage"
-			x: -3.0d
-			y: 2.5d
+			x: -6.0d
+			y: 1.0d
 		}
 		{
 			id: "20F53223C7D82329"
@@ -398,80 +130,8 @@
 				type: "item"
 			}]
 			title: "Laser IO"
-			x: -1.5d
-			y: 4.0d
-		}
-		{
-			dependencies: ["406392945784104D"]
-			description: ["@ allows you to search for all items from a mod. Simply search @ followed by the mods name. # allows you to search for tags. Type # followed by a tag and it will show all items that have that tag"]
-			id: "078CB66EABC4C30B"
-			tasks: [{
-				id: "5317157517B657B1"
-				type: "checkmark"
-			}]
-			title: "More JEI/EMI information"
-			x: -8.0d
-			y: 4.5d
-		}
-		{
-			icon: "ae2:crystal_resonance_generator"
-			id: "0D4CC1D66AA72E40"
-			rewards: [
-				{
-					id: "10C1BC3869AEF6A8"
-					item: "ae2:crystal_resonance_generator"
-					type: "item"
-				}
-				{
-					id: "7F0FBA55ACB33171"
-					item: {
-						Count: 1
-						id: "ae2:energy_cell"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					id: "502B09D325FAC548"
-					item: "ae2:drive"
-					type: "item"
-				}
-				{
-					id: "21E6849FBE8355EF"
-					item: "fulleng:crafting_terminal"
-					type: "item"
-				}
-				{
-					id: "4E867670722597E5"
-					item: "fulleng:terminal"
-					type: "item"
-				}
-				{
-					id: "32CE3A59868FD43C"
-					item: {
-						Count: 1
-						id: "ae2things:disk_drive_64k"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					id: "76C7E1B97DC800BD"
-					item: {
-						Count: 1
-						id: "ae2:fluid_storage_cell_4k"
-						tag: { }
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "5857EA8BB11D45BE"
-				type: "checkmark"
-			}]
-			title: "Ae2 Storage System"
-			x: -3.0d
-			y: 4.0d
+			x: -4.5d
+			y: -2.0d
 		}
 		{
 			can_repeat: true
@@ -491,8 +151,8 @@
 				type: "item"
 			}]
 			title: "Rubber Saplings"
-			x: -3.0d
-			y: -2.0d
+			x: -1.5d
+			y: 4.0d
 		}
 		{
 			can_repeat: true
@@ -510,8 +170,8 @@
 				type: "item"
 			}]
 			title: "Kelp"
-			x: -1.5d
-			y: -2.0d
+			x: -3.0d
+			y: 4.0d
 		}
 		{
 			id: "363E19B452BB112C"
@@ -535,8 +195,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
-			y: 5.5d
+			x: -6.0d
+			y: -2.0d
 		}
 		{
 			id: "28829966E3B03193"
@@ -553,47 +213,7 @@
 			}]
 			title: "Sophisticated Storage"
 			x: 0.0d
-			y: -0.5d
-		}
-		{
-			description: ["I added these bc gregtech pipes are literally unusable and ae2 just overshadows them completely later on."]
-			id: "4C66C9DAA374C4EA"
-			rewards: [{
-				count: 16
-				id: "43A89E5B9D735161"
-				item: "gtceu:lead_plate"
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "7ED4D5C482C288ED"
-					item: "examplemod:ulv_electric_piston"
-					type: "item"
-				}
-				{
-					id: "2BA37E9A9024FCE5"
-					item: "examplemod:ulv_electric_motor"
-					type: "item"
-				}
-				{
-					id: "23DC869B82D6E351"
-					item: "examplemod:ulv_robot_arm"
-					type: "item"
-				}
-				{
-					id: "5AB6C8EB0DA8EB50"
-					item: "examplemod:ulv_conveyor_module"
-					type: "item"
-				}
-				{
-					id: "28A0A79026B189FA"
-					item: "examplemod:ulv_electric_pump"
-					type: "item"
-				}
-			]
-			title: "ULV Compnents"
-			x: 0.0d
-			y: 1.0d
+			y: -2.0d
 		}
 		{
 			id: "0BDF9018298FFB9D"
@@ -617,8 +237,8 @@
 				}
 			]
 			title: "Xnet"
-			x: 0.0d
-			y: 2.5d
+			x: -3.0d
+			y: -2.0d
 		}
 		{
 			description: ["Make sure to configure your ftb settings so fake players can run in force loaded chunks."]
@@ -629,8 +249,8 @@
 				type: "item"
 			}]
 			title: "Modular Routers"
-			x: 0.0d
-			y: 4.0d
+			x: -4.5d
+			y: -0.5d
 		}
 		{
 			id: "2E992A4417D29149"
@@ -673,8 +293,8 @@
 				}
 				type: "item"
 			}]
-			x: -3.0d
-			y: 5.5d
+			x: -1.5d
+			y: -0.5d
 		}
 		{
 			id: "2379D8E2CF84D9C8"
@@ -684,8 +304,8 @@
 				type: "item"
 			}]
 			title: "Sophisticated Backpacks"
-			x: -1.5d
-			y: 5.5d
+			x: 0.0d
+			y: -0.5d
 		}
 		{
 			can_repeat: true
@@ -706,7 +326,7 @@
 			}]
 			title: "Shulker Shells"
 			x: 0.0d
-			y: -2.0d
+			y: 4.0d
 		}
 		{
 			id: "6C99B1D43F9747EF"
@@ -715,9 +335,9 @@
 				item: "travelanchors:travel_anchor"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 7.0d
+			x: -6.0d
+			y: -0.5d
 		}
 	]
-	title: "The beginning"
+	title: "Mod Integrations"
 }

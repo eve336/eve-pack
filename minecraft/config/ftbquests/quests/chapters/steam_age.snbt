@@ -10,6 +10,7 @@
 	quests: [
 		{
 			dependencies: ["30F379D8C9BF9DB4"]
+			description: ["Steam machines need to release pressure after completing a recipe. You can right click a steam machine while holding a wrench to configure what side the machine uses as a vent."]
 			id: "0280DC235F563366"
 			tasks: [{
 				id: "773B0E55CD4BA4BE"
@@ -21,6 +22,13 @@
 		}
 		{
 			dependencies: ["48D623308E670D40"]
+			description: [
+				"Creates steam from smelting fuel."
+				""
+				"Place water in FIRST then add your fuel. It will take a while to heat up before it produces a large amount of steam."
+				""
+				"If it runs out of water and it is heated up DONT place water inside of it. This will make the boiler explode. Instead break the boiler and place it back down."
+			]
 			id: "30F379D8C9BF9DB4"
 			tasks: [{
 				id: "01E32B9F20B84826"
@@ -141,7 +149,7 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["406392945784104D"]
+			description: ["Bronze dust can be crafted from copper and tin dust in a crafting table."]
 			id: "307B616CB7155DBA"
 			tasks: [{
 				id: "6979DDDC56D30878"
@@ -277,6 +285,22 @@
 			}]
 			x: -1.0d
 			y: 2.0d
+		}
+		{
+			dependencies: ["30F379D8C9BF9DB4"]
+			description: [
+				"Steam can be routed from boilers to machines using fluid pipes. Iron fluid pipes are cheap and have a good throughput."
+				""
+				"Gregtech pipes, including item pipes, can be connected and disconnected using wrenches. You can right click on a side with a wrench to connect or disconnect it."
+			]
+			id: "3714E3A08244D561"
+			tasks: [{
+				id: "17BD49F94CD030C3"
+				item: "gtceu:iron_normal_fluid_pipe"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
 		}
 	]
 	title: "Steam Age"

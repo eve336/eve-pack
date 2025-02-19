@@ -446,10 +446,10 @@
 		}
 		{
 			dependencies: ["4B8FD7A8D756E370"]
+			description: ["You should make 6 of these, 3 for the moon and 3 for phobos."]
 			id: "1D2CF414D2F2D9B5"
 			optional: true
 			tasks: [{
-				count: 3L
 				id: "5355F1DE013AA618"
 				item: "gtceu:rocket_fuel_bucket"
 				type: "item"
