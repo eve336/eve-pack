@@ -5,15 +5,28 @@ ServerEvents.recipes(event => {
     event.remove({id: 'gtceu:assembler/casing_palladium_substation'})
     event.remove({id: 'gtceu:shaped/power_substation'})
     event.remove({id: 'gtceu:assembler/ev_large_miner'})
+    event.remove({id: 'gtceu:shaped/large_assembler'})
 
 
-    event.recipes.gtceu.assembler("infinite_water_cover")
+event.recipes.gtceu.assembler("infinite_water_cover")
 .itemInputs("2x gtceu:mv_electric_pump")
 .itemInputs("minecraft:cauldron")
 .itemInputs("#gtceu:circuits/mv")
 .itemOutputs("gtceu:infinite_water_cover")
 .EUt(120)
 .duration(100)
+
+event.shaped("gtceu:large_assembler", [
+    "ABA",
+    "CDC",
+    "EBE"
+], {
+    A: "gtceu:iv_robot_arm",
+    B: "gtceu:platinum_single_cable",
+    C: "#gtceu:circuits/luv",
+    D: "gtceu:iv_assembler",
+    E: "gtceu:iv_conveyor_module"
+})
 
 
 event.recipes.gtceu.extruder("large_ptfe_pipe_sheet")

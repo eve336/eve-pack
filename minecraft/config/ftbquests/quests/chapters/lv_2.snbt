@@ -419,7 +419,7 @@
 		{
 			dependencies: ["0CACFDC19C372E88"]
 			description: [
-				"The gregtech energy system is a little bit complicated if it is your first time using it."
+				"The gregtech energy system is a little bit complicated and convoluted if it is your first time using it."
 				""
 				"Energy in gregtech is measured using Volts and Amps."
 				"The voltage in gregtech measures the tier of the energy you are using. 32 eu or less is within the LV tier of energy."

@@ -4,10 +4,11 @@
 	filename: "ae2"
 	group: ""
 	id: "7C5DD0C0998B497A"
-	order_index: 12
+	order_index: 13
 	quest_links: [ ]
 	quests: [
 		{
+			description: ["Fluix cables act as the main cables that will connect your ae2 system together."]
 			id: "1CBA91D0301653CD"
 			tasks: [{
 				id: "7BF549EF79A6FADF"
@@ -19,6 +20,7 @@
 		}
 		{
 			dependencies: ["0373B50ED021CBA1"]
+			description: ["Ae2 interfaces allow for the easy automation of items and fluids into and out of your ae2 system."]
 			id: "7017BA807AB3B618"
 			rewards: [{
 				count: 16
@@ -31,39 +33,57 @@
 				item: "ae2:interface"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 0.5d
+			x: 0.5d
+			y: 2.5d
 		}
 		{
+			dependencies: ["3B1112231ECD883B"]
 			id: "0373B50ED021CBA1"
 			tasks: [{
 				id: "50715E0578DA0670"
 				item: "ae2:inscriber"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 0.5d
+			x: -0.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["3B1112231ECD883B"]
+			description: ["Ae2 storage busses allow for blocks to act as storage devices for your ae2 system. They allow blocks such as chests, super chests, super tanks, etc to connect to your ae2 storage system. "]
 			id: "3E2C422156040D70"
 			tasks: [{
 				id: "51044323C2FF683A"
 				item: "ae2:storage_bus"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -0.5d
+			x: 0.5d
+			y: 1.5d
 		}
 		{
+			dependencies: ["1CBA91D0301653CD"]
 			id: "3B1112231ECD883B"
 			tasks: [{
 				id: "44960A5ED020489A"
 				item: "gtceu:stainless_steel_plate"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -0.5d
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"7DC0EF1DFAEA56A6"
+				"0373B50ED021CBA1"
+			]
+			description: ["I think giving access to pattern providers after luv circuits is still a little bit toooo early ;3"]
+			id: "708ED66C7D38AB4A"
+			tasks: [{
+				id: "727F1F3260D1D02B"
+				item: "ae2:pattern_provider"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.5d
 		}
 	]
 	title: "Ae2"

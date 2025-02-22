@@ -375,7 +375,11 @@
 			y: -2.0d
 		}
 		{
-			description: ["why is this chapter so short bruh lmao"]
+			description: [
+				"why is this chapter so short bruh lmao"
+				""
+				"curse of luv never having any content"
+			]
 			id: "2B5FF3C2E478738D"
 			tasks: [{
 				id: "7DFFC2FC40DA7BD0"

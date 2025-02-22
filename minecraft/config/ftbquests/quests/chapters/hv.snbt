@@ -44,6 +44,11 @@
 				"1D1930C84702F0A1"
 				"1FF17F26CBFCF615"
 			]
+			description: [
+				"2 for ev mixer"
+				"3 for ev circuit assembler, not including the cost of the iv circuits"
+				"4 for 2 ev circuits"
+			]
 			id: "775253B5D1621E13"
 			subtitle: "EV-tier circuit"
 			tasks: [{

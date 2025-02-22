@@ -1,0 +1,56 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "uv"
+	group: ""
+	icon: "gtceu:uv_electric_motor"
+	id: "34D1893D92C4417A"
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			id: "272D8E1A8D1DF508"
+			tasks: [{
+				id: "48F6C5EE45086178"
+				item: "examplemod:bioware_processor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["272D8E1A8D1DF508"]
+			id: "416034846C9D924E"
+			tasks: [{
+				id: "351CAFD2E0D4E132"
+				item: "examplemod:bioware_assembly"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["416034846C9D924E"]
+			id: "41481CCC77E0415A"
+			tasks: [{
+				id: "62A8AB2284E9DA4D"
+				item: "examplemod:bioware_computer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["41481CCC77E0415A"]
+			id: "6E3D90ACD2D03C8D"
+			tasks: [{
+				id: "78BE774BFF1C23AC"
+				item: "examplemod:bioware_mainframe"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+	]
+	title: "UV"
+}

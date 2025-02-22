@@ -17,6 +17,39 @@ ServerEvents.recipes(event => {
     event.remove({id: 'expatternprovider:mod_storage_bus'})
 
 
+
+    // pattern providers
+    event.recipes.gtceu.assembler("mv_pattern_provider")
+.itemInputs("gtceu:mv_conveyor_module")
+.itemInputs("4x gtceu:aluminium_plate")
+.itemInputs("2x ae2:quartz_glass")
+.itemInputs("ae2:logic_processor")
+.itemOutputs("3x ae2:pattern_provider")
+.EUt(24000)
+.duration(60)
+
+event.recipes.gtceu.assembler("hv_pattern_provider")
+.itemInputs("gtceu:hv_conveyor_module")
+.itemInputs("4x gtceu:stainless_steel_plate")
+.itemInputs("3x ae2:quartz_glass")
+.itemInputs("ae2:logic_processor")
+.itemOutputs("6x ae2:pattern_provider")
+.EUt(24000)
+.duration(60)
+
+event.recipes.gtceu.assembler("ev_pattern_provider")
+.itemInputs("gtceu:ev_conveyor_module")
+.itemInputs("4x gtceu:titanium_plate")
+.itemInputs("4x ae2:quartz_glass")
+.itemInputs("ae2:logic_processor")
+.itemOutputs("12x ae2:pattern_provider")
+.EUt(24000)
+.duration(60)
+
+
+
+
+
     event.shaped(Item.of("ae2:storage_bus", 4), [
       "AB",
       "BC"
