@@ -392,6 +392,7 @@
 		}
 		{
 			dependencies: ["65DFA87C157664FA"]
+			description: ["Yo make sure to keep a stockpile of this stuff for later"]
 			icon: "examplemod:sodium_ruthenate_dust"
 			id: "0BD175FBDD46AFCA"
 			tasks: [{

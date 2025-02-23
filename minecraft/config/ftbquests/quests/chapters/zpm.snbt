@@ -70,7 +70,11 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["375DEBE7BC7CEF19"]
+			dependencies: [
+				"375DEBE7BC7CEF19"
+				"540EC6568A6F27FC"
+				"5813A8ECC98C4668"
+			]
 			id: "24C40BDF83FEF356"
 			tasks: [{
 				id: "1AE12E9AA4067778"
@@ -177,6 +181,10 @@
 			y: -2.5d
 		}
 		{
+			dependencies: [
+				"0C4B940E77FE202C"
+				"37A0AAE430C9391B"
+			]
 			icon: "examplemod:sulfanilamide_bucket"
 			id: "0ABCB7D6CA79D681"
 			tasks: [{
@@ -184,13 +192,14 @@
 				type: "checkmark"
 			}]
 			title: "Sulfanilamide"
-			x: -1.0d
+			x: 1.0d
 			y: -4.5d
 		}
 		{
 			dependencies: [
 				"2B3EC13F3EC6EB82"
 				"14ECCE8E4D8A8219"
+				"7E200C36DB2A8B08"
 			]
 			icon: "gtceu:raw_growth_medium_bucket"
 			id: "7B0E151A42C6D5E2"
@@ -211,9 +220,10 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: -5.5d
+			y: -4.5d
 		}
 		{
+			dependencies: ["0243FA0EBD59C45F"]
 			id: "6AA17A811A20BBE8"
 			tasks: [{
 				id: "68BE3ED919F17A8E"
@@ -221,10 +231,13 @@
 			}]
 			title: "bio reactor :3"
 			x: -2.0d
-			y: -5.5d
+			y: -4.5d
 		}
 		{
-			dependencies: ["7D85E2CC2AD5C065"]
+			dependencies: [
+				"7D85E2CC2AD5C065"
+				"549EAF648B3F0F29"
+			]
 			icon: "examplemod:b27_supplement_bucket"
 			id: "14ECCE8E4D8A8219"
 			tasks: [{
@@ -258,7 +271,7 @@
 				type: "checkmark"
 			}]
 			title: "Propargyl Chloride"
-			x: -0.5d
+			x: 0.0d
 			y: -7.5d
 		}
 		{
@@ -270,8 +283,8 @@
 				type: "checkmark"
 			}]
 			title: "Beta Ionone"
-			x: 0.5d
-			y: -7.5d
+			x: 1.0d
+			y: -6.5d
 		}
 		{
 			icon: "examplemod:citral_bucket"
@@ -281,8 +294,181 @@
 				type: "checkmark"
 			}]
 			title: "Citral"
-			x: 0.5d
+			x: 1.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1FA5C9A0A3ED6220"]
+			icon: "examplemod:bfgf_bucket"
+			id: "7E200C36DB2A8B08"
+			tasks: [{
+				id: "1DF0687E72DCF932"
+				type: "checkmark"
+			}]
+			title: "Bfgf"
+			x: 1.0d
+			y: -5.5d
+		}
+		{
+			icon: "examplemod:blood_bucket"
+			id: "1FA5C9A0A3ED6220"
+			tasks: [{
+				id: "5AB3D4A40D38DA27"
+				type: "checkmark"
+			}]
+			title: "Blood"
+			x: 2.0d
+			y: -6.5d
+		}
+		{
+			icon: "examplemod:acetylsulfanilyl_chloride_bucket"
+			id: "37A0AAE430C9391B"
+			tasks: [{
+				id: "5C75DF35C501C13C"
+				type: "checkmark"
+			}]
+			title: "Acetylsulfanilyl Chloride"
+			x: 2.0d
+			y: -5.5d
+		}
+		{
+			icon: "gtceu:sodium_bicarbonate_dust"
+			id: "0C4B940E77FE202C"
+			tasks: [{
+				id: "1A86DF47C63EA2B3"
+				type: "checkmark"
+			}]
+			title: "Sodium Bicarbonate"
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"0FA3D614625297A3"
+				"1B8F841D9985AE8C"
+			]
+			icon: "examplemod:linoleic_acid_bucket"
+			id: "549EAF648B3F0F29"
+			tasks: [{
+				id: "6250A428EDA63682"
+				type: "checkmark"
+			}]
+			title: "Linoleic Acid"
+			x: -1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1FE61375D1FB8179"]
+			id: "0FA3D614625297A3"
+			tasks: [{
+				id: "3006172C970BD770"
+				item: "examplemod:yeast_dust"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -7.5d
+		}
+		{
+			id: "1B8F841D9985AE8C"
+			tasks: [{
+				id: "489C380A0F15AD9A"
+				item: "examplemod:ultrasonic_homogenizer"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -7.5d
+		}
+		{
+			icon: "examplemod:animal_cells_bucket"
+			id: "540EC6568A6F27FC"
+			tasks: [{
+				id: "10DCF8BC86032684"
+				type: "checkmark"
+			}]
+			title: "Animal Cells"
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"776A89CD56EA10C4"
+				"1E6299532388FED1"
+			]
+			icon: "examplemod:pluripotency_induction_gene_therapy_fluid_bucket"
+			id: "5813A8ECC98C4668"
+			tasks: [{
+				id: "638E8C523B25A590"
+				type: "checkmark"
+			}]
+			title: "Pluripotency Induction Gene Therapy Fluid"
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			icon: "examplemod:pluripotency_induction_gene_plasmids_bucket"
+			id: "776A89CD56EA10C4"
+			tasks: [{
+				id: "7E291FEE7B8A0D0D"
+				type: "checkmark"
+			}]
+			title: "Pluripotency Induction Gene Plasmids"
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"0E158D4B44B15DE2"
+				"21A76F309680122B"
+			]
+			icon: "examplemod:chitosan_bucket"
+			id: "1E6299532388FED1"
+			tasks: [{
+				id: "5183E88FCB7266C4"
+				type: "checkmark"
+			}]
+			title: "Chitosan"
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			id: "21A76F309680122B"
+			tasks: [{
+				id: "7ABA482608929ED6"
+				item: "minecraft:red_mushroom"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			id: "0E158D4B44B15DE2"
+			tasks: [{
+				id: "39DAD14DD82158A9"
+				item: "minecraft:brown_mushroom"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			id: "1FE61375D1FB8179"
+			tasks: [{
+				id: "6F2FBCA3CAAA2623"
+				item: "minecraft:apple"
+				type: "item"
+			}]
+			x: -1.0d
 			y: -8.5d
+		}
+		{
+			id: "0243FA0EBD59C45F"
+			tasks: [{
+				id: "166E7B7D9B3C30B5"
+				item: "gtceu:dubnium_ingot"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.5d
 		}
 	]
 	title: "ZPM"

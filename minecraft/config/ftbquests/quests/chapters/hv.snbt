@@ -540,7 +540,7 @@
 				"00D80EB10E139C02"
 			]
 			dependency_requirement: "one_completed"
-			description: ["Only PVC or Silicone rubber are required for the whole game. You should be able to make one and not make the other, idk its not like im the one making the pack (i am)"]
+			description: [""]
 			icon: "examplemod:smd_capacitor_micro"
 			id: "67364E8E113163E8"
 			tasks: [{

@@ -1,0 +1,446 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "uhv"
+	group: ""
+	icon: "gtceu:uhv_electric_motor"
+	id: "1779DBB922207D19"
+	order_index: 11
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6AFB81438D52B27E"]
+			id: "1492531190854EFE"
+			tasks: [{
+				id: "27A80F6A6A02106F"
+				item: "examplemod:optical_processor"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1492531190854EFE"]
+			id: "037385EB53A413EC"
+			tasks: [{
+				id: "18E0295CB64988A3"
+				item: "examplemod:optical_assembly"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["037385EB53A413EC"]
+			hide_until_deps_visible: false
+			id: "30A09C7E80C2E323"
+			tasks: [{
+				id: "2A3F65FE34BCADEB"
+				item: "examplemod:optical_computer"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["30A09C7E80C2E323"]
+			id: "4E272A5EBDEFBF2A"
+			tasks: [{
+				id: "341AA53CA64EFB1A"
+				item: "examplemod:optical_mainframe"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"7CB14071A8D37530"
+				"7BD15E378FD3D78A"
+				"7A2CC133D47BE423"
+				"1E31D38F6FAAF5EC"
+				"0CB5FDB96EA97E3E"
+			]
+			id: "6AFB81438D52B27E"
+			tasks: [{
+				id: "6E98B182408FC178"
+				item: "examplemod:optical_processing_core"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["382D24103119CE32"]
+			id: "7CB14071A8D37530"
+			tasks: [
+				{
+					id: "6986431B402FBA97"
+					item: "examplemod:medium_frequency_laser"
+					type: "item"
+				}
+				{
+					id: "38C28F9BF8E5342C"
+					item: "examplemod:low_frequency_laser"
+					type: "item"
+				}
+				{
+					id: "4D1C2ABF1CA4A217"
+					item: "examplemod:high_frequency_laser"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"4A4DC168E4FEED68"
+				"3315564DC7ADF357"
+				"5000C53C7F1A27E6"
+			]
+			id: "7A2CC133D47BE423"
+			tasks: [
+				{
+					id: "77C86D4DAC9F773F"
+					item: "examplemod:smd_capacitor_optical"
+					type: "item"
+				}
+				{
+					id: "434D36302C006A64"
+					item: "examplemod:smd_resistor_optical"
+					type: "item"
+				}
+				{
+					id: "7AD69125F26E7E23"
+					item: "examplemod:smd_diode_optical"
+					type: "item"
+				}
+				{
+					id: "107BDF6BDDA00D4F"
+					item: "examplemod:smd_transistor_optical"
+					type: "item"
+				}
+			]
+			title: "Optical Smds"
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"0AB479DFD093709D"
+				"169E4DE98BDA63C4"
+			]
+			id: "7BD15E378FD3D78A"
+			tasks: [{
+				id: "3846EB727902A088"
+				item: "examplemod:optical_soc_wafer"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			id: "0AB479DFD093709D"
+			tasks: [{
+				id: "3D44B08526FD9CC7"
+				item: "examplemod:zblan_dust"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0AB479DFD093709D"]
+			id: "1E31D38F6FAAF5EC"
+			tasks: [{
+				id: "1157B80B89E42566"
+				item: "examplemod:cladded_optical_fiber_core"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			id: "4A4DC168E4FEED68"
+			tasks: [{
+				id: "2FD5FBF5111E17D8"
+				item: "examplemod:tbcco_dust"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["63275EA7EC168DF7"]
+			id: "3315564DC7ADF357"
+			tasks: [{
+				id: "4FCB22E8FC4FEA1B"
+				item: "examplemod:lithium_niobate_ingot"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			id: "5000C53C7F1A27E6"
+			tasks: [{
+				id: "73B938D81D4A821F"
+				item: "examplemod:lithium_titanate_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3D8216009E7CE251"]
+			id: "169E4DE98BDA63C4"
+			tasks: [{
+				id: "35FDE35A5DC709E2"
+				item: "examplemod:carbon_nanotubes_ingot"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			description: [
+				"It is advised to not automate the Chemical plant recipe for cycloparaphenylene."
+				"You should instead run the recipe a single time and then construct the loop which can create more cycloparaphenylene."
+			]
+			icon: "examplemod:cycloparaphenylene_bucket"
+			id: "3D8216009E7CE251"
+			tasks: [{
+				id: "3AE0C45549454E44"
+				type: "checkmark"
+			}]
+			title: "Cycloparaphenylene"
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			icon: "examplemod:lithium_hydride_dust"
+			id: "63275EA7EC168DF7"
+			tasks: [{
+				id: "077B2CD74AAD164B"
+				type: "checkmark"
+			}]
+			title: "Lithium Hydride"
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"432A67708327FDAA"
+				"12EBF744AED8A55A"
+				"49EE43CB1608D34C"
+				"1CB0F67DBCE5EB8E"
+			]
+			id: "382D24103119CE32"
+			tasks: [
+				{
+					id: "6934411820DBA8E2"
+					item: "examplemod:periodically_poled_lithium_niobate_boule"
+					type: "item"
+				}
+				{
+					id: "3BB2A12835684713"
+					item: "examplemod:ndyag_boule"
+					type: "item"
+				}
+				{
+					id: "477601331E5E4270"
+					item: "examplemod:prhoylf_boule"
+					type: "item"
+				}
+				{
+					id: "750A7B91BBAEB2D4"
+					item: "examplemod:lutmyvo_boule"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"3315564DC7ADF357"
+				"4B751D2D6795BC89"
+			]
+			id: "432A67708327FDAA"
+			tasks: [{
+				id: "687641B693581D46"
+				item: "examplemod:lithium_niobate_nanoparticles_dust"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			icon: "examplemod:ammonium_niobium_oxalate_solution_bucket"
+			id: "4B751D2D6795BC89"
+			tasks: [{
+				id: "536156A7902504F1"
+				type: "checkmark"
+			}]
+			title: "Ammonium Niobium Oxalate Solution"
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			id: "0CB5FDB96EA97E3E"
+			tasks: [{
+				id: "1928D6A8DF7E194B"
+				item: "examplemod:proto_adamantium_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["64BC86E71D6855E4"]
+			id: "12EBF744AED8A55A"
+			tasks: [{
+				id: "2505F78740E4E83F"
+				item: "examplemod:nd_yag_nanoparticles_dust"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"4E212873C4BED25A"
+				"2E77DC2B9A57CF60"
+			]
+			id: "49EE43CB1608D34C"
+			tasks: [{
+				id: "084AFAAD909EC485"
+				item: "examplemod:prho_ylf_nanoparticles_dust"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"2682DA7CA6A3850A"
+				"4490A5C0F3836C91"
+				"1893252A6DA80737"
+			]
+			id: "1CB0F67DBCE5EB8E"
+			tasks: [{
+				id: "09368B82F8136237"
+				item: "examplemod:lutm_yvo_nanoparticles_dust"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"0BFAD649771DBFC5"
+				"1A238178BF40973E"
+			]
+			icon: "examplemod:unprocessed_ndyag_solution_bucket"
+			id: "64BC86E71D6855E4"
+			tasks: [{
+				id: "23298913FBE63EA1"
+				type: "checkmark"
+			}]
+			title: "Unprocessed NdYag Solution"
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			icon: "examplemod:alumina_solution_bucket"
+			id: "1A238178BF40973E"
+			tasks: [{
+				id: "0E948C9F56FE3A40"
+				type: "checkmark"
+			}]
+			title: "Alumina Solution"
+			x: -7.0d
+			y: -3.0d
+		}
+		{
+			icon: "examplemod:neodymium_doped_yttrium_dust"
+			id: "0BFAD649771DBFC5"
+			tasks: [{
+				id: "5CC56865879F1061"
+				type: "checkmark"
+			}]
+			title: "Neodymium Doped Yttrium Dust"
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			icon: "examplemod:ammonium_bifluoride_dust"
+			id: "4E212873C4BED25A"
+			tasks: [{
+				id: "274E6B3020E2ABC7"
+				type: "checkmark"
+			}]
+			title: "Ammonium Bifluoride"
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["191487F7436F25B0"]
+			icon: "examplemod:pryho_nitrate_solution_bucket"
+			id: "2E77DC2B9A57CF60"
+			tasks: [{
+				id: "2E3F3518AD4F4CF1"
+				type: "checkmark"
+			}]
+			title: "Pryho Nitrate Solution Bucket"
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			icon: "examplemod:holmium_oxide_dust"
+			id: "191487F7436F25B0"
+			tasks: [{
+				id: "1492630CDB25101B"
+				type: "checkmark"
+			}]
+			title: "Holmium Oxide"
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			icon: "examplemod:pure_sodium_vanadate_dust"
+			id: "1893252A6DA80737"
+			tasks: [{
+				id: "3D3078541DD97CE9"
+				type: "checkmark"
+			}]
+			title: "Pure Sodium Vanadate"
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			icon: "examplemod:lutetium_oxide_dust"
+			id: "4490A5C0F3836C91"
+			tasks: [{
+				id: "3923627F3D1B99A2"
+				type: "checkmark"
+			}]
+			title: "Lutetium Oxide"
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			icon: "examplemod:thulium_oxide_dust"
+			id: "2682DA7CA6A3850A"
+			tasks: [{
+				id: "4B08B22E77DAC0DC"
+				type: "checkmark"
+			}]
+			title: "Thulium Oxide"
+			x: -4.0d
+			y: 0.0d
+		}
+	]
+	title: "UHV"
+}

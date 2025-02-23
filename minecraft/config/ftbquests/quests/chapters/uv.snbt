@@ -9,6 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["53866AAFBEB47B5A"]
 			id: "272D8E1A8D1DF508"
 			tasks: [{
 				id: "48F6C5EE45086178"
@@ -49,6 +50,353 @@
 				type: "item"
 			}]
 			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"7B8B38BD3A60437A"
+				"4E8353A69BB77D0D"
+				"7E8948DC71B393E5"
+			]
+			description: ["The smds are really the only part of bioware you need to worry about"]
+			id: "53866AAFBEB47B5A"
+			tasks: [{
+				id: "0289B4A558C2E4DB"
+				item: "gtceu:neuro_processing_unit"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"6898DB5534D37BAA"
+				"3600423771F9ACC0"
+			]
+			id: "7B8B38BD3A60437A"
+			tasks: [{
+				id: "1E015B55CA478AE2"
+				item: "examplemod:smd_resistor_bioware"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["14A3F89734932005"]
+			id: "3600423771F9ACC0"
+			tasks: [{
+				id: "42F78A8ADC81F828"
+				item: "examplemod:bismuth_ruthenate_plate"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["223901C78BC71B02"]
+			id: "6898DB5534D37BAA"
+			tasks: [{
+				id: "0BB2536033EB0D8C"
+				item: "examplemod:bismuth_iridiate_plate"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"26C9E8F28EAB11EF"
+				"5CB2FD4DE5A4A2CD"
+			]
+			dependency_requirement: "one_completed"
+			icon: "examplemod:bismuth_iridiate_dust"
+			id: "223901C78BC71B02"
+			tasks: [{
+				id: "2BB3C9BACB9155B1"
+				type: "checkmark"
+			}]
+			title: "Bismuth Iridiate Dust"
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			icon: "examplemod:bismuth_nitrate_solution_bucket"
+			id: "26C9E8F28EAB11EF"
+			tasks: [{
+				id: "33FBBEE7E76A3D99"
+				type: "checkmark"
+			}]
+			title: "Bismuth Nitrate Solution"
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"26C9E8F28EAB11EF"
+				"429D71A83C8EEDD6"
+			]
+			icon: "examplemod:bismuth_ruthenate_dust"
+			id: "14A3F89734932005"
+			tasks: [{
+				id: "269B5246561A9570"
+				type: "checkmark"
+			}]
+			title: "Bismuth Ruthenate Dust"
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			id: "5CB2FD4DE5A4A2CD"
+			tasks: [{
+				id: "3ED75AC42C35F860"
+				item: "examplemod:iridium_dioxide_dust"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			id: "429D71A83C8EEDD6"
+			tasks: [{
+				id: "441CB1DA2813918E"
+				item: "examplemod:sodium_ruthenate_dust"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"071C883A1CFFA3BC"
+				"63290A4ED2F6C920"
+			]
+			id: "7E8948DC71B393E5"
+			tasks: [{
+				id: "69661B6C84EA099A"
+				item: "examplemod:smd_diode_bioware"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["27FF78FE75B4ACE7"]
+			id: "4E8353A69BB77D0D"
+			tasks: [{
+				id: "6F4DE84F7F1EB547"
+				item: "examplemod:smd_capacitor_bioware"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			id: "63290A4ED2F6C920"
+			tasks: [{
+				id: "38557712E11D40EC"
+				item: "examplemod:aluminium_complex_dust"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			id: "071C883A1CFFA3BC"
+			tasks: [{
+				id: "3D4C2439BC91FF17"
+				item: "examplemod:copper_gallium_indium_selenide_dust"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"73A13EED3CC1F108"
+				"021C7F862200BFC0"
+			]
+			id: "27FF78FE75B4ACE7"
+			tasks: [
+				{
+					id: "54A55E8EE47D7774"
+					item: "examplemod:fine_pedot_wire"
+					type: "item"
+				}
+				{
+					id: "5A4B639EB2E5C05D"
+					item: "examplemod:pedot_dust"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["43D13D94D5AE4BA7"]
+			icon: "examplemod:ethylenedioxythiophene_bucket"
+			id: "73A13EED3CC1F108"
+			tasks: [{
+				id: "489D2E3B5C6B4ED2"
+				type: "checkmark"
+			}]
+			title: "Ethylenedioxythiophene"
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4C0266E7371F4A05"]
+			icon: "examplemod:dietoxythiophene_bucket"
+			id: "43D13D94D5AE4BA7"
+			tasks: [{
+				id: "09CB1E7522BF7977"
+				type: "checkmark"
+			}]
+			title: "Dietoxythiophene"
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			icon: "examplemod:perbromothiophene_bucket"
+			id: "4C0266E7371F4A05"
+			tasks: [{
+				id: "4556C4B37DD66B2F"
+				type: "checkmark"
+			}]
+			title: "Perbromothiophene"
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["202352CFF0C8A4D5"]
+			icon: "examplemod:polystyrene_bucket"
+			id: "021C7F862200BFC0"
+			tasks: [{
+				id: "488FB5D19192692B"
+				type: "checkmark"
+			}]
+			title: "Polystyrene"
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			icon: "gtceu:styrene_bucket"
+			id: "202352CFF0C8A4D5"
+			tasks: [{
+				id: "36A0554FFBC76FF8"
+				type: "checkmark"
+			}]
+			title: "Styrene"
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"677C64E7652DE2C0"
+				"7241BB46589D8A60"
+			]
+			description: ["the logic kinda works but the amount of ore it gives isnt done properly yet lol"]
+			id: "774B7A0011BD90BA"
+			tasks: [{
+				id: "4A7415B8CFEF5D9A"
+				item: "examplemod:vom"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["66DF482B129691A7"]
+			id: "7241BB46589D8A60"
+			tasks: [{
+				id: "384154B17FD85F7E"
+				item: "gtceu:seaborgium_ingot"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"5F352F1EEDC1949B"
+				"54F5E7519112868D"
+			]
+			icon: "examplemod:drilling_mud_bucket"
+			id: "677C64E7652DE2C0"
+			tasks: [{
+				id: "61DE581E5310C08B"
+				type: "checkmark"
+			}]
+			title: "Drilling Mud"
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2CDD7669FA2FD12B"]
+			icon: "examplemod:atl_bucket"
+			id: "5F352F1EEDC1949B"
+			tasks: [{
+				id: "04B68AFE1EEE91BC"
+				type: "checkmark"
+			}]
+			title: "ATL"
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["13A3ABB8ABB1B0A6"]
+			icon: "examplemod:choline_bucket"
+			id: "2CDD7669FA2FD12B"
+			tasks: [{
+				id: "0E894132B6FA944B"
+				type: "checkmark"
+			}]
+			title: "Choline"
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			description: ["Somebody tell me if this name is spelled correctly"]
+			icon: "examplemod:trimetylamine_bucket"
+			id: "13A3ABB8ABB1B0A6"
+			tasks: [{
+				id: "323DD3CDA6AED4E7"
+				type: "checkmark"
+			}]
+			title: "Trimetylamine"
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			icon: "examplemod:ethylene_glycol_bucket"
+			id: "54F5E7519112868D"
+			tasks: [{
+				id: "39FE52393899A9B5"
+				type: "checkmark"
+			}]
+			title: "Ethylene Glycol"
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5D7DB4E610A62405"]
+			id: "66DF482B129691A7"
+			tasks: [{
+				id: "15136DA0DD3BCE0D"
+				item: "gtceu:uv_fusion_reactor"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			description: ["lol this chapter is also very sparse"]
+			id: "2DB172E43E036979"
+			tasks: [{
+				id: "60F8AAD963A47893"
+				type: "checkmark"
+			}]
+			x: -2.0d
 			y: 2.5d
 		}
 	]
