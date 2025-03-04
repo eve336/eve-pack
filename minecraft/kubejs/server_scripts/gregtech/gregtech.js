@@ -6,6 +6,11 @@ ServerEvents.recipes(event => {
     event.remove({id: 'gtceu:shaped/power_substation'})
     event.remove({id: 'gtceu:assembler/ev_large_miner'})
     event.remove({id: 'gtceu:shaped/large_assembler'})
+    event.remove({id: 'gtceu:circuit_assembler/lapotronic_energy_orb'})
+    event.remove({id: 'gtceu:circuit_assembler/lapotronic_energy_orb_soldering_alloy'})
+    event.remove({id: 'gtceu:shaped/large_mixer'})
+
+
 
 
 event.recipes.gtceu.assembler("infinite_water_cover")
@@ -16,17 +21,15 @@ event.recipes.gtceu.assembler("infinite_water_cover")
 .EUt(120)
 .duration(100)
 
-event.shaped("gtceu:large_assembler", [
-    "ABA",
-    "CDC",
-    "EBE"
-], {
-    A: "gtceu:iv_robot_arm",
-    B: "gtceu:platinum_single_cable",
-    C: "#gtceu:circuits/luv",
-    D: "gtceu:iv_assembler",
-    E: "gtceu:iv_conveyor_module"
-})
+event.recipes.gtceu.circuit_assembler("lapotronic_orb")
+.itemInputs("gtceu:fiber_reinforced_printed_circuit_board")
+.itemInputs("6x gtceu:engraved_lapotron_crystal_chip")
+.itemInputs("12x gtceu:platinum_plate")
+.itemInputs("32x gtceu:fine_platinum_wire")
+.itemInputs("4x gtceu:nano_cpu_chip")
+.itemOutputs("4x gtceu:lapotronic_energy_orb")
+.duration(20*20)
+.EUt(1024)
 
 
 event.recipes.gtceu.extruder("large_ptfe_pipe_sheet")
@@ -35,6 +38,19 @@ event.recipes.gtceu.extruder("large_ptfe_pipe_sheet")
 .itemOutputs("gtceu:polytetrafluoroethylene_large_fluid_pipe")
 .EUt(42)
 .duration(96)
+
+event.shaped("gtceu:large_mixer", [
+    "ABA",
+    "CDC",
+    "EFE"
+], {
+    A: "gtceu:polybenzimidazole_normal_fluid_pipe",
+    B: "#gtceu:circuits/luv",
+    C: "gtceu:osmiridium_rotor",
+    D: "gtceu:iv_mixer",
+    E: "gtceu:iv_electric_motor",
+    F: "gtceu:platinum_single_cable"
+})
 
 event.shaped("gtceu:power_substation", [
     "ABA",

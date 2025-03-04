@@ -11,7 +11,7 @@ ItemEvents.modification(e => {
             'ad_astra:cryo_fuel_bucket', 'ad_astra:oil_bucket', 'ad_astra:fuel_bucket', 'ad_astra:iron_plate', 'functionalstorage:gold_upgrade', 'functionalstorage:diamond_upgrade',
             'functionalstorage:netherite_upgrade', 'functionalstorage:max_storage_upgrade', 'functionalstorage:creative_vending_upgrade', 'rftoolsbase:machine_infuser', 'ironfurnaces:million_furnace', 'ironfurnaces:rainbow_plating', 'ironfurnaces:rainbow_core', 'ironfurnaces:rainbow_coal',
             'ironfurnaces:augment_generator','rftoolsbase:dimensionalshard_overworld', 'rftoolsbase:dimensionalshard_nether', 'rftoolsbase:dimensionalshard_end', 'ironfurnaces:crystal_furnace', 'simple_resource_generators:simple_ore_generator',
-            'simple_resource_generators:simple_ore_generator_placement', 'ad_astra:steel_ingot', 'gtceu:large_chemical_reactor'
+            'simple_resource_generators:simple_ore_generator_placement', 'ad_astra:steel_ingot', 'gtceu:large_chemical_reactor', 'gtceu:large_assembler', 'gtceu:large_circuit_assembler'
       )
 
 })

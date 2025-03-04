@@ -69,7 +69,7 @@
     "allowDisassembly": true
   },
   "PowerRatios": {
-    "ForgeEnergy": 2.0,
+    "ForgeEnergy": 3.0,
     "UsageMultiplier": 1.0,
     "GridEnergyStoragePerNode_comment": "How much energy can the internal grid buffer storage per node attached to the grid.",
     "GridEnergyStoragePerNode": 25.0,

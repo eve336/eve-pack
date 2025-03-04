@@ -9,9 +9,10 @@ GTCEuStartupEvents.registry('gtceu:world_gen_layer', event => {
 
 
         event.create('stones')
-        .targets('#minecraft:stone_ore_replaceables')
+        .targets('#minecraft:stone_ore_replaceables', '#minecraft:overworld_carver_replaceables')
         .dimensions(
-            "examplemod:phobos"
+            "examplemod:phobos",
+            "ad_astra:mercury"
         )
 
 })

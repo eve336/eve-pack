@@ -705,6 +705,7 @@
 		}
 		{
 			dependencies: ["05A7652D228404A3"]
+			description: ["1 euro to first player to do solar panel only playthrough (with proof)"]
 			icon: "examplemod:lv_solar_panel"
 			id: "6381240F1619A30A"
 			rewards: [{

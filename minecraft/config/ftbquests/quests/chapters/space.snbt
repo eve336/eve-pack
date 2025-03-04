@@ -1,0 +1,100 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "space"
+	group: ""
+	icon: "ad_astra:earth_globe"
+	id: "391AFD6846C04B14"
+	order_index: 15
+	quest_links: [ ]
+	quests: [
+		{
+			id: "771017469A10EA0B"
+			tasks: [{
+				id: "2D4CB1D69E3D9ADE"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_1_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			id: "6ACFBBCD134B6752"
+			tasks: [{
+				id: "7BD1AB56DB6F06DF"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_2_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			id: "07D48A8EC7307C94"
+			tasks: [{
+				id: "0571125084F4E3FA"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_3_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			id: "76978AF77613822A"
+			tasks: [{
+				id: "20EA5F5A13E192C3"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_4_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			id: "7F2ED6AAB2BF97B6"
+			tasks: [{
+				dimension: "ad_astra:moon"
+				id: "7C729F921DCD122F"
+				type: "dimension"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			id: "0CF9F4A05F0EFAAD"
+			tasks: [{
+				dimension: "examplemod:phobos"
+				id: "21EB7F5F12352148"
+				type: "dimension"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			id: "609BB2D4498483DD"
+			tasks: [{
+				dimension: "ad_astra:mercury"
+				icon: "ad_astra:mercury_globe"
+				id: "31AFFD03A8563B5B"
+				type: "dimension"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+	]
+	title: "Space"
+}
