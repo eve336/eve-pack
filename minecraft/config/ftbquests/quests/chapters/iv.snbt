@@ -84,6 +84,7 @@
 			dependencies: [
 				"2EFA02A21C256C3F"
 				"6278CA895E44B806"
+				"1E1728595A2FE75A"
 			]
 			id: "2AB6BEB95E190D3A"
 			tasks: [{
@@ -274,7 +275,7 @@
 			y: -5.5d
 		}
 		{
-			dependencies: ["68E4EEC6973A3938"]
+			dependencies: ["65DFA87C157664FA"]
 			dependency_requirement: "one_completed"
 			icon: "examplemod:rarest_metal_residue_dust"
 			id: "2823D5E85BC856AA"
@@ -284,7 +285,7 @@
 			}]
 			title: "Rarest Metal Residue"
 			x: 5.5d
-			y: -5.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["68E4EEC6973A3938"]
@@ -295,8 +296,8 @@
 				type: "checkmark"
 			}]
 			title: "Leach Residue Dust"
-			x: 7.5d
-			y: -1.5d
+			x: 6.5d
+			y: -3.5d
 		}
 		{
 			icon: "examplemod:platinum_residue_dust"
@@ -306,7 +307,7 @@
 				type: "checkmark"
 			}]
 			title: "Platinum Residue Dust"
-			x: 8.5d
+			x: 7.5d
 			y: -3.5d
 		}
 		{
@@ -367,8 +368,8 @@
 				type: "checkmark"
 			}]
 			title: "Sodium Ruthenate"
-			x: 6.5d
-			y: -1.5d
+			x: 5.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["1B958B39001C86A6"]
@@ -744,6 +745,7 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["3F4AC3A0569544D2"]
 			id: "6278CA895E44B806"
 			tasks: [{
 				id: "62D0AA25F4EB4A00"
@@ -777,6 +779,7 @@
 			y: -4.5d
 		}
 		{
+			dependencies: ["73E438225897BCEF"]
 			icon: "examplemod:iridium_dioxide_dust"
 			id: "2FE1491B973E1C5F"
 			tasks: [{
@@ -788,6 +791,7 @@
 			y: -4.5d
 		}
 		{
+			dependencies: ["1D5F497F7E3CCDBA"]
 			icon: "gtceu:iridium_chloride_dust"
 			id: "3F4AC3A0569544D2"
 			tasks: [{
@@ -799,6 +803,7 @@
 			y: -4.5d
 		}
 		{
+			dependencies: ["2FE1491B973E1C5F"]
 			icon: "examplemod:acidic_iridium_solution_bucket"
 			id: "1D5F497F7E3CCDBA"
 			tasks: [{
