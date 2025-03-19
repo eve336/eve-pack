@@ -9,6 +9,7 @@ ServerEvents.recipes(event => {
     event.remove({id: 'gtceu:circuit_assembler/lapotronic_energy_orb'})
     event.remove({id: 'gtceu:circuit_assembler/lapotronic_energy_orb_soldering_alloy'})
     event.remove({id: 'gtceu:shaped/large_mixer'})
+    event.remove({id: 'examplemod:shaped/evlarge_mixer'})
 
 
 
@@ -44,7 +45,7 @@ event.shaped("gtceu:large_mixer", [
     "CDC",
     "EFE"
 ], {
-    A: "gtceu:polybenzimidazole_normal_fluid_pipe",
+    A: "gtceu:polytetrafluoroethylene_normal_fluid_pipe",
     B: "#gtceu:circuits/luv",
     C: "gtceu:osmiridium_rotor",
     D: "gtceu:iv_mixer",

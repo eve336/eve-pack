@@ -2,7 +2,7 @@
 [general]
 	"Enable 'q' Button" = true
 	"'q' Button on the Right" = false
-	"Disable Q Menu Effects" = false
+	"Disable Q Menu Effects" = true
 	#How many advancements deep you can see in the advancement screen. Vanilla is 2.
 	#Allowed values: (0,)
 	"Advancement Visibility Depth" = 2
@@ -41,9 +41,9 @@
 [categories]
 	automation = false
 	building = false
-	management = false
+	management = true
 	tools = false
-	tweaks = false
+	tweaks = true
 	world = false
 	mobs = false
 	client = true
@@ -197,8 +197,8 @@
 
 	[building.leaf_carpet]
 		#This feature disables itself if any of the following mods are loaded:
-		# - immersive_weathering
 		# - woodworks
+		# - immersive_weathering
 		#This is done to prevent content overlap.
 		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
 		"Ignore Anti Overlap" = false
@@ -237,8 +237,8 @@
 		#Allowed values: [0,1]
 		"Fall Damage Multiplier" = 0.5
 		#This feature disables itself if any of the following mods are loaded:
-		# - environmental
 		# - goated
+		# - environmental
 		#This is done to prevent content overlap.
 		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
 		"Ignore Anti Overlap" = false
@@ -246,8 +246,8 @@
 	[building.variant_bookshelves]
 		"Change Names" = true
 		#This feature disables itself if any of the following mods are loaded:
-		# - woodster
 		# - woodworks
+		# - woodster
 		#This is done to prevent content overlap.
 		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
 		"Ignore Anti Overlap" = false
@@ -266,8 +266,8 @@
 	[building.variant_ladders]
 		"Change Names" = true
 		#This feature disables itself if any of the following mods are loaded:
-		# - woodster
 		# - woodworks
+		# - woodster
 		#This is done to prevent content overlap.
 		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
 		"Ignore Anti Overlap" = false
@@ -285,7 +285,7 @@
 	"Automatic Tool Restock" = true
 	"Easy Transfering" = true
 	"Expanded Item Interactions" = true
-	"Hotbar Changer" = true
+	"Hotbar Changer" = false
 	"Inventory Sorting" = true
 	"Item Sharing" = true
 	"Quick Armor Swapping" = true
@@ -513,46 +513,46 @@
 [tweaks]
 	"Armed Armor Stands" = true
 	"Automatic Recipe Unlock" = false
-	"Better Elytra Rocket" = true
-	"Campfires Boost Elytra" = true
-	"Compasses Work Everywhere" = true
-	"Coral On Cactus" = true
-	"Diamond Repair" = true
-	"Double Door Opening" = true
+	"Better Elytra Rocket" = false
+	"Campfires Boost Elytra" = false
+	"Compasses Work Everywhere" = false
+	"Coral On Cactus" = false
+	"Diamond Repair" = false
+	"Double Door Opening" = false
 	"Dragon Scales" = false
-	"Dyeable Item Frames" = true
+	"Dyeable Item Frames" = false
 	Emotes = false
-	"Enhanced Ladders" = true
+	"Enhanced Ladders" = false
 	"Glass Shard" = false
 	"Gold Tools Have Fortune" = false
 	"Grab Chickens" = true
 	"Hoe Harvesting" = false
-	"Horses Swim" = true
-	"Improved Sponges" = true
-	"Lock Rotation" = true
-	"Magma Keeps Concrete Powder" = true
-	"Map Washing" = true
-	"More Banner Layers" = true
-	"More Note Block Sounds" = true
-	"More Villagers" = true
-	"No Durability On Cosmetics" = true
+	"Horses Swim" = false
+	"Improved Sponges" = false
+	"Lock Rotation" = false
+	"Magma Keeps Concrete Powder" = false
+	"Map Washing" = false
+	"More Banner Layers" = false
+	"More Note Block Sounds" = false
+	"More Villagers" = false
+	"No Durability On Cosmetics" = false
 	"Pat The Dogs" = true
-	"Petals On Water" = true
-	"Pig Litters" = true
-	"Poison Potato Usage" = true
+	"Petals On Water" = false
+	"Pig Litters" = false
+	"Poison Potato Usage" = false
 	"Reacharound Placing" = true
-	"Renewable Spore Blossoms" = true
-	"Replace Scaffolding" = true
-	"Safer Creatures" = true
-	"Shulker Packing" = true
-	"Simple Harvest" = true
+	"Renewable Spore Blossoms" = false
+	"Replace Scaffolding" = false
+	"Safer Creatures" = false
+	"Shulker Packing" = false
+	"Simple Harvest" = false
 	"Slabs To Blocks" = true
-	"Slimes To Magma Cubes" = true
-	"Snow Golem Player Heads" = true
-	"Utility Recipes" = true
-	"Vexes Die With Their Masters" = true
-	"Villagers Follow Emeralds" = true
-	"Zombie Villagers On Normal" = true
+	"Slimes To Magma Cubes" = false
+	"Snow Golem Player Heads" = false
+	"Utility Recipes" = false
+	"Vexes Die With Their Masters" = false
+	"Villagers Follow Emeralds" = false
+	"Zombie Villagers On Normal" = false
 
 	[tweaks.automatic_recipe_unlock]
 		#A list of recipe names that should NOT be added in by default

@@ -82,10 +82,11 @@
 		}
 		{
 			dependencies: [
-				"2EFA02A21C256C3F"
-				"6278CA895E44B806"
-				"1E1728595A2FE75A"
+				"140687CD73AAE8D2"
+				"6A212A58CAA863E7"
+				"19383016F281B645"
 			]
+			description: ["The assembly line is a part of the third and final tier of gregicality multiblocks."]
 			id: "2AB6BEB95E190D3A"
 			tasks: [{
 				id: "0AF8F5A0D42C88D9"
@@ -94,17 +95,6 @@
 			}]
 			x: -0.5d
 			y: -4.5d
-		}
-		{
-			dependencies: ["2EB799FCE76B2366"]
-			id: "2EFA02A21C256C3F"
-			tasks: [{
-				id: "4654DD5F7812378E"
-				item: "gtceu:iv_electric_motor"
-				type: "item"
-			}]
-			x: -0.5d
-			y: -5.5d
 		}
 		{
 			dependencies: ["33470B6860DAF45C"]
@@ -216,7 +206,7 @@
 			}]
 			title: "Osmium Tetroxide Solution"
 			x: 2.5d
-			y: -5.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["0729F3F2BDB1E57A"]
@@ -230,7 +220,6 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["2FA41D421A56C9A7"]
 			id: "0729F3F2BDB1E57A"
 			tasks: [{
 				id: "5893FDC31E367F06"
@@ -241,7 +230,6 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["1E1425B39E7964E5"]
 			id: "063B10EBB55D790C"
 			tasks: [{
 				id: "752F1737D62DD6AD"
@@ -249,17 +237,6 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["28BFE24859894CD4"]
-			id: "1E1425B39E7964E5"
-			tasks: [{
-				id: "7D4648CC44D5CD9F"
-				item: "gtceu:ruthenium_ingot"
-				type: "item"
-			}]
-			x: 1.5d
 			y: -1.5d
 		}
 		{
@@ -272,7 +249,7 @@
 			}]
 			title: "Acidic Osmium Solution"
 			x: 4.5d
-			y: -5.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["65DFA87C157664FA"]
@@ -285,7 +262,7 @@
 			}]
 			title: "Rarest Metal Residue"
 			x: 5.5d
-			y: -4.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["68E4EEC6973A3938"]
@@ -297,7 +274,7 @@
 			}]
 			title: "Leach Residue Dust"
 			x: 6.5d
-			y: -3.5d
+			y: -4.5d
 		}
 		{
 			icon: "examplemod:platinum_residue_dust"
@@ -308,7 +285,7 @@
 			}]
 			title: "Platinum Residue Dust"
 			x: 7.5d
-			y: -3.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["070DA4938115D51F"]
@@ -319,8 +296,8 @@
 				type: "checkmark"
 			}]
 			title: "Ruthenium Tetroxide Dust"
-			x: 2.5d
-			y: -1.5d
+			x: 1.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["7F4448B78DD54D79"]
@@ -331,8 +308,8 @@
 				type: "checkmark"
 			}]
 			title: "Liquid Ruthenium Tetroxide"
-			x: 3.5d
-			y: -1.5d
+			x: 2.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["32613CDF27DA9F07"]
@@ -343,8 +320,8 @@
 				type: "checkmark"
 			}]
 			title: "Hot Ruthenium Tetroxide Solution"
-			x: 4.5d
-			y: -1.5d
+			x: 3.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["0BD175FBDD46AFCA"]
@@ -355,8 +332,8 @@
 				type: "checkmark"
 			}]
 			title: "Ruthenium Tetroxide Solution"
-			x: 5.5d
-			y: -1.5d
+			x: 4.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["65DFA87C157664FA"]
@@ -369,7 +346,7 @@
 			}]
 			title: "Sodium Ruthenate"
 			x: 5.5d
-			y: -2.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["1B958B39001C86A6"]
@@ -380,8 +357,8 @@
 				type: "checkmark"
 			}]
 			title: "Reprecipitated Palladium Dust"
-			x: 2.5d
-			y: -2.5d
+			x: 1.5d
+			y: -7.5d
 		}
 		{
 			icon: "examplemod:palladium_enriched_ammonia_bucket"
@@ -391,8 +368,8 @@
 				type: "checkmark"
 			}]
 			title: "Palladium Enriched Ammonia"
-			x: 3.5d
-			y: -2.5d
+			x: 2.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["29FD84BF72535BBE"]
@@ -539,28 +516,6 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["015C3AA501271364"]
-			id: "0CBCC37D5D32A2BA"
-			tasks: [{
-				id: "30C188C0184F738F"
-				item: "gtceu:luv_machine_hull"
-				type: "item"
-			}]
-			x: 0.5d
-			y: -3.5d
-		}
-		{
-			dependencies: ["2B924B31AAD2E214"]
-			id: "015C3AA501271364"
-			tasks: [{
-				id: "366D332229B4B4AC"
-				item: "gtceu:rhodium_ingot"
-				type: "item"
-			}]
-			x: 1.5d
-			y: -3.5d
-		}
-		{
 			dependencies: ["53698047038597C5"]
 			icon: "examplemod:rhodium_filter_cake_dust"
 			id: "2B924B31AAD2E214"
@@ -569,8 +524,8 @@
 				type: "checkmark"
 			}]
 			title: "Rhodium Filter Cake Dust"
-			x: 2.5d
-			y: -3.5d
+			x: 1.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["3A33F0D5C3EBE249"]
@@ -581,8 +536,8 @@
 				type: "checkmark"
 			}]
 			title: "Rhodium Salt"
-			x: 3.5d
-			y: -3.5d
+			x: 2.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["28E2357325AAD4AA"]
@@ -593,8 +548,8 @@
 				type: "checkmark"
 			}]
 			title: "Crude Rhodium Metal"
-			x: 4.5d
-			y: -3.5d
+			x: 3.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["68E4EEC6973A3938"]
@@ -605,8 +560,8 @@
 				type: "checkmark"
 			}]
 			title: "Rhodium Sulfate"
-			x: 5.5d
-			y: -3.5d
+			x: 4.5d
+			y: -4.5d
 		}
 		{
 			dependencies: [
@@ -623,10 +578,7 @@
 			y: -3.5d
 		}
 		{
-			dependencies: [
-				"324D1D507BB1D62A"
-				"0CBCC37D5D32A2BA"
-			]
+			dependencies: ["324D1D507BB1D62A"]
 			id: "29EB29F2E9593681"
 			tasks: [{
 				id: "61B0921EE89A7810"
@@ -671,7 +623,10 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["11B4E5DCF6AE9A58"]
+			dependencies: [
+				"11B4E5DCF6AE9A58"
+				"706C3B8431949652"
+			]
 			id: "2EB799FCE76B2366"
 			tasks: [{
 				id: "63D6D5CD1B6B6042"
@@ -688,8 +643,8 @@
 				item: "gtceu:rare_earth_dust"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -7.5d
+			x: -1.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["0F455AA09A956D78"]
@@ -711,7 +666,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 0.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["48CEBCCB80A6DA25"]
@@ -722,7 +677,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 0.5d
+			y: -0.5d
 		}
 		{
 			id: "48CEBCCB80A6DA25"
@@ -732,7 +687,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 0.5d
+			y: -0.5d
 		}
 		{
 			id: "19C51EE622AA9723"
@@ -753,7 +708,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: -4.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["5476128161D7AA50"]
@@ -764,7 +719,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: -5.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["2823D5E85BC856AA"]
@@ -776,7 +731,7 @@
 			}]
 			title: "Iridium Metal Residue"
 			x: 4.5d
-			y: -4.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["73E438225897BCEF"]
@@ -788,7 +743,7 @@
 			}]
 			title: "Iridium Dioxide"
 			x: 3.5d
-			y: -4.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["1D5F497F7E3CCDBA"]
@@ -800,7 +755,7 @@
 			}]
 			title: "Iridium Chloride"
 			x: 1.5d
-			y: -4.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["2FE1491B973E1C5F"]
@@ -812,7 +767,68 @@
 			}]
 			title: "Acidic Iridium Solution"
 			x: 2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"1E1728595A2FE75A"
+				"6278CA895E44B806"
+				"2EB799FCE76B2366"
+			]
+			description: ["The Alloy Blast Smelter is a part of the second tier of gregicality multiblocks. It is the key to accessing the third and final tier."]
+			id: "19383016F281B645"
+			tasks: [{
+				id: "18B990160A4DDA29"
+				item: "gtceu:alloy_blast_smelter"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2B924B31AAD2E214"]
+			id: "140687CD73AAE8D2"
+			tasks: [{
+				id: "3592D8070F96B4CD"
+				item: "gtceu:rhodium_dust"
+				type: "item"
+			}]
+			x: 0.5d
 			y: -4.5d
+		}
+		{
+			dependencies: ["28BFE24859894CD4"]
+			id: "6A212A58CAA863E7"
+			tasks: [{
+				id: "420A01C708AFE252"
+				item: "gtceu:ruthenium_dust"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2FA41D421A56C9A7"]
+			id: "412A1A1AA6D35479"
+			tasks: [{
+				id: "1E825918768AD6B4"
+				item: "gtceu:palladium_dust"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["412A1A1AA6D35479"]
+			description: ["The large centrifugal unit is a part of the first tier of gregicality multiblocks."]
+			id: "706C3B8431949652"
+			tasks: [{
+				id: "4D530B85BE54E341"
+				item: "gtceu:large_centrifuge"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -7.5d
 		}
 	]
 	title: "IV"
