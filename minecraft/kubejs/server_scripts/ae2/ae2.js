@@ -1,5 +1,13 @@
 ServerEvents.recipes(event => {
 
+  // todo add recipes for wireless stuff
+  // add recipes for storage componentns that actually make sense and decent game balance or somrthing
+  // probably not make them too hard but still add some sense of progression
+  // storage shouldnt be a massive issue imo
+  // add matter condenser recipe, doesnt matter at all
+  // recipes for export busses and such
+
+
     event.remove({id: 'ae2:network/crystal_resonance_generator'})
     event.remove({id: 'ae2:network/blocks/energy_energy_acceptor'})
     //event.remove({id: 'ae2:network/cells/item_storage_components_cell_1k_part'})
@@ -11,10 +19,11 @@ ServerEvents.recipes(event => {
     event.remove({id: 'ae2:network/blocks/pattern_providers_interface'})
     event.remove({id: 'ae2:network/blocks/interfaces_interface'})
     event.remove({id: 'ae2:network/blocks/crystal_processing_growth_accelerator'})
-    event.remove({id: 'ae2:network/blocks/crafting/molecular_assembler'})
+    //event.remove({id: 'ae2:network/blocks/crafting/molecular_assembler'})
     event.remove({id: 'ae2:network/blocks/inscribers'})
     event.remove({id: 'expatternprovider:tag_storage_bus'})
     event.remove({id: 'expatternprovider:mod_storage_bus'})
+    //event.remove({id: 'ae2:network/crafting/cpu_crafting_unit'})
 
 
 
@@ -46,8 +55,24 @@ event.recipes.gtceu.assembler("ev_pattern_provider")
 .EUt(7680)
 .duration(60)
 
+event.recipes.gtceu.assembler("iv_pattern_provider")
+.itemInputs("2x gtceu:iv_conveyor_module")
+.itemInputs('6x #gtceu:circuits/iv')
+.itemInputs('32x gtceu:niobium_titanium_plate')
+.itemInputs("6x ae2:quartz_glass")
+.itemOutputs("32x ae2:pattern_provider")
+.EUt(7680)
+.duration(60)
 
-
+event.shaped(Item.of('ae2:energy_cell', 1), [
+  "CWC",
+  "WGW",
+  "CWC"
+], {
+  G: "ae2:quartz_glass",
+  W: 'gtceu:copper_single_wire',
+  C: "#forge:gems/certus_quartz"
+})
 
 
     event.shaped(Item.of("ae2:storage_bus", 4), [

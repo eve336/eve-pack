@@ -123,6 +123,7 @@
 			y: 1.0d
 		}
 		{
+			description: ["You can put the card holder in the bauble slot."]
 			id: "20F53223C7D82329"
 			tasks: [{
 				id: "225CE1429FCE42C4"
